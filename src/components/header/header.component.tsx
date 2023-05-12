@@ -8,11 +8,9 @@ import Link from 'next/link'
 import Button from '../button/button.component'
 import HamButton from '../ham-button/ham-button.component'
 
-// import { useBoolean } from "usehooks-ts"
-
-import Logo from '../../../../public/assets/parisdot_logo_white.svg'
-import TwitterIcon from '../../../../public/assets/icons/twitter_header_icon.svg'
-import DiscordIcon from '../../../../public/assets/icons/discord_header_icon.svg'
+import Logo from '../../../public/assets/parisdot_logo_white.svg'
+import TwitterIcon from '../../../public/assets/icons/twitter_header_icon.svg'
+import DiscordIcon from '../../../public/assets/icons/discord_header_icon.svg'
 import headerConfig from '../../config/header.json'
 import contactConfig from '../../config/contact.json'
 
