@@ -1,0 +1,14 @@
+{
+  "socials": {
+    "discord": {
+      "link": "https://discord.parisdotcomm.org/",
+      "alt": "Discord",
+      "blank": true
+    },
+    "twitter": {
+      "link": "https://twitter.com/parisdotcomm",
+      "alt": "Twitter",
+      "blank": true
+    }
+  }
+}

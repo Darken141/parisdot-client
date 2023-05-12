@@ -1,0 +1,32 @@
+{
+  "navItems": [
+    {
+      "name": "About",
+      "link": "/#"
+    },
+    {
+      "name": "Program of 22",
+      "link": "/#"
+    },
+    {
+      "name": "Conference",
+      "link": "/#"
+    },
+    {
+      "name": "Program 23",
+      "link": "/#"
+    },
+    {
+      "name": "Venue",
+      "link": "/#"
+    },
+    {
+      "name": "Partners",
+      "link": "/#"
+    }
+  ],
+  "cta": {
+    "name": "Buy Tickets",
+    "link": "/#"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "heroSection": {
+    "place": "PARIS, FRANCE - ARAB WORLD INSTITUTE",
+    "date": "July 18-20th 2023",
+    "heading": "CONF W-SHOP",
+    "description": "3 days of web3 conference and workshops sessions<br/> organized by the Polkadot Community",
+    "primaryCta": {
+      "label": "Buy tickets",
+      "link": "/#"
+    },
+    "secondaryCta": {
+      "label": "Aplly to speak",
+      "link": "/#"
+    },
+    "program": {
+      "label": "Program of 2022",
+      "link": "/#"
+    }
+  },
+  "aboutSection": {
+    "heading": "What is pasrisdotcomm?",
+    "description": "<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ",
+    "primaryCta": {
+      "label": "Buy tickets",
+      "link": "/#"
+    },
+    "secondaryCta": {
+      "label": "Program 2023",
+      "link": "/#"
+    }
+  },
+  "venueSection": {
+    "heading": "VENUE",
+    "description": "<p>was designed to create strong and durable cultural ties while cultivating constructive dialogue between the Arab World, France, and Europe. Since its creation it has become a place of cultural exchange in Paris  but also an interlocutor in the field of mathematics and research.</p>",
+    "primaryCta": {
+      "label": "View in maps",
+      "link": "/#"
+    }
+  },
+  "partnersSection": {
+    "heading": "Partners",
+    "items": [
+      {
+        "label": "Polkadot Francophonie",
+        "link": "/#"
+      },
+      {
+        "label": "French Federation of Blockchain Professionals",
+        "link": "/#"
+      },
+      {
+        "label": "Blockchain Innov",
+        "link": "/#"
+      },
+      {
+        "label": "Blockchain HEC",
+        "link": "/#"
+      }
+    ]
+  }
+}

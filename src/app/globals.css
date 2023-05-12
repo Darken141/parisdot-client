@@ -2,26 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  font-size: 62.5%;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-family: 'Avenir Next', 'Acumin', sans-serif;
+  background-color: #041222;
+  color: #fff;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  padding: 10rem 1.5rem 0;
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Avenir Next', 'Acumin', sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button-gradient {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+      90deg,
+      rgba(255, 0, 140, 1),
+      rgba(0, 134, 255, 1) 51%,
+      rgba(255, 0, 140, 1)
     )
-    rgb(var(--background-start-rgb));
+    var(--x, 0) / 200%;
+
+  transition: 0.5s;
+
+  &:hover {
+    --x: 100%;
+  }
 }
