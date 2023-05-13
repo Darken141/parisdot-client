@@ -19,9 +19,7 @@ const AboutSection = () => {
             <Image
               src={aboutIlu}
               alt="about ilu"
-              style={{
-                objectFit: 'contain',
-              }}
+              className='object-contain'
             />
           </div>
           <div>

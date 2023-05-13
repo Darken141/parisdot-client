@@ -1,6 +1,6 @@
 import HeroSection from "@/app/sections/hero/hero.section"
 import AboutSection from "@/app/sections/about/about.section"
-
+import ConferenceSection from "./sections/conference/conference.section"
 import ProgramSection from "./sections/program/program.section"
 import VenueSection from "./sections/venue/venue.section"
 import PartnersSection from "./sections/partners/partners.section"
@@ -12,6 +12,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <AboutSection />
+      <ConferenceSection/>
       <ProgramSection />
       <VenueSection />
       <PartnersSection />

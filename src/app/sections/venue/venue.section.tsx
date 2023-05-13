@@ -14,7 +14,7 @@ const VenueSection = () => {
     <section id='venue' className='mb-[20rem]'>
       <Container>
         <div className='grid grid-cols-1 lg:grid-cols-[2fr,1fr]'>
-          <div>
+          <div className='w-full max-w-[54.7rem]'>
           <h2>{heading}</h2>
             <div
               className="about-description-container mb-[3.18rem]"

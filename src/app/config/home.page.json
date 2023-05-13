@@ -17,6 +17,62 @@
       "link": "/#"
     }
   },
+  "conferenceSection": {
+    "heading": "CONFERENCE",
+    "stages": {
+      "1": {
+        "name": "main stage",
+        "description": "Auditorium  will be dedicated to the the web3 topics",
+        "list": [
+          "Blockchain and Web",
+          "Web3 projects",
+          "Institutional and corporate",
+          "Blockchain interoperability"
+        ]
+      },
+      "2": {
+        "name": "second stage",
+        "description": "\"Salle du Haut Conseil\" will be  dedicated to the Polkadot ecosystem: conferences, panels and workshops",
+        "list": [
+        ]
+      },
+      "3": {
+        "name": "Networking space",
+        "description": "The pillar room will be divided into into 4 spaces to host:",
+        "list": [
+          "catering and chill working space",
+          "NFT exhibition with TakTik screens and technology",
+          "a press room space will be deployed in the lodges"
+        ]
+      },
+      "4": {
+        "name": "Special evening events",
+        "description": "\"La Salle du Haut Conseil\" and the rooftop will host:",
+        "list": [
+          "networking event on the first day",
+          "networking party on the second day "
+        ]
+      }
+    }
+  },
+  "programSection": {
+    "heading": "Profram 2023",
+    "subHeading": "July 18-20th",
+    "items": {
+      "1": {
+        "dateString": "18th: 9am - 8.30pm",
+        "description": "(institutional networking event)"
+      },
+      "2": {
+        "dateString": "19th: 9am - 10pm",
+        "description": "(networking party event)"
+      },
+      "3": {
+        "dateString": "20th: 9am - 4pm",
+        "description": "(closing door ceremony)"
+      }
+    }
+  },
   "aboutSection": {
     "heading": "What is pasrisdotcomm?",
     "description": "<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ",
