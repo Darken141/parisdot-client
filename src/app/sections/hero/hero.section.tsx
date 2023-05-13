@@ -18,7 +18,7 @@ const HeroSection = () => {
   } = homePageConfig.heroSection
 
   return (
-    <section className='pt-[6rem]'>
+    <section className='pt-[6rem] mb-[8rem]'>
       <Container>
         <p className="text-[1.9rem] font-black text-center">{place}</p>
         <p className="text-[1.9rem] font-black text-center">{date}</p>

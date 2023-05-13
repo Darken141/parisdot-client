@@ -45,6 +45,20 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+h2 {
+  @apply font-black text-[5rem] uppercase mb-[1.85rem];
+}
+
+.about-description-container {
+  p {
+    @apply text-[2rem] text-[#CDCDCD];
+  }
+
+  p:not(:last-child) {
+    @apply mb-[1.85rem]
+  }
+}
+
 .button-gradient {
   background: linear-gradient(
       90deg,
