@@ -39,7 +39,7 @@ const Header: React.FC = () => {
   return (
     <React.Fragment>
       <header className="fixed top-0 left-0 w-full z-[9999] overflow-hidden backdrop-blur-xl">
-        <div className="flex justify-between items-center gap-8 max-w-[124rem] px-[1.5rem] py-[2.4rem] my-0 mx-auto">
+        <div className="flex justify-between items-center gap-8 max-w-[124rem] px-[1.5rem] py-[2.4rem] my-0 mx-auto sm:px-[3rem]" >
           <Link href={'/'} className="block max-w-[17rem] w-full">
             <figure className="relative flex items-center justify-center w-full">
               <Image src={Logo} alt="ParisDOT Logo" />
@@ -104,7 +104,7 @@ const Header: React.FC = () => {
             transition={{
               duration: 0.8,
             }}
-            className="fixed top-0 right-0 bottom-0 w-[20rem] h-screen bg-[#041222 z-[999] px-[1.5rem] py-[10rem] lg:hidden"
+            className="fixed top-0 right-0 bottom-0 w-[24rem] h-screen bg-[#041222] z-[999] px-[1.5rem] py-[10rem] lg:hidden"
           >
             <ul className="list-none">
               {headerConfig.navItems.map((item, idx) => (
@@ -139,8 +139,8 @@ const Header: React.FC = () => {
                 </a>
               ))}
             </div>
-            <div className="sm:hidden">
-              <Button>{headerConfig.cta.name}</Button>
+            <div className="w-full flex flex-col sm:hidden">
+              <Button className='w-full'>{headerConfig.cta.name}</Button>
             </div>
           </motion.div>
         )}

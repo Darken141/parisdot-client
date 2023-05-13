@@ -14,12 +14,12 @@ const AboutSection = () => {
   return (
     <section id="about" className='mb-[16.7rem]'>
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr,2fr]">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr,2fr] gap-[4rem]">
           <div className="self-center justify-self-center">
             <Image
               src={aboutIlu}
               alt="about ilu"
-              className='object-contain'
+              className='object-contain w-[14rem] md:w-[26.7rem] md:h-[37rem]'
             />
           </div>
           <div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
               className="about-description-container mb-[3.18rem]"
               dangerouslySetInnerHTML={{ __html: description }}
             />
-            <div className="flex gap-[2.6rem] flex-wrap">
+            <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
               <Button>{primaryCta.label}</Button>
               <Button outline>{secondaryCta.label}</Button>
             </div>

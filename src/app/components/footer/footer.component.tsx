@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="#" target="_blank" rel="noopener noreferrer" className='block mb-[1.94rem]'>
             <Image src={githubIcon} alt="github icon" />
           </a>
-          <p className='text-[2.8rem] color-[#DDDDDD]'>PDotComm ASBL 10, Giällewee, L-9749 Clervaux</p>
+          <p className='text-center text-[1.6rem] md:text-[2.8rem] color-[#DDDDDD]'>PDotComm ASBL 10, Giällewee, L-9749 Clervaux</p>
         </div>
       </Container>
     </footer>

@@ -47,7 +47,7 @@ const ConferenceSection = () => {
     <section id="conference" className='mb-[12.4rem]'>
       <Container>
         <h2 className="text-center mb-[4.94rem]">{heading}</h2>
-        <div className='grid grid-cols-1 gap-[7.6rem] md:grid-cols-2 '>
+        <div className='grid grid-cols-1 gap-[2rem] md:gap-[7.6rem] md:grid-cols-2 '>
           {items.map((item, index) => (
             <div
               key={index}
@@ -59,10 +59,10 @@ const ConferenceSection = () => {
                 className="w-full object-contain flex items-center justify-center border-r-[3.rem] overflow-hidden"
               />
               <div>
-                <h4 className="font-black uppercase text-[2.9rem]">
+                <h4 className="font-black uppercase text-[2rem] md:text-[2.9rem]">
                   {item.name}
                 </h4>
-                <p className="font-semibold text-[2rem] mb-[1.3rem]">
+                <p className="font-semibold text-[1.8rem] md:text-[2rem] mb-[1.3rem]">
                   {item.description}
                 </p>
 

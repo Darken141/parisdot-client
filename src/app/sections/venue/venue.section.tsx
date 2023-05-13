@@ -13,14 +13,14 @@ const VenueSection = () => {
   return (
     <section id='venue' className='mb-[20rem]'>
       <Container>
-        <div className='grid grid-cols-1 lg:grid-cols-[2fr,1fr]'>
-          <div className='w-full max-w-[54.7rem]'>
+        <div className='grid grid-cols-1 lg:grid-cols-[2fr,1fr] gap-[4rem]'>
+          <div className='row-start-2 lg:row-start-1 w-full max-w-[54.7rem]'>
           <h2>{heading}</h2>
             <div
               className="about-description-container mb-[3.18rem]"
               dangerouslySetInnerHTML={{ __html: description }}
             />
-            <div className="flex gap-[2.6rem] flex-wrap">
+            <div className="flex flex-col md:flex-row gap-[2.6rem] flex-wrap">
               <Button outline>{primaryCta.label}</Button>
             </div>
           </div>

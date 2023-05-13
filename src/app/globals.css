@@ -28,7 +28,7 @@ body {
 
 main {
   position: relative;
-  padding: 10rem 1.5rem 0;
+  padding: 10rem 0 0 ;
   overflow: hidden;
 }
 
@@ -46,12 +46,12 @@ a {
 }
 
 h2 {
-  @apply font-black text-[5rem] uppercase mb-[1.85rem];
+  @apply font-black text-[2.8rem] md:text-[5rem] uppercase mb-[1.85rem];
 }
 
 .about-description-container {
   p {
-    @apply text-[2rem] text-[#CDCDCD];
+    @apply text-[1.6rem] md:text-[2rem] text-[#CDCDCD];
   }
 
   p:not(:last-child) {
