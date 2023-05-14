@@ -846,16 +846,14 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
   }
 
   return (
-    <section id="conference" className='relative mb-[16.8rem]'>
+    <section id="conference" className="relative mb-[16.8rem]">
       <div className="absolute top-0 left-0 w-full h-full z-[-2]">
         <Image
           src={middleLeftIlu}
           alt="Program background"
-          className='object-contain'
-      />
-
+          className="object-contain"
+        />
       </div>
-
 
       <Container>
         <h2 className="text-center">PROGRAM</h2>
