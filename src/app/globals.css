@@ -12,8 +12,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
   font-size: 62.5%;
 }
 
@@ -73,4 +71,8 @@ h2 {
   &:hover {
     --x: 100%;
   }
+}
+
+.program:last-child > .pr-row > .pr-bullet {
+  @apply before:content-[unset];
 }

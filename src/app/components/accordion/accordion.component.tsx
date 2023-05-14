@@ -56,10 +56,10 @@ const Accordion: React.FC<IProps> = ({
 		>
 			<div
 				onClick={() => openEventDayProgram(!showContent, idx)}
-        className={`flex gap-[1rem] items-center justify-between py-[1.2rem] pr-[1.5rem] pl-[2rem] md:py-[1.2rem] md:px-[3rem] cursor-pointer border-[2px] border-solid rounded-full ${showContent ? "border-[#FF008C]": "border-[#fff]"}`}
+        className={`flex gap-[1rem] items-center justify-between py-[1.2rem] pr-[1.5rem] pl-[2rem] md:py-[1.2rem] md:px-[3rem] cursor-pointer border-[2px] border-solid rounded-full transition-all hover:${showContent ? "border-[#FF008C]": "border-[#fff]"} ${showContent ? "border-[#FF008C]": "border-[#0C2746]"}`}
 			>
 				<h2 className="mb-0 text-[1.66rem] font-black uppercase leading-none sm:pt-[0.2rem] sm:text-[2.2rem] md:pt-[0.4rem] md:text-[2.9rem]">{item.title}</h2>
-				<figure className={`flex items-center justify-center text-[2.5rem] rounded-[50%] ${showContent ? "bg-[#FF008C]": "bg-[#0C2746]"}`}>
+				<figure className={`flex items-center justify-center text-[2.5rem] p-[0.6rem] rounded-[50%] ${showContent ? "bg-[#FF008C]": "bg-[#0C2746]"}`}>
 					{showContent ? <FiArrowUpCircle /> : <FiArrowDownCircle />}
 				</figure>
 			</div>

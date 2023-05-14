@@ -17,33 +17,11 @@ const Program = () => {
           id: 'item-1',
           time: '12:00 - 14:00',
           title: 'Registration - pillar room',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-2',
           time: '14:00 - 14:15',
           title: 'Opening the conference Hello from the organizers',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-3',
@@ -136,17 +114,6 @@ const Program = () => {
           id: 'item-6',
           time: '15:45 - 16:15',
           title: 'Break - pillar room',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-7',
@@ -277,17 +244,6 @@ const Program = () => {
           id: 'item-8',
           time: '18:30 - 18:35',
           title: 'Closing',
-          // speaker: {
-          // 	name: "Alberto",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
       ],
     },
@@ -300,17 +256,6 @@ const Program = () => {
           id: 'item-1',
           time: '10:30 - 11:00',
           title: 'Coffee, mingling - pillar room',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-2',
@@ -437,17 +382,6 @@ const Program = () => {
           id: 'item-7',
           time: '13:10 - 14:30',
           title: 'Lunch Break (outside)',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-8',
@@ -518,17 +452,6 @@ const Program = () => {
           id: 'item-10',
           time: '16:00 - 16:30',
           title: 'Coffee break',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-11',
@@ -641,25 +564,7 @@ const Program = () => {
           id: 'item-10',
           time: '18:30 - 18:35',
           title: 'Closing',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
-        // {
-        // 	id: "item-11",
-        // 	time: "11:00 - 17:00",
-        // 	title: "Workshop",
-        // 	description:
-        // 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-        // },
       ],
     },
     {
@@ -671,17 +576,6 @@ const Program = () => {
           id: 'item-1',
           time: '10:30 - 11:00',
           title: 'Coffee, mingling - pillar room',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-2',
@@ -799,17 +693,6 @@ const Program = () => {
           id: 'item-7',
           time: '13:30 - 14:30',
           title: 'Lunch break (outside)',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-8',
@@ -857,17 +740,6 @@ const Program = () => {
           id: 'item-10',
           time: '16:00 - 16:30',
           title: 'Coffee break - pillar room',
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-11',
@@ -938,41 +810,12 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
           id: 'item-14',
           time: '18:15 - 18:30',
           title: `Thank you from the organizers - "Salle du Haut"`,
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
         {
           id: 'item-14',
           time: '18:30 - 20:00',
           title: `Closing cocktail - "Salle du Haut"`,
-          // speaker: {
-          // 	name: "John Doe",
-          // 	image: {
-          // 		src: "/assets/program-section/speaker-placeholder.png",
-          // 		alt: "speaker placeholder",
-          // 	},
-          // 	logo: {
-          // 		src: "/assets/program-section/partner-placeholder.png",
-          // 		alt: "partner placeholder",
-          // 	},
-          // },
         },
-        // {
-        // 	id: "item-15",
-        // 	time: "11:00 - 17:00",
-        // 	title: "Workshop",
-        // 	description:
-        // 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-        // },
       ],
     },
   ])
@@ -1000,26 +843,26 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
   }
 
   return (
-    <section id="conference">
+    <section id="conference" className='mb-[16.8rem]'>
       <Container>
-      <h2 className='text-center'>PROGRAM</h2>
+        <h2 className="text-center">PROGRAM</h2>
 
-			<div>
-				{program.map((day, idx) => (
-					<Accordion
-						showContent={program[idx].showContent}
-						openEventDayProgram={openEventDayProgram}
-						key={idx}
-						idx={idx}
-						//TODO: fix 
-						//@ts-ignore
-						item={day}
-						dayID={day.id}
-					/>
-				))}
-			</div>
+        <div>
+          {program.map((day, idx) => (
+            <Accordion
+              showContent={program[idx].showContent}
+              openEventDayProgram={openEventDayProgram}
+              key={idx}
+              idx={idx}
+              //TODO: fix
+              //@ts-ignore
+              item={day}
+              dayID={day.id}
+            />
+          ))}
+        </div>
       </Container>
-		</section>
+    </section>
   )
 }
 
