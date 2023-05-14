@@ -16,7 +16,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className='relative mb-[16.7rem]'>
-      <div className='absolute top-[0rem] sm:top-[-10rem] lg:top-[-30rem] w-[30%] sm:w-[20%] lg:w-[10%] right-0  z-[-1]'>
+      <div className='absolute top-[0rem] sm:top-[-10rem] lg:top-[-30rem] w-[30%] sm:w-[20%] lg:w-[10%] 2xl:w-[9%] right-0  z-[-1]'>
         <Image
           src={middleRightIlu}
           alt="middle right ilu"

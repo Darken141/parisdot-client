@@ -53,7 +53,7 @@ const HeroSection = ({
   return (
     <section className='pt-[11rem] md:pt-[16rem] mb-[8rem] relative'>
       
-      <div className='absolute top-0 right-0 w-[30%] h-[40%] z-[-1]'>
+      <div className='absolute top-0 right-0 w-[30%] 2xl:w-[25%] h-[40%] z-[-1]'>
         <Image
           src={topRightIlu}
           alt="top right ilu"

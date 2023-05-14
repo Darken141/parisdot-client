@@ -36,7 +36,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="absolute bottom-0 right-0 w-[20%] z-[-1]">
+      <div className="absolute bottom-0 right-0 w-[20%] 2xl:w-[15%] z-[-1]">
         <Image
           src={buttomRightIlu}
           alt="bottom right ilu"

@@ -1,17 +1,16 @@
-import HeroSection from "@/app/components/sections/hero/hero.section"
-import AboutSection from "@/app/components/sections/about/about.section"
-import ConferenceSection from "./components/sections/conference/conference.section"
-import ProgramSection from "./components/sections/program/program.section"
-import VenueSection from "./components/sections/venue/venue.section"
-import PartnersSection from "./components/sections/partners/partners.section"
-import SeeYouThereSection from "./components/sections/see-you-there/see-you-there.section"
+import HeroSection from '@/app/components/sections/hero/hero.section'
+import AboutSection from '@/app/components/sections/about/about.section'
+import ConferenceSection from '@/app/components/sections/conference/conference.section'
+import ProgramSection from '@/app/components/sections/program/program.section'
+import VenueSection from '@/app/components/sections/venue/venue.section'
+import PartnersSection from '@/app/components/sections/partners/partners.section'
+import SeeYouThereSection from '@/app/components/sections/see-you-there/see-you-there.section'
 
 import homePageConfig from '@/app/config/home.page.json'
 import polkadotFrancophonie from '../../public/assets/partners/polkadot-francophonie.png'
 import frenchFederationOfBlockchainProfessionals from '../../public/assets/partners/french-federation-of-blockchain-professionals.png'
 import blockchainInnov from '../../public/assets/partners/blockchain-innov.png'
 import blockchainHec from '../../public/assets/partners/blockchain-hec.png'
-
 
 export default function Home() {
   const {
@@ -23,8 +22,6 @@ export default function Home() {
     primaryCta,
     secondaryCta,
   } = homePageConfig.heroSection
-
-
 
   const partners = [
     {
@@ -51,7 +48,7 @@ export default function Home() {
 
   return (
     <main>
-      <HeroSection 
+      <HeroSection
         place={place}
         date={date}
         heading={heading}
@@ -64,10 +61,9 @@ export default function Home() {
         primaryCta={primaryCta}
         secondaryCta={secondaryCta}
         partners={partners}
-
       />
       <AboutSection />
-      <ConferenceSection/>
+      <ConferenceSection />
       <ProgramSection />
       <VenueSection />
       <PartnersSection />
