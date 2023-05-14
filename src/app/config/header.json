@@ -2,27 +2,27 @@
   "navItems": [
     {
       "name": "About",
-      "link": "/#"
+      "link": "/#about"
     },
     {
       "name": "Program of 22",
-      "link": "/#"
+      "link": "/program-2022"
     },
     {
       "name": "Conference",
-      "link": "/#"
+      "link": "/#conference"
     },
     {
       "name": "Program 23",
-      "link": "/#"
+      "link": "/#program"
     },
     {
       "name": "Venue",
-      "link": "/#"
+      "link": "/#venue"
     },
     {
       "name": "Partners",
-      "link": "/#"
+      "link": "/#partners"
     }
   ],
   "cta": {

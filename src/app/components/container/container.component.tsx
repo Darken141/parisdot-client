@@ -5,7 +5,7 @@ export interface IProps {
 }
 
 const Container = ({ children }: IProps) => {
-  return <div className="max-w-[124rem] w-full mx-auto px-[3rem]">{children}</div>
+  return <div className="max-w-[124rem] w-full mx-auto px-[1.5rem] sm:px-[3rem]">{children}</div>
 }
 
 export default Container
