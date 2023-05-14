@@ -5,6 +5,9 @@ import React, { useState } from 'react'
 import SpeakerDescription from '@/app/components/speaker-description/speaker-description.component'
 import Container from '@/app/components/container/container.component'
 import Accordion from '@/app/components//accordion/accordion.component'
+import Image from 'next/image'
+
+import middleLeftIlu from '../../../../public/assets/program-section/middle-left-ilu.png'
 
 const Program = () => {
   const [program, setProgram] = useState([
@@ -843,7 +846,17 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
   }
 
   return (
-    <section id="conference" className='mb-[16.8rem]'>
+    <section id="conference" className='relative mb-[16.8rem]'>
+      <div className="absolute top-0 left-0 w-full h-full z-[-2]">
+        <Image
+          src={middleLeftIlu}
+          alt="Program background"
+          className='object-contain'
+      />
+
+      </div>
+
+
       <Container>
         <h2 className="text-center">PROGRAM</h2>
 

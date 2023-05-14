@@ -5,11 +5,8 @@ import Button from '../../button/button.component'
 import Link from 'next/link'
 import Image, {StaticImageData} from 'next/image'
 
-import homePageConfig from '../../../config/home.page.json'
-import polkadotFrancophonie from '../../../../public/assets/partners/polkadot-francophonie.png'
-import frenchFederationOfBlockchainProfessionals from '../../../../public/assets/partners/french-federation-of-blockchain-professionals.png'
-import blockchainInnov from '../../../../public/assets/partners/blockchain-innov.png'
-import blockchainHec from '../../../../public/assets/partners/blockchain-hec.png'
+import topRightIlu from '../../../../../public/assets/hero-section/top-right-ilu.png'
+import topLeftIlu from '../../../../../public/assets/hero-section/top-left-ilu.png'
 
 export interface IProps {
   place?: string
@@ -54,7 +51,24 @@ const HeroSection = ({
 
 
   return (
-    <section className='pt-[1rem] md:pt-[6rem] mb-[8rem]'>
+    <section className='pt-[11rem] md:pt-[16rem] mb-[8rem] relative'>
+      
+      <div className='absolute top-0 right-0 w-[40%] h-[40%] z-[-1]'>
+        <Image
+          src={topRightIlu}
+          alt="top right ilu"
+          className='object-contain'
+        />
+      </div>
+
+      <div className='absolute top-0 left-0 w-[40%] h-[40%] z-[-1]'>
+        <Image
+          src={topLeftIlu}
+          alt="top left ilu"
+          className='object-contain'
+        />
+      </div>
+
       <Container>
         {place && <p className="text-[1.45rem] sm:text-[1.9rem] font-black text-center">{place}</p>}
         {date && <p className="text-[1.45rem] sm:text-[1.9rem] font-black text-center">{date}</p>}
