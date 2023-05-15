@@ -3,6 +3,10 @@
     "place": "PARIS, FRANCE - ARAB WORLD INSTITUTE",
     "date": "July 18-20th 2023",
     "heading": "CONF W-SHOP",
+    "video": {
+      "src": "https://www.youtube.com/embed/bXwbey9SEZU",
+      "alt": "ParisDotComm 2022 Aftermovie"
+    },
     "description": "3 days of web3 conference and workshops sessions organized by the Polkadot Community",
     "primaryCta": {
       "label": "Buy tickets",
