@@ -100,12 +100,12 @@ const HeroSection = ({
         {program && (
           <Link
             href={program.link}
-            className="mb-[4.28rem] text-[1.7rem] text-white text-center block underline"
+            className=" text-[1.7rem] text-white text-center block underline"
           >
             {program.label}
           </Link>
         )}
-        <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mb-[5.3rem]">
+        <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
           {primaryCta && <Button>{primaryCta.label}</Button>}
           {secondaryCta && <Button outline>{secondaryCta.label}</Button>}
         </div>
