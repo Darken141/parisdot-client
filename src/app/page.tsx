@@ -17,6 +17,7 @@ export default function Home() {
     place,
     date,
     heading,
+    video,
     description,
     program,
     primaryCta,
@@ -53,10 +54,7 @@ export default function Home() {
         date={date}
         heading={heading}
         description={description}
-        video={{
-          src: '#',
-          alt: 'hero video',
-        }}
+        video={video}
         program={program}
         primaryCta={primaryCta}
         secondaryCta={secondaryCta}
