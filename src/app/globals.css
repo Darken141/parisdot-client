@@ -18,7 +18,6 @@ html {
 body {
   line-height: 1.5;
   font-size: 1.6rem;
-  font-family: 'Avenir Next', 'Acumin', sans-serif;
   background-color: #041222;
   color: #fff;
   width: 100%;
@@ -30,8 +29,6 @@ main {
 }
 
 button {
-  font-family: 'Avenir Next', 'Acumin', sans-serif;
-
   &:focus {
     outline: none;
   }
@@ -45,6 +42,7 @@ a {
 h2 {
   @apply font-black text-[2.8rem] md:text-[5rem] uppercase mb-[1.85rem];
 }
+
 
 .about-description-container {
   p {

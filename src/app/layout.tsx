@@ -4,6 +4,8 @@ import '@/app/globals.css'
 import Header from '@/app/components/header/header.component'
 import Footer from '@/app/components/footer/footer.component'
 
+import { AvenirNext } from './fonts/fonts'
+
 export const metadata: Metadata = {
   title: 'ParisDot Conf W-shops',
   description:
@@ -42,7 +44,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>
+      <body className={`${AvenirNext.className}`}>
         <Header />
         {children}
         <Footer />

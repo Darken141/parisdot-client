@@ -7,13 +7,15 @@ import githubIcon from '../../../../public/assets/icons/github-icon.png'
 import bottomLeftIlu from '../../../../public/assets/footer/bottom-left.png'
 import buttomRightIlu from '../../../../public/assets/footer/bottom-right.png'
 
+import { AcuminVariableConcept } from '@/app/fonts/fonts'
+
 const Footer = () => {
   return (
-    <footer className="relative w-full">
+    <footer className={`relative w-full ${AcuminVariableConcept.className}`}>
 
 
       <Container>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center py-[4rem]">
           <a
             href="#"
             target="_blank"
@@ -22,7 +24,7 @@ const Footer = () => {
           >
             <Image src={githubIcon} alt="github icon" />
           </a>
-          <p className="text-center text-[1.6rem] md:text-[2.8rem] color-[#DDDDDD]">
+          <p className="text-center font-light text-[1.6rem] md:text-[2.8rem] color-[#DDDDDD] scale-x-[0.55] scale-y-[1]">
             PDotComm ASBL 10, Giällewee, L-9749 Clervaux
           </p>
         </div>
