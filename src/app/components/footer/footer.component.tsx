@@ -12,8 +12,6 @@ import { AcuminVariableConcept } from '@/app/fonts/fonts'
 const Footer = () => {
   return (
     <footer className={`relative w-full ${AcuminVariableConcept.className}`}>
-
-
       <Container>
         <div className="flex flex-col items-center justify-center py-[4rem]">
           <a
@@ -22,7 +20,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="block mb-[1.94rem]"
           >
-            <Image src={githubIcon} alt="github icon" />
+            <Image src={githubIcon} alt="github icon" placeholder="blur" />
           </a>
           <p className="text-center font-light text-[1.6rem] md:text-[2.8rem] color-[#DDDDDD] scale-x-[0.55] scale-y-[1]">
             PDotComm ASBL 10, Giällewee, L-9749 Clervaux
@@ -35,14 +33,16 @@ const Footer = () => {
           src={bottomLeftIlu}
           alt="bottom left ilu"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
 
-      <div className="absolute bottom-0 right-0 w-[20%] 2xl:w-[15%] z-[-1]">
+      <div className="absolute bottom-0 right-0 w-[30%] 2xl:w-[20%] z-[-1]">
         <Image
           src={buttomRightIlu}
           alt="bottom right ilu"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
     </footer>

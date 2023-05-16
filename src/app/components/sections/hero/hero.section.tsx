@@ -48,17 +48,23 @@ const HeroSection = ({
   partners,
 }: IProps) => {
   return (
-    <section className="pt-[11rem] md:pt-[16rem] mb-[8rem] relative">
+    <section className="pt-[11rem] md:pt-[16rem] mb-[16.7rem] relative">
       <div className="absolute top-0 right-0 w-[30%] 2xl:w-[25%] h-[40%] z-[-1]">
         <Image
           src={topRightIlu}
           alt="top right ilu"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
 
       <div className="absolute top-0 left-0 w-[40%] h-[40%] z-[-1]">
-        <Image src={topLeftIlu} alt="top left ilu" className="object-contain" />
+        <Image
+          src={topLeftIlu}
+          alt="top left ilu"
+          className="object-contain"
+          placeholder="blur"
+        />
       </div>
 
       <Container>
@@ -88,8 +94,8 @@ const HeroSection = ({
         {video && (
           <div className="p-[4rem] flex items-center justify-center mb-[2.3rem]">
             <iframe
-            className='aspect-video'
-              width={"100%"}
+              className="aspect-video"
+              width={'100%'}
               src={video.src}
               title={video.alt}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -125,6 +131,7 @@ const HeroSection = ({
                     {...partner.image}
                     alt={partner.label}
                     className=" w-full h-[3.9rem] object-contain flex items-center justify-center"
+                    placeholder="blur"
                   />
                 </a>
               </div>

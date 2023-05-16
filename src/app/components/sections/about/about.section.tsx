@@ -15,12 +15,13 @@ const AboutSection = () => {
     homePageConfig.aboutSection
 
   return (
-    <section id="about" className='relative mb-[16.7rem]'>
-      <div className='absolute top-[0rem] sm:top-[-10rem] lg:top-[-30rem] w-[30%] sm:w-[20%] lg:w-[10%] 2xl:w-[9%] right-0  z-[-1]'>
+    <section id="about" className="relative mb-[16.7rem]">
+      <div className="absolute top-[0rem] sm:top-[-10rem] lg:top-[-30rem] w-[30%] sm:w-[20%] lg:w-[10%] 2xl:w-[9%] right-0  z-[-1]">
         <Image
           src={middleRightIlu}
           alt="middle right ilu"
-          className='object-contain'
+          className="object-contain"
+          placeholder="blur"
         />
       </div>
 
@@ -29,17 +30,18 @@ const AboutSection = () => {
           src={middleLeftDarkIlu}
           alt="Program background"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
 
-      <div className='absolute bottom-[0rem] sm:bottom-[-20rem] lg:bottom-[-70rem] w-[40%] left-0 z-[-1]'>
+      <div className="absolute bottom-[0rem] sm:bottom-[-20rem] lg:bottom-[-70rem] w-[40%] left-0 z-[-1]">
         <Image
           src={middleLeftIlu}
           alt="middle left ilu"
-          className='object-contain'
+          className="object-contain"
+          placeholder="blur"
         />
       </div>
-
 
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-[1fr,2fr] gap-[4rem]">
@@ -47,7 +49,8 @@ const AboutSection = () => {
             <Image
               src={aboutIlu}
               alt="about ilu"
-              className='object-contain w-[14rem] md:w-[26.7rem] md:h-[37rem]'
+              className="object-contain w-[14rem] md:w-[26.7rem] md:h-[37rem]"
+              placeholder="blur"
             />
           </div>
           <div>
