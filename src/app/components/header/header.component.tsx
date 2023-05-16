@@ -93,6 +93,31 @@ const Header: React.FC = () => {
         {showMobileNav && (
           <motion.div
             initial={{
+              opacity: 0
+            }}
+            animate={{
+              opacity: 1
+
+            }}
+            exit={{
+              opacity: 0
+
+            }}
+            transition={{
+              duration: 0.8,
+            }}
+            onClick={() => {
+              setShowMobileNav((prev) => !prev)
+            }
+            }
+            className="fixed top-0 right-0 bottom-0 w-full h-screen bg-[#00000080] z-[998] px-[1.5rem] py-[10rem] lg:hidden"
+          />
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {showMobileNav && (
+          <motion.div
+            initial={{
               x: 1000,
             }}
             animate={{

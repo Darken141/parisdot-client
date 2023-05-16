@@ -99,23 +99,23 @@
   },
   "partnersSection": {
     "heading": "Partners",
-    "items": [
-      {
+    "items": {
+      "1":{
         "label": "Polkadot Francophonie",
         "link": "/#"
       },
-      {
+      "2":{
         "label": "French Federation of Blockchain Professionals",
         "link": "/#"
       },
-      {
+      "3":{
         "label": "Blockchain Innov",
         "link": "/#"
       },
-      {
+      "4":{
         "label": "Blockchain HEC",
         "link": "/#"
       }
-    ]
+    }
   }
 }

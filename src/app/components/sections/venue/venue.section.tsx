@@ -14,11 +14,12 @@ const VenueSection = () => {
 
   return (
     <section id="venue" className="relative mb-[20rem]">
-      <div className="absolute top-[-20rem] sm:top-[-10rem] w-[30%] sm:w-[22%] lg:w-[20%] right-0  z-[-1]">
+      <div className="absolute top-[-15rem] sm:top-[-10rem] w-[50%] sm:w-[30%] md:w-[22%] lg:w-[20%] right-0  z-[-1]">
         <Image
           src={middleRightIlu}
           alt="middle right ilu"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
 
@@ -27,13 +28,14 @@ const VenueSection = () => {
           src={middleLeftIlu}
           alt="middle left ilu"
           className="object-contain"
+          placeholder="blur"
         />
       </div>
 
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-[2fr,1fr] gap-[4rem]">
           <div className="row-start-2 lg:row-start-1 w-full max-w-[54.7rem]">
-            <h2>{heading}</h2>
+            <h2 className='mb-0'>{heading}</h2>
             <div
               className="about-description-container mb-[3.18rem]"
               dangerouslySetInnerHTML={{ __html: description }}
@@ -43,7 +45,12 @@ const VenueSection = () => {
             </div>
           </div>
           <div className="self-center justify-self-center">
-            <Image src={venueIlu} alt="about ilu" className="object-contain" />
+            <Image
+              src={venueIlu}
+              alt="about ilu"
+              className="object-contain"
+              placeholder="blur"
+            />
           </div>
         </div>
       </Container>
