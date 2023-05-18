@@ -92,7 +92,7 @@ const HeroSection = ({
           />
         )}
         {video && (
-          <div className="p-[4rem] flex items-center justify-center mb-[2.3rem]">
+          <div className="py-[4rem] flex items-center justify-center mb-[2.3rem]">
             <iframe
               className="aspect-video"
               width={'100%'}
