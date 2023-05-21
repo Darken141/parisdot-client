@@ -39,12 +39,12 @@ const Header: React.FC = () => {
   return (
     <React.Fragment>
       <header className="fixed top-0 left-0 w-full z-[9999] overflow-hidden backdrop-blur-xl">
-        <div className="flex justify-between items-center gap-8 max-w-[124rem] px-[1.5rem] py-[2.4rem] my-0 mx-auto sm:px-[3rem]" >
-          <Link href={'/'} className="block max-w-[17rem] w-full">
+        <div className="flex justify-between items-center gap-8 max-w-[124rem] px-[1.5rem] py-[2.4rem] my-0 mx-auto sm:px-[3rem]">
+          <a href={'/'} className="block max-w-[17rem] w-full">
             <figure className="relative flex items-center justify-center w-full">
               <Image src={Logo} alt="ParisDOT Logo" />
             </figure>
-          </Link>
+          </a>
 
           <div className="flex items-center justify-between gap-8 lg:max-w-[85.2rem] lg:w-full">
             <nav className=" lg:max-w-[58.8rem] lg:flex-grow">
@@ -54,6 +54,7 @@ const Header: React.FC = () => {
                     <Link
                       className="block no-underline text-white hover:underline"
                       href={item.link}
+                      scroll={item.scroll}
                     >
                       {item.name}
                     </Link>
@@ -93,23 +94,20 @@ const Header: React.FC = () => {
         {showMobileNav && (
           <motion.div
             initial={{
-              opacity: 0
+              opacity: 0,
             }}
             animate={{
-              opacity: 1
-
+              opacity: 1,
             }}
             exit={{
-              opacity: 0
-
+              opacity: 0,
             }}
             transition={{
               duration: 0.8,
             }}
             onClick={() => {
               setShowMobileNav((prev) => !prev)
-            }
-            }
+            }}
             className="fixed top-0 right-0 bottom-0 w-full h-screen bg-[#00000080] z-[998] px-[1.5rem] py-[10rem] lg:hidden"
           />
         )}
@@ -165,7 +163,7 @@ const Header: React.FC = () => {
               ))}
             </div>
             <div className="w-full flex flex-col sm:hidden">
-              <Button className='w-full'>{headerConfig.cta.name}</Button>
+              <Button className="w-full">{headerConfig.cta.name}</Button>
             </div>
           </motion.div>
         )}

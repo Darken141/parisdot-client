@@ -9,10 +9,13 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
   font-size: 62.5%;
+  smooth-scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -21,11 +24,6 @@ body {
   background-color: #041222;
   color: #fff;
   width: 100%;
-}
-
-main {
-  position: relative;
-  overflow: hidden;
 }
 
 button {
@@ -43,14 +41,13 @@ h2 {
   @apply font-black text-[2.8rem] md:text-[5rem] uppercase mb-[1.85rem];
 }
 
-
 .about-description-container {
   p {
     @apply text-[1.6rem] md:text-[2rem] text-[#CDCDCD];
   }
 
   p:not(:last-child) {
-    @apply mb-[1.85rem]
+    @apply mb-[1.85rem];
   }
 }
 
