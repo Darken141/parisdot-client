@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '@/app/components/container/container.component'
 import Image from 'next/image'
 import Button from '@/app/components/button/button.component'
+import Link from 'next/link'
 
 import homePageConfig from '@/app/config/home.page.json'
 import aboutIlu from '../../../../../public/assets/about-section/about-ilu.png'
@@ -15,7 +16,7 @@ const AboutSection = () => {
     homePageConfig.aboutSection
 
   return (
-    <section id="about" className="relative mb-[16.7rem]">
+    <section id="about" className="relative mb-[16.7rem] scroll-pt-[14rem]">
       <div className="absolute top-[0rem] sm:top-[-10rem] lg:top-[-30rem] w-[30%] sm:w-[20%] lg:w-[10%] 2xl:w-[9%] right-0  z-[-1]">
         <Image
           src={middleRightIlu}
@@ -61,7 +62,9 @@ const AboutSection = () => {
             />
             <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
               <Button>{primaryCta.label}</Button>
-              <Button outline>{secondaryCta.label}</Button>
+              <Link href="/#program">
+                <Button outline>{secondaryCta.label}</Button>
+              </Link>
             </div>
           </div>
         </div>

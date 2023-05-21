@@ -18,7 +18,7 @@
     },
     "program": {
       "label": "Program of 2022",
-      "link": "/#"
+      "link": "/archives"
     }
   },
   "conferenceSection": {
@@ -86,7 +86,7 @@
     },
     "secondaryCta": {
       "label": "Program 2023",
-      "link": "/#"
+      "link": "/#program"
     }
   },
   "venueSection": {
@@ -102,19 +102,19 @@
     "items": {
       "1":{
         "label": "Polkadot Francophonie",
-        "link": "/#"
+        "link": "https://www.polkafrancophonie.org/"
       },
       "2":{
         "label": "French Federation of Blockchain Professionals",
-        "link": "/#"
+        "link": "https://www.federation-blockchain.fr/welcome.html"
       },
       "3":{
         "label": "Blockchain Innov",
-        "link": "/#"
+        "link": "https://www.blockchaininnov.com/"
       },
       "4":{
         "label": "Blockchain HEC",
-        "link": "/#"
+        "link": "https://blockchain-hec.com/"
       }
     }
   }

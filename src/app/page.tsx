@@ -48,7 +48,7 @@ export default function Home() {
   ]
 
   return (
-    <main>
+    <main className="scroll-smooth">
       <HeroSection
         place={place}
         date={date}

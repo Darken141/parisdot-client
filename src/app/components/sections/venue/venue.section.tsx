@@ -35,13 +35,19 @@ const VenueSection = () => {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-[2fr,1fr] gap-[4rem]">
           <div className="row-start-2 lg:row-start-1 w-full max-w-[54.7rem]">
-            <h2 className='mb-0'>{heading}</h2>
+            <h2 className="mb-0">{heading}</h2>
             <div
               className="about-description-container mb-[3.18rem]"
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row gap-[2.6rem] flex-wrap">
-              <Button outline>{primaryCta.label}</Button>
+              <a
+                href="https://www.google.com/maps/place/Institut+du+Monde+Arabe/@48.8489257,2.3572313,15z/data=!4m5!3m4!1s0x0:0xbed555c58f020e74!8m2!3d48.8489257!4d2.3572313?shorturl=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button outline>{primaryCta.label}</Button>
+              </a>
             </div>
           </div>
           <div className="self-center justify-self-center">

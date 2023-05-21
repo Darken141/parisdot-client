@@ -2,27 +2,37 @@
   "navItems": [
     {
       "name": "About",
-      "link": "/#about"
+      "link": "/#about",
+      "scroll": false
     },
     {
       "name": "Archives",
-      "link": "/archives"
+      "link": "/archives",
+      "scroll": true
+
     },
     {
       "name": "Conference",
-      "link": "/#conference"
+      "link": "/#conference",
+      "scroll": false
+
     },
     {
       "name": "Program",
-      "link": "/#program"
+      "link": "/#program",
+      "scroll": false
+
     },
     {
       "name": "Venue",
-      "link": "/#venue"
+      "link": "/#venue",
+      "scroll": false
     },
     {
       "name": "Partners",
-      "link": "/#partners"
+      "link": "/#partners",
+      "scroll": false
+
     }
   ],
   "cta": {
