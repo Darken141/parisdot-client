@@ -63,7 +63,8 @@ const Header: React.FC = () => {
               </ul>
             </nav>
             <div className="hidden sm:block">
-              <Button>{headerConfig.cta.name}</Button>
+              <Button disabled>Coming soon</Button>
+              {/* <Button>{headerConfig.cta.name}</Button> */}
             </div>
             {socials.map((social, idx) => (
               <a
