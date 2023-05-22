@@ -112,8 +112,9 @@ const HeroSection = ({
           </Link>
         )}
         <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
-          {primaryCta && <Button>{primaryCta.label}</Button>}
-          {secondaryCta && <Button outline>{secondaryCta.label}</Button>}
+          <Button disabled>Coming soon</Button>
+          {/* {primaryCta && <Button>{primaryCta.label}</Button>}
+          {secondaryCta && <Button outline>{secondaryCta.label}</Button>} */}
         </div>
         {partners && (
           <div className="w-full flex flex-wrap justify-center gap-[2.3rem]">

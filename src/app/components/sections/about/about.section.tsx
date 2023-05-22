@@ -61,7 +61,8 @@ const AboutSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
-              <Button>{primaryCta.label}</Button>
+              <Button disabled>Coming soon</Button>
+              {/* <Button>{primaryCta.label}</Button> */}
               <Link href="/#program">
                 <Button outline>{secondaryCta.label}</Button>
               </Link>
