@@ -5,12 +5,12 @@ import Button from '@/components/button/button.component'
 import Image from 'next/image'
 
 import homePageConfig from '@/config/home.page'
-import venueIlu from '../../../../public/assets/venue-section/venue-ilu.png'
 import middleLeftIlu from '../../../../public/assets/venue-section/middle-left-ilu.png'
 import middleRightIlu from '../../../../public/assets/venue-section/middle-right-ilu.png'
 
 const VenueSection = () => {
-  const { heading, description, primaryCta } = homePageConfig.venueSection
+  const { heading, description, primaryCta, asset } =
+    homePageConfig.venueSection
 
   return (
     <section id="venue" className="relative mb-[20rem]">
@@ -41,22 +41,13 @@ const VenueSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row gap-[2.6rem] flex-wrap">
-              <a
-                href="https://www.google.com/maps/place/Institut+du+Monde+Arabe/@48.8489257,2.3572313,15z/data=!4m5!3m4!1s0x0:0xbed555c58f020e74!8m2!3d48.8489257!4d2.3572313?shorturl=1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button outline>{primaryCta.label}</Button>
+              <a {...primaryCta}>
+                <Button outline>{primaryCta.children}</Button>
               </a>
             </div>
           </div>
           <div className="self-center justify-self-center">
-            <Image
-              src={venueIlu}
-              alt="about ilu"
-              className="object-contain"
-              placeholder="blur"
-            />
+            <Image {...asset} alt="about ilu" className="object-contain" />
           </div>
         </div>
       </Container>

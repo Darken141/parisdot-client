@@ -1,6 +1,27 @@
-import { IProps as IHeroSectinoProps } from '../components/sections/hero/hero.section'
+import aboutIlu from '../../public/assets/about-section/about-ilu.png'
+import mainStage from '../../public/assets/conference-section/main-stage.png'
+import secondStage from '../../public/assets/conference-section/second-stage.png'
+import networkingSpace from '../../public/assets/conference-section/networking-space.png'
+import specialEvents from '../../public/assets/conference-section/special-events.png'
+import day1 from '../../public/assets/program-section/1.png'
+import day2 from '../../public/assets/program-section/2.png'
+import day3 from '../../public/assets/program-section/3.png'
+import venueIlu from '../../public/assets/venue-section/venue-ilu.png'
+import polkadotFrancophonie from '../../public/assets/partners/polkadot-francophonie.png'
+import frenchFederationOfBlockchainProfessionals from '../../public/assets/partners/french-federation-of-blockchain-professionals.png'
+import blockchainInnov from '../../public/assets/partners/blockchain-innov.png'
+import blockchainHec from '../../public/assets/partners/blockchain-hec.png'
 
-const heroSection: IHeroSectinoProps = {
+import {
+  IAboutProps,
+  IConferenceSectionProps,
+  IHeroSectionProps,
+  IPartnersSectionProps,
+  IProgramSectionProps,
+  IVenueSectionProps,
+} from '@/types/section.types'
+
+const heroSection: IHeroSectionProps = {
   place: 'PARIS, FRANCE - ARAB WORLD INSTITUTE',
   date: 'July 18-20th 2023',
   heading: 'CONF W-SHOP',
@@ -28,110 +49,193 @@ const heroSection: IHeroSectinoProps = {
   },
 }
 
-const aboutSection = {}
+const aboutSection: IAboutProps = {
+  heading: 'What is pasrisdotcomm?',
+  description:
+    '<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ',
+  primaryCta: {
+    children: 'Coming soon',
+    disabled: true,
+  },
+  secondaryCta: {
+    children: 'Program 2023',
+    href: '/#program',
+  },
+  asset: {
+    ...aboutIlu,
+    placeholder: 'blur',
+    alt: 'ParisDotComm 2022 Aftermovie',
+  },
+}
+
+const conferenceSection: IConferenceSectionProps = {
+  heading: 'CONFERENCE',
+  stages: [
+    {
+      image: {
+        ...mainStage,
+        placeholder: 'blur',
+        alt: 'ParisDotComm 2022 Aftermovie',
+      },
+      name: 'main stage',
+      description: 'Auditorium  will be dedicated to the the web3 topics',
+      list: [
+        'Blockchain and Web',
+        'Web3 projects',
+        'Institutional and corporate',
+        'Blockchain interoperability',
+      ],
+    },
+    {
+      image: {
+        ...secondStage,
+        placeholder: 'blur',
+        alt: 'ParisDotComm 2022 Aftermovie',
+      },
+      name: 'second stage',
+      description:
+        '"Salle du Haut Conseil" will be  dedicated to the Polkadot ecosystem: conferences, panels and workshops',
+      list: [],
+    },
+    {
+      image: {
+        ...networkingSpace,
+        placeholder: 'blur',
+        alt: 'ParisDotComm 2022 Aftermovie',
+      },
+      name: 'Networking space',
+      description:
+        'The pillar room will be divided into into 4 spaces to host:',
+      list: [
+        'catering and chill working space',
+        'NFT exhibition with TakTik screens and technology',
+        'a press room space will be deployed in the lodges',
+      ],
+    },
+    {
+      image: {
+        ...specialEvents,
+        placeholder: 'blur',
+        alt: 'ParisDotComm 2022 Aftermovie',
+      },
+      name: 'Special evening events',
+      description: '"La Salle du Haut Conseil" and the rooftop will host:',
+      list: [
+        'networking event on the first day',
+        'networking party on the second day ',
+      ],
+    },
+  ],
+}
+
+const programSection: IProgramSectionProps = {
+  heading: 'Program 2023',
+  subHeading: 'July 18-20th',
+  items: [
+    {
+      image: {
+        src: day1,
+        alt: 'day 1',
+        placeholder: 'blur',
+      },
+      dateString: '18th: 9am - 8.30pm',
+      description: '(institutional networking event)',
+    },
+    {
+      image: {
+        src: day2,
+        alt: 'day 1',
+        placeholder: 'blur',
+      },
+      dateString: '19th: 9am - 10pm',
+      description: '(networking party event)',
+    },
+    {
+      image: {
+        src: day3,
+        alt: 'day 1',
+        placeholder: 'blur',
+      },
+      dateString: '20th: 9am - 4pm',
+      description: '(closing door ceremony)',
+    },
+  ],
+}
+
+const venueSection: IVenueSectionProps = {
+  asset: {
+    ...venueIlu,
+    placeholder: 'blur',
+    alt: 'ParisDotComm 2022',
+  },
+  heading: 'VENUE',
+  description:
+    '<p>was designed to create strong and durable cultural ties while cultivating constructive dialogue between the Arab World, France, and Europe. Since its creation it has become a place of cultural exchange in Paris  but also an interlocutor in the field of mathematics and research.</p>',
+  primaryCta: {
+    children: 'View in maps',
+    href: 'https://www.google.com/maps/place/Institut+du+Monde+Arabe/@48.8489257,2.3572313,15z/data=!4m5!3m4!1s0x0:0xbed555c58f020e74!8m2!3d48.8489257!4d2.3572313?shorturl=1',
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  },
+}
+
+const partnersSection: IPartnersSectionProps = {
+  heading: 'Partners',
+  items: [
+    {
+      children: 'Polkadot Francophonie',
+      href: 'https://www.polkafrancophonie.org/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...polkadotFrancophonie,
+        placeholder: 'blur',
+        alt: 'Polkadot Francophonie',
+      },
+    },
+    {
+      children: 'French Federation of Blockchain Professionals',
+      href: 'https://www.federation-blockchain.fr/welcome.html',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...frenchFederationOfBlockchainProfessionals,
+        placeholder: 'blur',
+        alt: 'French Federation of Blockchain Professionals',
+      },
+    },
+    {
+      children: 'Blockchain Innov',
+      href: 'https://www.blockchaininnov.com/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...blockchainInnov,
+        placeholder: 'blur',
+        alt: 'Blockchain Innov',
+      },
+    },
+    {
+      children: 'Blockchain HEC',
+      href: 'https://blockchain-hec.com/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...blockchainHec,
+        placeholder: 'blur',
+        alt: 'Blockchain HEC',
+      },
+    },
+  ],
+}
 
 const homepageConfig = {
   heroSection: heroSection,
-  conferenceSection: {
-    heading: 'CONFERENCE',
-    stages: {
-      '1': {
-        name: 'main stage',
-        description: 'Auditorium  will be dedicated to the the web3 topics',
-        list: [
-          'Blockchain and Web',
-          'Web3 projects',
-          'Institutional and corporate',
-          'Blockchain interoperability',
-        ],
-      },
-      '2': {
-        name: 'second stage',
-        description:
-          '"Salle du Haut Conseil" will be  dedicated to the Polkadot ecosystem: conferences, panels and workshops',
-        list: [],
-      },
-      '3': {
-        name: 'Networking space',
-        description:
-          'The pillar room will be divided into into 4 spaces to host:',
-        list: [
-          'catering and chill working space',
-          'NFT exhibition with TakTik screens and technology',
-          'a press room space will be deployed in the lodges',
-        ],
-      },
-      '4': {
-        name: 'Special evening events',
-        description: '"La Salle du Haut Conseil" and the rooftop will host:',
-        list: [
-          'networking event on the first day',
-          'networking party on the second day ',
-        ],
-      },
-    },
-  },
-  programSection: {
-    heading: 'Profram 2023',
-    subHeading: 'July 18-20th',
-    items: {
-      '1': {
-        dateString: '18th: 9am - 8.30pm',
-        description: '(institutional networking event)',
-      },
-      '2': {
-        dateString: '19th: 9am - 10pm',
-        description: '(networking party event)',
-      },
-      '3': {
-        dateString: '20th: 9am - 4pm',
-        description: '(closing door ceremony)',
-      },
-    },
-  },
-  aboutSection: {
-    heading: 'What is pasrisdotcomm?',
-    description:
-      '<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ',
-    primaryCta: {
-      children: 'Buy tickets',
-      link: '/#',
-    },
-    secondaryCta: {
-      children: 'Program 2023',
-      link: '/#program',
-    },
-  },
-  venueSection: {
-    heading: 'VENUE',
-    description:
-      '<p>was designed to create strong and durable cultural ties while cultivating constructive dialogue between the Arab World, France, and Europe. Since its creation it has become a place of cultural exchange in Paris  but also an interlocutor in the field of mathematics and research.</p>',
-    primaryCta: {
-      label: 'View in maps',
-      link: '/#',
-    },
-  },
-  partnersSection: {
-    heading: 'Partners',
-    items: {
-      '1': {
-        label: 'Polkadot Francophonie',
-        link: 'https://www.polkafrancophonie.org/',
-      },
-      '2': {
-        label: 'French Federation of Blockchain Professionals',
-        link: 'https://www.federation-blockchain.fr/welcome.html',
-      },
-      '3': {
-        label: 'Blockchain Innov',
-        link: 'https://www.blockchaininnov.com/',
-      },
-      '4': {
-        label: 'Blockchain HEC',
-        link: 'https://blockchain-hec.com/',
-      },
-    },
-  },
+  conferenceSection: conferenceSection,
+  programSection: programSection,
+  aboutSection: aboutSection,
+  venueSection: venueSection,
+  partnersSection: partnersSection,
 }
 
 export default homepageConfig

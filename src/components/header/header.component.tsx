@@ -9,32 +9,10 @@ import Button from '../button/button.component'
 import HamButton from '../ham-button/ham-button.component'
 
 import Logo from '../../../public/assets/pdot-v4.svg'
-import TwitterIcon from '../../../public/assets/icons/twitter_header_icon.svg'
-import DiscordIcon from '../../../public/assets/icons/discord_header_icon.svg'
-import headerConfig from '../../config/header.json'
-import contactConfig from '../../config/contact.json'
+import headerConfig from '../../config/header'
 
 const Header: React.FC = () => {
   const [showMobileNav, setShowMobileNav] = useState(false)
-
-  const socials = [
-    {
-      icon: DiscordIcon,
-      ...(contactConfig.socials.discord.blank && {
-        target: '_blank',
-        rel: 'noopener noreferrer',
-      }),
-      ...contactConfig.socials.discord,
-    },
-    {
-      icon: TwitterIcon,
-      ...(contactConfig.socials.twitter.blank && {
-        target: '_blank',
-        rel: 'noopener noreferrer',
-      }),
-      ...contactConfig.socials.twitter,
-    },
-  ]
 
   return (
     <React.Fragment>
@@ -53,10 +31,9 @@ const Header: React.FC = () => {
                   <li key={idx} className="">
                     <Link
                       className="block no-underline text-white hover:underline"
-                      href={item.link}
-                      scroll={item.scroll}
+                      {...item}
                     >
-                      {item.name}
+                      {item.children}
                     </Link>
                   </li>
                 ))}
@@ -66,7 +43,7 @@ const Header: React.FC = () => {
               <Button disabled>Coming soon</Button>
               {/* <Button>{headerConfig.cta.name}</Button> */}
             </div>
-            {socials.map((social, idx) => (
+            {headerConfig.socials.map((social, idx) => (
               <a
                 key={idx}
                 href={social.link}
@@ -75,7 +52,7 @@ const Header: React.FC = () => {
                 className="hidden sm:block"
               >
                 <figure>
-                  <Image src={social.icon} alt={social.alt} />
+                  <Image {...social.icon} alt={social.alt} />
                 </figure>
               </a>
             ))}
@@ -141,30 +118,26 @@ const Header: React.FC = () => {
                 >
                   <Link
                     className="block no-underline text-white hover:underline"
-                    href={item.link}
+                    {...item}
                   >
-                    {item.name}
+                    {item.children}
                   </Link>
                 </li>
               ))}
             </ul>
             <div className="flex gap-4 mb-6">
-              {socials.map((social, idx) => (
-                <a
-                  key={idx}
-                  href={social.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="sm:hidden"
-                >
+              {headerConfig.socials.map((social, idx) => (
+                <a key={idx} {...social}>
                   <figure>
-                    <Image src={social.icon} alt={social.alt} />
+                    <Image {...social.icon} alt={social.alt} />
                   </figure>
                 </a>
               ))}
             </div>
             <div className="w-full flex flex-col sm:hidden">
-              <Button className="w-full">{headerConfig.cta.name}</Button>
+              <Button className="w-full" {...headerConfig.cta}>
+                {headerConfig.cta.children}
+              </Button>
             </div>
           </motion.div>
         )}

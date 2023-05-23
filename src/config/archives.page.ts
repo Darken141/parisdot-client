@@ -1,6 +1,6 @@
-import { IProps as IHeroSectinoProps } from '../components/sections/hero/hero.section'
+import { IHeroSectionProps } from '@/types/section.types'
 
-const heroSection: IHeroSectinoProps = {
+const heroSection: IHeroSectionProps = {
   place: 'FRANCE - PARIS',
   date: '19.07 - 21.07',
   heading: 'PROGRAM OF 2022',

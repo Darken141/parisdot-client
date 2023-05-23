@@ -6,18 +6,12 @@ import Button from '@/components/button/button.component'
 import Link from 'next/link'
 
 import homePageConfig from '@/config/home.page'
-import aboutIlu from '../../../../public/assets/about-section/about-ilu.png'
 import middleRightIlu from '../../../../public/assets/about-section/middle-right-ilu.png'
 import middleLeftIlu from '../../../../public/assets/about-section/middle-left-ilu.png'
 import middleLeftDarkIlu from '../../../../public/assets/program-section/middle-left-ilu.png'
 
-export interface IProps {
-  heading?: string
-  description?: string
-}
-
 const AboutSection = () => {
-  const { heading, description, primaryCta, secondaryCta } =
+  const { heading, description, primaryCta, secondaryCta, asset } =
     homePageConfig.aboutSection
 
   return (
@@ -53,10 +47,9 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr,2fr] gap-[4rem]">
           <div className="self-center justify-self-center">
             <Image
-              src={aboutIlu}
+              {...asset}
               alt="about ilu"
               className="object-contain w-[14rem] md:w-[26.7rem] md:h-[37rem]"
-              placeholder="blur"
             />
           </div>
           <div>
@@ -66,9 +59,8 @@ const AboutSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
-              <Button disabled>Coming soon</Button>
-              {/* <Button>{primaryCta.label}</Button> */}
-              <Link href="/#program">
+              <Button {...primaryCta}>{primaryCta.children}</Button>
+              <Link {...secondaryCta} href={secondaryCta.href}>
                 <Button outline>{secondaryCta.children}</Button>
               </Link>
             </div>

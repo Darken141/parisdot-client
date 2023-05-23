@@ -1,36 +1,14 @@
 import React from 'react'
 
 import Container from '../../container/container.component'
-import Button, { IButtonProps } from '../../button/button.component'
-import Link, { LinkProps } from 'next/link'
-import Image, { StaticImageData } from 'next/image'
+import Button from '../../button/button.component'
+import Link from 'next/link'
+import Image from 'next/image'
 
 import topRightIlu from '../../../../public/assets/hero-section/top-right-ilu.png'
 import topLeftIlu from '../../../../public/assets/hero-section/top-left-ilu.png'
 
-interface ICTAProps extends IButtonProps {}
-interface IProgramProps extends LinkProps {
-  children: string | React.ReactNode
-}
-
-export interface IProps {
-  place?: string
-  date?: string
-  heading?: string
-  description?: string
-  video?: {
-    src: string
-    alt: string
-  }
-  program?: IProgramProps
-  primaryCta?: ICTAProps
-  secondaryCta?: ICTAProps
-  partners?: {
-    label: string
-    link: string
-    image: StaticImageData
-  }[]
-}
+import { IHeroSectionProps } from '@/config/home.page'
 
 const HeroSection = ({
   place,
@@ -42,7 +20,7 @@ const HeroSection = ({
   primaryCta,
   secondaryCta,
   partners,
-}: IProps) => {
+}: IHeroSectionProps) => {
   return (
     <section className="pt-[11rem] md:pt-[16rem] mb-[16.7rem] relative">
       <div className="absolute top-0 right-0 w-[30%] 2xl:w-[25%] h-[40%] z-[-1]">
@@ -108,9 +86,12 @@ const HeroSection = ({
           </Link>
         )}
         <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
-          <Button {...primaryCta}>{primaryCta?.children}</Button>
-          {/* {primaryCta && <Button>{primaryCta.label}</Button>}
-          {secondaryCta && <Button outline>{secondaryCta.label}</Button>} */}
+          {primaryCta && (
+            <Button {...primaryCta}>{primaryCta?.children}</Button>
+          )}
+          {secondaryCta && (
+            <Button {...primaryCta}>{secondaryCta.children}</Button>
+          )}
         </div>
         {partners && (
           <div className="w-full flex flex-wrap justify-center gap-[2.3rem]">
