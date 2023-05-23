@@ -1,15 +1,20 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
-import Button from '@/app/components/button/button.component'
+import Button from '@/components/button/button.component'
 import Link from 'next/link'
 
-import homePageConfig from '@/app/config/home.page.json'
-import aboutIlu from '../../../../../public/assets/about-section/about-ilu.png'
-import middleRightIlu from '../../../../../public/assets/about-section/middle-right-ilu.png'
-import middleLeftIlu from '../../../../../public/assets/about-section/middle-left-ilu.png'
-import middleLeftDarkIlu from '../../../../../public/assets/program-section/middle-left-ilu.png'
+import homePageConfig from '@/config/home.page'
+import aboutIlu from '../../../../public/assets/about-section/about-ilu.png'
+import middleRightIlu from '../../../../public/assets/about-section/middle-right-ilu.png'
+import middleLeftIlu from '../../../../public/assets/about-section/middle-left-ilu.png'
+import middleLeftDarkIlu from '../../../../public/assets/program-section/middle-left-ilu.png'
+
+export interface IProps {
+  heading?: string
+  description?: string
+}
 
 const AboutSection = () => {
   const { heading, description, primaryCta, secondaryCta } =
@@ -64,7 +69,7 @@ const AboutSection = () => {
               <Button disabled>Coming soon</Button>
               {/* <Button>{primaryCta.label}</Button> */}
               <Link href="/#program">
-                <Button outline>{secondaryCta.label}</Button>
+                <Button outline>{secondaryCta.children}</Button>
               </Link>
             </div>
           </div>

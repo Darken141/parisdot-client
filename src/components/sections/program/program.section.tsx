@@ -1,15 +1,15 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
 
-import homePageconfig from '@/app/config/home.page.json'
-import day1 from '../../../../../public/assets/program-section/1.png'
-import day2 from '../../../../../public/assets/program-section/2.png'
-import day3 from '../../../../../public/assets/program-section/3.png'
+import homePageconfig from '@/config/home.page'
+import day1 from '../../../../public/assets/program-section/1.png'
+import day2 from '../../../../public/assets/program-section/2.png'
+import day3 from '../../../../public/assets/program-section/3.png'
 
-import middleLeftIlu from '../../../../../public/assets/program-section/middle-left-ilu-section.png'
-import middleRightIlu from '../../../../../public/assets/program-section/middle-right-ilu.png'
+import middleLeftIlu from '../../../../public/assets/program-section/middle-left-ilu-section.png'
+import middleRightIlu from '../../../../public/assets/program-section/middle-right-ilu.png'
 
 const ProgramSection = () => {
   const { heading, subHeading, items } = homePageconfig.programSection

@@ -1,12 +1,17 @@
 import React from 'react'
 
 import Container from '../../container/container.component'
-import Button from '../../button/button.component'
-import Link from 'next/link'
+import Button, { IButtonProps } from '../../button/button.component'
+import Link, { LinkProps } from 'next/link'
 import Image, { StaticImageData } from 'next/image'
 
-import topRightIlu from '../../../../../public/assets/hero-section/top-right-ilu.png'
-import topLeftIlu from '../../../../../public/assets/hero-section/top-left-ilu.png'
+import topRightIlu from '../../../../public/assets/hero-section/top-right-ilu.png'
+import topLeftIlu from '../../../../public/assets/hero-section/top-left-ilu.png'
+
+interface ICTAProps extends IButtonProps {}
+interface IProgramProps extends LinkProps {
+  children: string | React.ReactNode
+}
 
 export interface IProps {
   place?: string
@@ -17,18 +22,9 @@ export interface IProps {
     src: string
     alt: string
   }
-  program?: {
-    label: string
-    link: string
-  }
-  primaryCta?: {
-    label: string
-    link: string
-  }
-  secondaryCta?: {
-    label: string
-    link: string
-  }
+  program?: IProgramProps
+  primaryCta?: ICTAProps
+  secondaryCta?: ICTAProps
   partners?: {
     label: string
     link: string
@@ -105,14 +101,14 @@ const HeroSection = ({
         )}
         {program && (
           <Link
-            href={program.link}
+            href={program.href}
             className=" text-[1.7rem] text-white text-center block underline"
           >
-            {program.label}
+            {program.children}
           </Link>
         )}
         <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
-          <Button disabled>Coming soon</Button>
+          <Button {...primaryCta}>{primaryCta?.children}</Button>
           {/* {primaryCta && <Button>{primaryCta.label}</Button>}
           {secondaryCta && <Button outline>{secondaryCta.label}</Button>} */}
         </div>

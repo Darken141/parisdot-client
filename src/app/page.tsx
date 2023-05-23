@@ -1,28 +1,19 @@
-import HeroSection from '@/app/components/sections/hero/hero.section'
-import AboutSection from '@/app/components/sections/about/about.section'
-import ConferenceSection from '@/app/components/sections/conference/conference.section'
-import ProgramSection from '@/app/components/sections/program/program.section'
-import VenueSection from '@/app/components/sections/venue/venue.section'
-import PartnersSection from '@/app/components/sections/partners/partners.section'
-import SeeYouThereSection from '@/app/components/sections/see-you-there/see-you-there.section'
+import HeroSection from '@/components/sections/hero/hero.section'
+import AboutSection from '@/components/sections/about/about.section'
+import ConferenceSection from '@/components/sections/conference/conference.section'
+import ProgramSection from '@/components/sections/program/program.section'
+import VenueSection from '@/components/sections/venue/venue.section'
+import PartnersSection from '@/components/sections/partners/partners.section'
+import SeeYouThereSection from '@/components/sections/see-you-there/see-you-there.section'
 
-import homePageConfig from '@/app/config/home.page.json'
+import homePageConfig from '@/config/home.page'
 import polkadotFrancophonie from '../../public/assets/partners/polkadot-francophonie.png'
 import frenchFederationOfBlockchainProfessionals from '../../public/assets/partners/french-federation-of-blockchain-professionals.png'
 import blockchainInnov from '../../public/assets/partners/blockchain-innov.png'
 import blockchainHec from '../../public/assets/partners/blockchain-hec.png'
 
 export default function Home() {
-  const {
-    place,
-    date,
-    heading,
-    video,
-    description,
-    program,
-    primaryCta,
-    secondaryCta,
-  } = homePageConfig.heroSection
+  const { heroSection } = homePageConfig
 
   const partners = [
     {
@@ -50,14 +41,14 @@ export default function Home() {
   return (
     <main className="scroll-smooth">
       <HeroSection
-        place={place}
-        date={date}
-        heading={heading}
-        description={description}
-        video={video}
-        program={program}
-        primaryCta={primaryCta}
-        secondaryCta={secondaryCta}
+        place={heroSection.place}
+        date={heroSection.date}
+        heading={heroSection.heading}
+        description={heroSection.description}
+        video={heroSection.video}
+        program={heroSection.program}
+        primaryCta={heroSection?.primaryCta}
+        secondaryCta={heroSection?.secondaryCta}
         partners={partners}
       />
       <AboutSection />

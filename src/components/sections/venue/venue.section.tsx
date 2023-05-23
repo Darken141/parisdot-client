@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
-import Button from '@/app/components/button/button.component'
+import Container from '@/components/container/container.component'
+import Button from '@/components/button/button.component'
 import Image from 'next/image'
 
-import homePageConfig from '@/app/config/home.page.json'
-import venueIlu from '../../../../../public/assets/venue-section/venue-ilu.png'
-import middleLeftIlu from '../../../../../public/assets/venue-section/middle-left-ilu.png'
-import middleRightIlu from '../../../../../public/assets/venue-section/middle-right-ilu.png'
+import homePageConfig from '@/config/home.page'
+import venueIlu from '../../../../public/assets/venue-section/venue-ilu.png'
+import middleLeftIlu from '../../../../public/assets/venue-section/middle-left-ilu.png'
+import middleRightIlu from '../../../../public/assets/venue-section/middle-right-ilu.png'
 
 const VenueSection = () => {
   const { heading, description, primaryCta } = homePageConfig.venueSection

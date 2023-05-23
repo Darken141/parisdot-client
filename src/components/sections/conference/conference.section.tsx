@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
 
-import homePageConfig from '@/app/config/home.page.json'
-import mainStage from '../../../../../public/assets/conference-section/main-stage.png'
-import secondStage from '../../../../../public/assets/conference-section/second-stage.png'
-import networkingSpace from '../../../../../public/assets/conference-section/networking-space.png'
-import specialEvents from '../../../../../public/assets/conference-section/special-events.png'
-import middleRightIlu from '../../../../../public/assets/conference-section/middle-right-ilu.png'
+import homePageConfig from '@/config/home.page'
+import mainStage from '../../../../public/assets/conference-section/main-stage.png'
+import secondStage from '../../../../public/assets/conference-section/second-stage.png'
+import networkingSpace from '../../../../public/assets/conference-section/networking-space.png'
+import specialEvents from '../../../../public/assets/conference-section/special-events.png'
+import middleRightIlu from '../../../../public/assets/conference-section/middle-right-ilu.png'
 
 const ConferenceSection = () => {
   const { heading, stages } = homePageConfig.conferenceSection

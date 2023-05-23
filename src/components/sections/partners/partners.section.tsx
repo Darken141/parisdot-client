@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
 
-import polkadotFrancophonie from '../../../../../public/assets/partners/polkadot-francophonie.png'
-import frenchFederationOfBlockchainProfessionals from '../../../../../public/assets/partners/french-federation-of-blockchain-professionals.png'
-import blockchainInnov from '../../../../../public/assets/partners/blockchain-innov.png'
-import blockchainHec from '../../../../../public/assets/partners/blockchain-hec.png'
+import polkadotFrancophonie from '../../../../public/assets/partners/polkadot-francophonie.png'
+import frenchFederationOfBlockchainProfessionals from '../../../../public/assets/partners/french-federation-of-blockchain-professionals.png'
+import blockchainInnov from '../../../../public/assets/partners/blockchain-innov.png'
+import blockchainHec from '../../../../public/assets/partners/blockchain-hec.png'
 
-import homePageConfig from '@/app/config/home.page.json'
+import homePageConfig from '@/config/home.page'
 
 const PartnersSection = () => {
-  const {heading, items} = homePageConfig.partnersSection
+  const { heading, items } = homePageConfig.partnersSection
 
   const partners = [
     {
