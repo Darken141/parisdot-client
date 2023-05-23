@@ -15,7 +15,7 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col items-center justify-center py-[4rem]">
           <a
-            href="#"
+            href="https://github.com/Darken141/parisdot-client"
             target="_blank"
             rel="noopener noreferrer"
             className="block mb-[1.94rem]"
