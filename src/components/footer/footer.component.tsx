@@ -3,11 +3,11 @@ import React from 'react'
 import Container from '../container/container.component'
 import Image from 'next/image'
 
-import githubIcon from '../../../../public/assets/icons/github-icon.png'
-import bottomLeftIlu from '../../../../public/assets/footer/bottom-left.png'
-import buttomRightIlu from '../../../../public/assets/footer/bottom-right.png'
+import githubIcon from '../../../public/assets/icons/github-icon.png'
+import bottomLeftIlu from '../../../public/assets/footer/bottom-left.png'
+import buttomRightIlu from '../../../public/assets/footer/bottom-right.png'
 
-import { AcuminVariableConcept } from '@/app/fonts/fonts'
+import { AcuminVariableConcept } from '@/fonts/fonts'
 
 const Footer = () => {
   return (

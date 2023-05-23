@@ -3,38 +3,12 @@ import React from 'react'
 import Container from '../../container/container.component'
 import Button from '../../button/button.component'
 import Link from 'next/link'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 
-import topRightIlu from '../../../../../public/assets/hero-section/top-right-ilu.png'
-import topLeftIlu from '../../../../../public/assets/hero-section/top-left-ilu.png'
+import topRightIlu from '../../../../public/assets/hero-section/top-right-ilu.png'
+import topLeftIlu from '../../../../public/assets/hero-section/top-left-ilu.png'
 
-export interface IProps {
-  place?: string
-  date?: string
-  heading?: string
-  description?: string
-  video?: {
-    src: string
-    alt: string
-  }
-  program?: {
-    label: string
-    link: string
-  }
-  primaryCta?: {
-    label: string
-    link: string
-  }
-  secondaryCta?: {
-    label: string
-    link: string
-  }
-  partners?: {
-    label: string
-    link: string
-    image: StaticImageData
-  }[]
-}
+import { IHeroSectionProps } from '@/types/section.types'
 
 const HeroSection = ({
   place,
@@ -46,7 +20,7 @@ const HeroSection = ({
   primaryCta,
   secondaryCta,
   partners,
-}: IProps) => {
+}: IHeroSectionProps) => {
   return (
     <section className="pt-[11rem] md:pt-[16rem] mb-[16.7rem] relative">
       <div className="absolute top-0 right-0 w-[30%] 2xl:w-[25%] h-[40%] z-[-1]">
@@ -105,16 +79,19 @@ const HeroSection = ({
         )}
         {program && (
           <Link
-            href={program.link}
+            href={program.href}
             className=" text-[1.7rem] text-white text-center block underline"
           >
-            {program.label}
+            {program.children}
           </Link>
         )}
         <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
-          <Button disabled>Coming soon</Button>
-          {/* {primaryCta && <Button>{primaryCta.label}</Button>}
-          {secondaryCta && <Button outline>{secondaryCta.label}</Button>} */}
+          {primaryCta && (
+            <Button {...primaryCta}>{primaryCta?.children}</Button>
+          )}
+          {secondaryCta && (
+            <Button {...primaryCta}>{secondaryCta.children}</Button>
+          )}
         </div>
         {partners && (
           <div className="w-full flex flex-wrap justify-center gap-[2.3rem]">
@@ -123,16 +100,11 @@ const HeroSection = ({
                 key={index}
                 className="flex flex-col items-center text-center"
               >
-                <a
-                  href={partner.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a {...partner}>
                   <Image
-                    {...partner.image}
-                    alt={partner.label}
+                    {...partner.asset}
+                    alt={partner.asset.alt}
                     className=" w-full h-[3.9rem] object-contain flex items-center justify-center"
-                    placeholder="blur"
                   />
                 </a>
               </div>

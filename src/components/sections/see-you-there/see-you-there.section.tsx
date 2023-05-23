@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
 
-import seeYouThereIlu from '../../../../../public/assets/general/see-you-there.png'
+import seeYouThereIlu from '../../../../public/assets/general/see-you-there.png'
 
 const SeeYouThereSection = () => {
   return (

@@ -1,18 +1,17 @@
 import React from 'react'
 
-import Container from '@/app/components/container/container.component'
+import Container from '@/components/container/container.component'
 import Image from 'next/image'
-import Button from '@/app/components/button/button.component'
+import Button from '@/components/button/button.component'
 import Link from 'next/link'
 
-import homePageConfig from '@/app/config/home.page.json'
-import aboutIlu from '../../../../../public/assets/about-section/about-ilu.png'
-import middleRightIlu from '../../../../../public/assets/about-section/middle-right-ilu.png'
-import middleLeftIlu from '../../../../../public/assets/about-section/middle-left-ilu.png'
-import middleLeftDarkIlu from '../../../../../public/assets/program-section/middle-left-ilu.png'
+import homePageConfig from '@/config/home.page'
+import middleRightIlu from '../../../../public/assets/about-section/middle-right-ilu.png'
+import middleLeftIlu from '../../../../public/assets/about-section/middle-left-ilu.png'
+import middleLeftDarkIlu from '../../../../public/assets/program-section/middle-left-ilu.png'
 
 const AboutSection = () => {
-  const { heading, description, primaryCta, secondaryCta } =
+  const { heading, description, primaryCta, secondaryCta, asset } =
     homePageConfig.aboutSection
 
   return (
@@ -48,10 +47,9 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr,2fr] gap-[4rem]">
           <div className="self-center justify-self-center">
             <Image
-              src={aboutIlu}
+              {...asset}
               alt="about ilu"
               className="object-contain w-[14rem] md:w-[26.7rem] md:h-[37rem]"
-              placeholder="blur"
             />
           </div>
           <div>
@@ -61,10 +59,9 @@ const AboutSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
-              <Button disabled>Coming soon</Button>
-              {/* <Button>{primaryCta.label}</Button> */}
-              <Link href="/#program">
-                <Button outline>{secondaryCta.label}</Button>
+              <Button {...primaryCta}>{primaryCta.children}</Button>
+              <Link {...secondaryCta} href={secondaryCta.href}>
+                <Button outline>{secondaryCta.children}</Button>
               </Link>
             </div>
           </div>
