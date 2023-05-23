@@ -8,7 +8,7 @@ import Image from 'next/image'
 import topRightIlu from '../../../../public/assets/hero-section/top-right-ilu.png'
 import topLeftIlu from '../../../../public/assets/hero-section/top-left-ilu.png'
 
-import { IHeroSectionProps } from '@/config/home.page'
+import { IHeroSectionProps } from '@/types/section.types'
 
 const HeroSection = ({
   place,
@@ -100,16 +100,11 @@ const HeroSection = ({
                 key={index}
                 className="flex flex-col items-center text-center"
               >
-                <a
-                  href={partner.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a {...partner}>
                   <Image
-                    {...partner.image}
-                    alt={partner.label}
+                    {...partner.asset}
+                    alt={partner.asset.alt}
                     className=" w-full h-[3.9rem] object-contain flex items-center justify-center"
-                    placeholder="blur"
                   />
                 </a>
               </div>

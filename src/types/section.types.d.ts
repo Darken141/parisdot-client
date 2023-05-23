@@ -23,11 +23,7 @@ export interface IHeroSectionProps {
   program?: ILinkProps
   primaryCta?: ICTAProps
   secondaryCta?: ICTAProps
-  partners?: {
-    label: string
-    link: string
-    image: ImageProps
-  }[]
+  partners?: IPartnerProps[]
 }
 
 export interface IAboutProps {

@@ -43,6 +43,53 @@ const heroSection: IHeroSectionProps = {
   //   label: 'Aplly to speak',
   //   href: '/#',
   // },
+  partners: [
+    {
+      children: 'Polkadot Francophonie',
+      href: 'https://www.polkafrancophonie.org/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...polkadotFrancophonie,
+        placeholder: 'blur',
+        alt: 'Polkadot Francophonie',
+      },
+    },
+    {
+      children: 'French Federation of Blockchain Professionals',
+      href: 'https://www.federation-blockchain.fr/welcome.html',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...frenchFederationOfBlockchainProfessionals,
+        placeholder: 'blur',
+        alt: 'French Federation of Blockchain Professionals',
+      },
+    },
+    {
+      children: 'Blockchain Innov',
+      href: 'https://www.blockchaininnov.com/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...blockchainInnov,
+        placeholder: 'blur',
+        alt: 'Blockchain Innov',
+      },
+    },
+    {
+      children: 'Blockchain HEC',
+      href: 'https://blockchain-hec.com/',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      asset: {
+        ...blockchainHec,
+        placeholder: 'blur',
+        alt: 'Blockchain HEC',
+      },
+    },
+  ],
+
   program: {
     children: 'Program of 2022',
     href: '/archives',
