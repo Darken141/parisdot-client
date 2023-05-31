@@ -42,8 +42,10 @@ const headerConfig = {
     },
   ],
   cta: {
-    children: 'Coming soon',
-    disabled: true,
+    children: 'Apply to speak',
+    // disabled: true,
+    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+    target: '_blank',
   },
   socials: [contactConfig.socials.discord, contactConfig.socials.twitter],
 }
