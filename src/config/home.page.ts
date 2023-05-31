@@ -32,8 +32,10 @@ const heroSection: IHeroSectionProps = {
   description:
     '3 days of web3 conference and workshops sessions organized by the Polkadot Community',
   primaryCta: {
-    children: 'Coming soon',
-    disabled: true,
+    children: 'Apply to speak',
+    // disabled: true,
+    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+    target: '_blank',
   },
   // primaryCta: {
   //   label: 'Buy tickets',
@@ -101,8 +103,9 @@ const aboutSection: IAboutProps = {
   description:
     '<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ',
   primaryCta: {
-    children: 'Coming soon',
-    disabled: true,
+    children: 'Apply to speak',
+    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+    target: '_blank',
   },
   secondaryCta: {
     children: 'Program 2023',

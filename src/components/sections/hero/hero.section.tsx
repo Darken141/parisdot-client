@@ -87,10 +87,14 @@ const HeroSection = ({
         )}
         <div className="flex flex-col md:flex-row justify-center gap-[2.7rem] mt-[4.5rem] mb-[5.3rem]">
           {primaryCta && (
-            <Button {...primaryCta}>{primaryCta?.children}</Button>
+            <Link className="btn" {...primaryCta}>
+              {primaryCta.children}
+            </Link>
           )}
           {secondaryCta && (
-            <Button {...primaryCta}>{secondaryCta.children}</Button>
+            <Link className="btn-outline" {...secondaryCta}>
+              {secondaryCta.children}
+            </Link>
           )}
         </div>
         {partners && (

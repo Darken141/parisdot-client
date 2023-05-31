@@ -51,6 +51,28 @@ h2 {
   }
 }
 
+.btn {
+  @apply relative cursor-pointer flex justify-center items-center min-w-[5rem] px-[5.7rem] py-[1.5rem] rounded-full font-[inherit] disabled:opacity-50 disabled:cursor-not-allowed;
+
+  background: linear-gradient(
+      90deg,
+      rgba(255, 0, 140, 1),
+      rgba(0, 134, 255, 1) 51%,
+      rgba(255, 0, 140, 1)
+    )
+    var(--x, 0) / 200%;
+
+  transition: 0.5s;
+
+  &:hover {
+    --x: 100%;
+  }
+}
+
+.btn-outline {
+  @apply relative cursor-pointer flex justify-center items-center min-w-[5rem] px-[5.7rem] py-[1.5rem] rounded-full font-[inherit] border-[1px] border-solid border-white text-white;
+}
+
 .button-gradient-no-hover {
   background: linear-gradient(
       90deg,

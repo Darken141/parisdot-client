@@ -6,15 +6,17 @@ const heroSection: IHeroSectionProps = {
   heading: 'PROGRAM OF 2022',
 
   primaryCta: {
-    children: 'Coming soon',
-    disabled: true,
+    children: 'Apply to speak',
+    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+    target: '_blank',
+  },
+  secondaryCta: {
+    children: 'Playlist',
+    href: 'https://www.youtube.com/playlist?list=PLJ0w0pqhMKhA3c-xA-w1YzGqSRazAbSPs',
+    target: '_blank',
   },
   // primaryCta: {
   //   label: 'Buy tickets',
-  //   href: '/#',
-  // },
-  // secondaryCta: {
-  //   label: 'Aplly to speak',
   //   href: '/#',
   // },
   program: {

@@ -21,15 +21,15 @@ export interface IHeroSectionProps {
     alt: string
   }
   program?: ILinkProps
-  primaryCta?: ICTAProps
-  secondaryCta?: ICTAProps
+  primaryCta?: any
+  secondaryCta?: any
   partners?: IPartnerProps[]
 }
 
 export interface IAboutProps {
   heading: string
   description: string
-  primaryCta: ICTAProps
+  primaryCta: any
   secondaryCta: ILinkProps
   asset: ImageProps
 }

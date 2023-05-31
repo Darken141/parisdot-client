@@ -59,7 +59,9 @@ const AboutSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row  gap-[2.6rem] flex-wrap">
-              <Button {...primaryCta}>{primaryCta.children}</Button>
+              <Link className="btn" {...primaryCta}>
+                {primaryCta.children}
+              </Link>
               <Link {...secondaryCta} href={secondaryCta.href}>
                 <Button outline>{secondaryCta.children}</Button>
               </Link>
