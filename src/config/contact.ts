@@ -28,7 +28,7 @@ const contactConfig: IProps = {
     },
     twitter: {
       icon: TwitterIcon,
-      link: 'https://twitter.com/parisdotcomm',
+      link: 'https://twitter.com/Paris_Dot_Comm',
       alt: 'Twitter',
       target: '_blank',
       rel: 'noopener noreferrer',
