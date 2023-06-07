@@ -6,9 +6,10 @@ const heroSection: IHeroSectionProps = {
   heading: 'PROGRAM OF 2022',
 
   primaryCta: {
-    children: 'Apply to speak',
-    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
-    target: '_blank',
+    children: "Buy tickets",
+    // disabled: true,
+    href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
+    target: "_blank",
   },
   secondaryCta: {
     children: 'Playlist',
