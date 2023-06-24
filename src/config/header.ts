@@ -35,17 +35,22 @@ const headerConfig = {
       href: '/#venue',
       scroll: false,
     },
+    // {
+    //   children: 'Partners',
+    //   href: '/#partners',
+    //   scroll: false,
+    // },
     {
-      children: 'Partners',
-      href: '/#partners',
+      children: 'Speakers',
+      href: '/speakers',
       scroll: false,
     },
   ],
   cta: {
-    children: "Buy tickets",
+    children: 'Buy tickets',
     // disabled: true,
-    href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
-    target: "_blank",
+    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
+    target: '_blank',
   },
   socials: [contactConfig.socials.discord, contactConfig.socials.twitter],
 }

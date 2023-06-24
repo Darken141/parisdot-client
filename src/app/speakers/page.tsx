@@ -54,7 +54,7 @@ export default function Home() {
 
       <section className="mb-[19.9rem]">
         <Container>
-          <div className="grid gap-[6rem] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="grid gap-[2rem] gap-y-[6rem] md:gap-[6rem] grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {speakers.map((speaker, idx) => (
               <article key={idx} className="flex flex-col items-center">
                 {speaker.image ? (
