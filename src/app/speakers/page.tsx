@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="scroll-smooth">
-      <section className="pt-[11rem] md:pt-[16rem] mb-[16.7rem] relative">
+      <section className="pt-[14rem] md:pt-[16rem] mb-[16.7rem] relative">
         <div className="absolute top-0 right-0 w-[30%] 2xl:w-[25%] h-[40%] z-[-1]">
           <Image
             src={topRightIlu}
