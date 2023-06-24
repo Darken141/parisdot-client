@@ -42,10 +42,10 @@ const headerConfig = {
     },
   ],
   cta: {
-    children: 'Apply to speak',
+    children: "Buy tickets",
     // disabled: true,
-    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
-    target: '_blank',
+    href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
+    target: "_blank",
   },
   socials: [contactConfig.socials.discord, contactConfig.socials.twitter],
 }
