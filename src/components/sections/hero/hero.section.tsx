@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Container from '../../container/container.component'
-import Button from '../../button/button.component'
+// import Button from '../../button/button.component'
 import Link from 'next/link'
 import Image from 'next/image'
 

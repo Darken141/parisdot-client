@@ -12,7 +12,7 @@ const ProgramSection = () => {
   const { heading, subHeading, items } = homePageconfig.programSection
 
   return (
-    <section id="program" className="relative mb-[25.5rem]">
+    <section id="program" className="relative mb-[15.5rem]">
       <div className="absolute top-[20rem] lg:top-[-10rem] w-[30%] sm:w-[22%] lg:w-[10%] 2xl:w-[8%] right-0  z-[-1]">
         <Image
           src={middleRightIlu}

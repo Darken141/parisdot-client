@@ -5,6 +5,7 @@ import ProgramSection from '@/components/sections/program/program.section'
 import VenueSection from '@/components/sections/venue/venue.section'
 import PartnersSection from '@/components/sections/partners/partners.section'
 import SeeYouThereSection from '@/components/sections/see-you-there/see-you-there.section'
+import SpeakersSection from '@/components/sections/speakers/speakers.section'
 
 import homePageConfig from '@/config/home.page'
 
@@ -26,6 +27,7 @@ export default function Home() {
       <AboutSection />
       <ConferenceSection />
       <ProgramSection />
+      <SpeakersSection />
       <VenueSection />
       <PartnersSection />
       <SeeYouThereSection />

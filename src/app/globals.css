@@ -41,6 +41,10 @@ h2 {
   @apply font-black text-[2.8rem] md:text-[5rem] uppercase mb-[1.85rem];
 }
 
+.splide__arrow--prev {
+  left: unset !important;
+}
+
 .about-description-container {
   p {
     @apply text-[1.6rem] md:text-[2rem] text-[#CDCDCD];
