@@ -54,6 +54,7 @@ const SpeakersSection = () => {
                           {...speaker.image}
                           alt={speaker.image.alt}
                           className="w-full h-full object-cover"
+                          placeholder="blur"
                         />
                       </figure>
                     ) : (
