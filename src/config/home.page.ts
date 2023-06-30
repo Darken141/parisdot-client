@@ -32,20 +32,20 @@ const heroSection: IHeroSectionProps = {
   description:
     '3 days of web3 conference and workshops sessions organized by the Polkadot Community',
   primaryCta: {
-    children: "Buy tickets",
+    children: 'Buy tickets',
     // disabled: true,
-    href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
-    target: "_blank",
+    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
+    target: '_blank',
   },
   // primaryCta: {
   //   label: 'Buy tickets',
   //   href: '/#',
   // },
   secondaryCta: {
-    children: "Apply to speak",
+    children: 'Apply to speak',
     // disabled: true,
-    href: "https://forms.gle/d9bWi8y72Lh9nbPXA",
-    target: "_blank",
+    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+    target: '_blank',
   },
   partners: [
     {
@@ -101,14 +101,14 @@ const heroSection: IHeroSectionProps = {
 }
 
 const aboutSection: IAboutProps = {
-  heading: 'What is pasrisdotcomm?',
+  heading: 'What is parisdotcomm?',
   description:
     '<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ',
   primaryCta: {
-    children: "Buy tickets",
+    children: 'Buy tickets',
     // disabled: true,
-    href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
-    target: "_blank",
+    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
+    target: '_blank',
   },
   secondaryCta: {
     children: 'Program 2023',
