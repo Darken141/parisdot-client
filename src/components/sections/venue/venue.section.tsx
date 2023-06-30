@@ -41,8 +41,8 @@ const VenueSection = () => {
               dangerouslySetInnerHTML={{ __html: description }}
             />
             <div className="flex flex-col md:flex-row gap-[2.6rem] flex-wrap">
-              <a {...primaryCta}>
-                <Button outline>{primaryCta.children}</Button>
+              <a className="btn-outline" {...primaryCta}>
+                {primaryCta.children}
               </a>
             </div>
           </div>
