@@ -62,8 +62,12 @@ const AboutSection = () => {
               <Link className="btn" {...primaryCta}>
                 {primaryCta.children}
               </Link>
-              <Link {...secondaryCta} href={secondaryCta.href}>
-                <Button outline>{secondaryCta.children}</Button>
+              <Link
+                className="btn-outline"
+                {...secondaryCta}
+                href={secondaryCta.href}
+              >
+                {secondaryCta.children}
               </Link>
             </div>
           </div>
