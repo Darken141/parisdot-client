@@ -19,8 +19,8 @@ import Anish from '../../public/assets/speakers-pics/Anish-Mohammed-Panther-Prot
 import Galxe from '../../public/assets/speakers-pics/Anne-Well-Galxe/Galxe.jpg'
 import Anne from '../../public/assets/speakers-pics/Anne-Well-Galxe/Anne-Well-Galxe.png'
 
-import Wakweli from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Antoine-Sarraute-Wakweli.jpg'
-import Antoine from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Wakweli.jpg'
+import Wakweli from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Wakweli.jpg'
+import Antoine from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Antoine-Sarraute-Wakweli.jpg'
 
 import Sandbox from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Sandbox.png'
 import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Arnaud-Kamphuis-Sandbox.jpeg'
@@ -60,7 +60,7 @@ import Vara from '../../public/assets/speakers-pics/Dave-Bean-Vara/Vara.jpg'
 import Dave from '../../public/assets/speakers-pics/Dave-Bean-Vara/Dave-Bean-Vara.jpeg'
 
 import Near from '../../public/assets/speakers-pics/David-Millar-Durrant-Pagoda-NEAR/Near.jpg'
-import David from '../../public/assets/speakers-pics/David-Millar-Durrant-Pagoda-NEAR/Pagoda.jpg'
+import David from '../../public/assets/speakers-pics/David-Millar-Durrant-Pagoda-NEAR/David-Millar-Durrant-Pagoda-NEAR.jpeg'
 
 import Dialectic from '../../public/assets/speakers-pics/Dieter-Fishbein-Dialectic/Dialectic.png'
 import Dieter from '../../public/assets/speakers-pics/Dieter-Fishbein-Dialectic/Dieter-Fishbein-Dialectic.jpg'
@@ -142,6 +142,9 @@ import Simon from '../../public/assets/speakers-pics/Simon-Leon-Polkadot-Latam/p
 
 import PhallaNetwork from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Phala_colorful_logo_icon_png.png'
 import Zoe from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Zoe-Meckbach-Phala-Network.jpg'
+
+import GreenPill from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Green-Pill.jpg'
+import Sejal from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Sejal-Rekhan-Green-Pill.jpeg'
 
 import { ImageProps } from 'next/image'
 
@@ -360,7 +363,7 @@ export const speakers: ISpeaker[] = [
     name: 'Joanna Liang',
     title: 'Co-founde, CEO',
     socials: {
-      twitter: 'https://www.linkedin.com/in/athan-xiaocong-guo-350665174/',
+      twitter: ' https://twitter.com/joanna_jsquare',
     },
     bio: '',
   },
@@ -633,6 +636,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'GreenPill Network',
+      logo: {
+        src: GreenPill,
+        alt: 'GreenPill Network',
+      },
+    },
+    image: {
+      src: Sejal,
+      alt: 'Sejal Rekhan',
     },
     name: 'Sejal Rekhan',
     title: 'Building',
@@ -991,7 +1002,7 @@ export const speakers: ISpeaker[] = [
     name: 'Damian Straszak',
     title: 'Blockchain Developer',
     socials: {
-      twitter: 'https://twitter.com/damian_straszak/with_replies',
+      twitter: 'https://twitter.com/damian_straszak',
     },
     bio: 'Obtained a double major Master’s degree in Mathematics and Computer Science at the University of Wrocław. Recently defended his Ph.D. thesis in Computer Science at École Polytechnique fédérale de Lausanne (EPFL). The main topics in his research are discrete optimization problems and convex programming. For more than 15 years Damian has been active in the competitive programming scene. In 2013 and 2014 advanced to ACM ICPC World Finals — the World’s most prestigious programming competition — first as a participant and then as a team coach. Involved in organization of several large programming competitions.',
   },
@@ -1212,7 +1223,9 @@ export const speakers: ISpeaker[] = [
     },
     name: 'Paul Claudius',
     title: 'Co-Founder @ DIA — Business Development',
-    socials: {},
+    socials: {
+      twitter: 'https://twitter.com/pclaudius',
+    },
     bio: 'Paul is a serial entrepreneur and crypto investor. Previously, he was Director Europe of the nu3 group based in Berlin, transforming the multi-million e-commerce business into a vertically integrated brand. Paul started his professional career as part of BNP Paribas Corporate Development in New York City and AXA Private Equity in Frankfurt am Main. Paul has advised and invested in multiple start-ups in health tech, IOT and e-commerce. At DIA, he manages the business development and the strategic partnerships.',
   },
 ]
