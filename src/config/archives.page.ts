@@ -7,7 +7,6 @@ const heroSection: IHeroSectionProps = {
 
   primaryCta: {
     children: "Buy tickets",
-    // disabled: true,
     href: "https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457",
     target: "_blank",
   },
