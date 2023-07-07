@@ -164,6 +164,87 @@ import Griff from '../../public/assets/speakers-pics/Griff-Green-Giveth/Griff-Gr
 import CommComm from '../../public/assets/speakers-pics/Derek-Silva-CommComm/CommComm.jpg'
 import Derek from '../../public/assets/speakers-pics/Derek-Silva-CommComm/Derek-Silva-CommComm.jpg'
 
+import Petale from '../../public/assets/speakers-pics/Babacar-N-Seck-Petale/Petale.jpg'
+import Babacar from '../../public/assets/speakers-pics/Babacar-N-Seck-Petale/Babacar-N-Seck-Petale.jpg'
+
+import Cnrs from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/CNRS.jpg'
+import Primavera from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/Primavera-De-Filippi-CNRS.jpg'
+
+import Degaullefleurance from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/De-gaulle-Fleurance.jpg'
+import AnneMarechal from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/Anne-Marechal-De-gaulle-Fleurance.jpeg'
+
+import Everdreamsoft from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Everdream-Soft.jpg'
+import Shaban from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Shaban-Shaame-Everdream-Soft.jpg'
+
+import DefactorLabs from '../../public/assets/speakers-pics/Alejandro-Gutierrez-Defactor-Labs/Defactor-Labs.jpg'
+import Alejandro from '../../public/assets/speakers-pics/Alejandro-Gutierrez-Defactor-Labs/Alejandro-Gutierrez-Defactor-Labs.png'
+
+import KameaLabs from '../../public/assets/speakers-pics/Andrea-Vistoli-Kamea-Labs/Kamea-Labs.jpg'
+import AndreaVistoli from '../../public/assets/speakers-pics/Andrea-Vistoli-Kamea-Labs/Andrea-Vistoli-Kamea-Labs.jpg'
+
+import Interlay from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Interlay.png'
+import Alexei from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Alexei-Zanyatin-Interlay.jpg'
+
+import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
+import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
+
+import TapioFinance from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Tapio-Finance.jpg'
+import Sushant from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Sushant-Kurren-Tapio-Finance.jpg'
+
+import Tellor from '../../public/assets/speakers-pics/Brenda-Loya-Tellor/Tellor.png'
+import Brenda from '../../public/assets/speakers-pics/Brenda-Loya-Tellor/Brenda-Loya-Tellor.jpeg'
+
+import UniqueNetwork from '../../public/assets/speakers-pics/Alik-Tsikhashev-Unique-Network/Unique-Network.jpg'
+import Alik from '../../public/assets/speakers-pics/Alik-Tsikhashev-Unique-Network/Alik-Tsikhashev-Unique-Network.jpg'
+
+import AmplicaLabs from '../../public/assets/speakers-pics/Braxton-Woodham-Amplica-Labs/Amplica-Labs.jpg'
+import Braxton from '../../public/assets/speakers-pics/Braxton-Woodham-Amplica-Labs/Braxton-Woodham-Amplica-Labs.jpg'
+
+import LayerX from '../../public/assets/speakers-pics/Mario-Alves-LayerX/LayerX.png'
+import Mario from '../../public/assets/speakers-pics/Mario-Alves-LayerX/Mario-Alves-LayerX.jpg'
+
+import Subsocial from '../../public/assets/speakers-pics/Alex-Subsocial/Subsocial.png'
+import Alex from '../../public/assets/speakers-pics/Alex-Subsocial/Alex-Subsocial.png'
+
+import PiecesMarket from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Pieces.market.jpg'
+import Stanislaw from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Stanislaw-Herjan-Pieces.market.jpg'
+
+import JournalDuCoin from '../../public/assets/speakers-pics/Gregory-Guittard-Journal-Du-Coin/Journal-Du-Coin.jpg'
+import Gregory from '../../public/assets/speakers-pics/Gregory-Guittard-Journal-Du-Coin/Gregory-Guittard-Journal-Du-Coin.jpg'
+
+import Deloitte from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Deloitte.png'
+import Marie from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Marie-Line-Ricard-Deloitte.jpeg'
+
+import Subsquid from '../../public/assets/speakers-pics/Dima-Zhelezov-Subsquid/Subsquid.jpg'
+import Dima from '../../public/assets/speakers-pics/Dima-Zhelezov-Subsquid/Dima-Zhelezov-Subsquid.jpeg'
+
+import Galxe from '../../public/assets/speakers-pics/Charles-Wayn-Galxe/Galxe.jpg'
+import Charles from '../../public/assets/speakers-pics/Charles-Wayn-Galxe/Charles-Wayn-Galxe.jpg'
+
+import CryptoConseils from '../../public/assets/speakers-pics/Shayldon-Brown-Crypto-Conseils/Crypto-Conseils.jpeg'
+import Shayldon from '../../public/assets/speakers-pics/Shayldon-Brown-Crypto-Conseils/Shayldon-Brown-Crypto-Conseils.jpeg'
+
+import BlokImmo from '../../public/assets/speakers-pics/Pierre-Soulette-Blok.immo/Blok.immo.jpg'
+import Pierre from '../../public/assets/speakers-pics/Pierre-Soulette-Blok.immo/Pierre-Soulette-Blok.immo.jpg'
+
+import Tal from '../../public/assets/speakers-pics/Alain-Parize-Tal/Tal.jpg'
+import Alain from '../../public/assets/speakers-pics/Alain-Parize-Tal/Alain-Parize-Tal.jpeg'
+
+import Chainsafe2 from '../../public/assets/speakers-pics/Filip-Nendl-Chainsafe/Chainsafe.jpg'
+import Filip from '../../public/assets/speakers-pics/Filip-Nendl-Chainsafe/Filip-Nendl-Chainsafe.jpeg'
+
+import Web3 from '../../public/assets/speakers-pics/Ursula-O_Kuinghttons-Web3-Foundation/Web3-Foundation.png'
+import Ursula from '../../public/assets/speakers-pics/Ursula-O_Kuinghttons-Web3-Foundation/Ursula-O_Kuinghttons-Web3-Foundation.jpeg'
+
+import Horizen from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Horizen.jpg'
+import Luca from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Luca-Cermelli-Horizen.jpeg'
+import Giacomo from '../../public/assets/speakers-pics/Giacomo-Gussoni-Horizen/Giacomo-Gussoni-Horizen.jpeg'
+
+import HashConsulting from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Hash-Consulting.jpg'
+import Maxime from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Maxime-Baron-Hash-Consulting.jpg'
+
+import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
+
 import { ImageProps } from 'next/image'
 
 export interface ISpeaker {
@@ -1275,9 +1356,9 @@ export const speakers: ISpeaker[] = [
     },
     image: {
       src: Jonathan,
-      alt: 'Jonathan',
+      alt: 'Jonathan Dunne',
     },
-    name: 'Jonathan',
+    name: 'Jonathan Dunne',
     title: 'Co-founder',
     socials: {
       twitter: 'https://twitter.com/JonPDunne',
@@ -1367,6 +1448,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Petale',
+      logo: {
+        src: Petale,
+        alt: 'Petale',
+      },
+    },
+    image: {
+      src: Babacar,
+      alt: 'Babacar N. Seck',
     },
     name: 'Babacar N. Seck',
     title: 'Founder, CEO',
@@ -1378,6 +1467,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'CNRS',
+      logo: {
+        src: Cnrs,
+        alt: 'CNRS',
+      },
+    },
+    image: {
+      src: Primavera,
+      alt: 'Primavera De Filippi',
     },
     name: 'Primavera De Filippi',
     title: 'Researcher',
@@ -1389,6 +1486,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'De gaulle Fleurance',
+      logo: {
+        src: Degaullefleurance,
+        alt: 'De gaulle Fleurance',
+      },
+    },
+    image: {
+      src: AnneMarechal,
+      alt: 'Anne Maréchal',
     },
     name: 'Anne Maréchal',
     title: 'Lawyer',
@@ -1400,6 +1505,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Everdream soft',
+      logo: {
+        src: Everdreamsoft,
+        alt: 'Everdream soft',
+      },
+    },
+    image: {
+      src: Shaban,
+      alt: 'Shaban Shaame',
     },
     name: 'Shaban Shaame',
     title: 'Founder - CEO',
@@ -1411,6 +1524,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Defactor Labs',
+      logo: {
+        src: DefactorLabs,
+        alt: 'Defactor Labs',
+      },
+    },
+    image: {
+      src: Alejandro,
+      alt: 'Alejandro Gutierrez',
     },
     name: 'Alejandro Gutierrez',
     title: 'CEO',
@@ -1422,6 +1543,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'logion / Kamea Labs',
+      logo: {
+        src: KameaLabs,
+        alt: 'logion / Kamea Labs',
+      },
+    },
+    image: {
+      src: AndreaVistoli,
+      alt: 'Andréa Vistoli',
     },
     name: 'Andréa Vistoli',
     title: 'CEO',
@@ -1433,6 +1562,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Interlay',
+      logo: {
+        src: Interlay,
+        alt: 'Interlay',
+      },
+    },
+    image: {
+      src: Alexei,
+      alt: 'Alexei Zamyatin',
     },
     name: 'Alexei Zamyatin',
     title: 'Founder',
@@ -1444,6 +1581,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Chainsafe/Sygma',
+      logo: {
+        src: Chainsafe,
+        alt: 'Chainsafe/Sygma',
+      },
+    },
+    image: {
+      src: Robert,
+      alt: 'Robert Zhuang',
     },
     name: 'Robert Zhuang',
     title: '',
@@ -1466,6 +1611,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Tapio Finance',
+      logo: {
+        src: TapioFinance,
+        alt: 'Tapio Finance',
+      },
+    },
+    image: {
+      src: Sushant,
+      alt: 'Sushant Kurren',
     },
     name: 'Sushant Kurren',
     title: 'Project Lead',
@@ -1477,6 +1630,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Tellor',
+      logo: {
+        src: Tellor,
+        alt: 'Tellor',
+      },
+    },
+    image: {
+      src: Brenda,
+      alt: 'Brenda Loya',
     },
     name: 'Brenda Loya',
     title: 'CEO',
@@ -1488,6 +1649,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Unique',
+      logo: {
+        src: UniqueNetwork,
+        alt: 'Unique',
+      },
+    },
+    image: {
+      src: Alik,
+      alt: 'Alik',
     },
     name: 'Alik Tsikhashev',
     title: '',
@@ -1499,6 +1668,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Amplica Labs',
+      logo: {
+        src: AmplicaLabs,
+        alt: 'Amplica Labs',
+      },
+    },
+    image: {
+      src: Braxton,
+      alt: 'Braxton Woodham',
     },
     name: 'Braxton Woodham',
     title: 'Founder',
@@ -1510,6 +1687,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'LayerX',
+      logo: {
+        src: LayerX,
+        alt: 'LayerX',
+      },
+    },
+    image: {
+      src: Mario,
+      alt: 'Mario Alves',
     },
     name: 'Mario Alves',
     title: 'Co-Founder, CEO',
@@ -1521,6 +1706,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Subsocial',
+      logo: {
+        src: Subsocial,
+        alt: 'Subsocial',
+      },
+    },
+    image: {
+      src: Alex,
+      alt: 'Alex',
     },
     name: 'Alex',
     title: 'Founder',
@@ -1532,6 +1725,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'pieces.market',
+      logo: {
+        src: PiecesMarket,
+        alt: 'pieces.market',
+      },
+    },
+    image: {
+      src: Stanislaw,
+      alt: 'Stanislaw Herjan',
     },
     name: 'Stanislaw Herjan',
     title: 'Builder',
@@ -1542,18 +1743,15 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Talisman',
-    },
-    name: 'Jonathan Dunne',
-    title: 'Co-founder',
-    socials: {
-      twitter: 'https://twitter.com/JonPDunne',
-    },
-    bio: '',
-  },
-  {
-    organization: {
       name: 'Journal Du Coin',
+      logo: {
+        src: JournalDuCoin,
+        alt: 'Journal Du Coin',
+      },
+    },
+    image: {
+      src: Gregory,
+      alt: 'Grégory Guittard',
     },
     name: 'Grégory Guittard',
     title: 'CEO',
@@ -1565,6 +1763,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Deloitte',
+      logo: {
+        src: Deloitte,
+        alt: 'Deloitte',
+      },
+    },
+    image: {
+      src: Marie,
+      alt: 'Marie-Line Ricard',
     },
     name: 'Marie-Line Ricard',
     title: 'Partner',
@@ -1576,6 +1782,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Subsquid',
+      logo: {
+        src: Subsquid,
+        alt: 'Subsquid',
+      },
+    },
+    image: {
+      src: Dima,
+      alt: 'Dima Zhelezov',
     },
     name: 'Dima Zhelezov',
     title: 'Founder',
@@ -1596,6 +1810,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Galxe',
+      logo: {
+        src: Galxe,
+        alt: 'Galxe',
+      },
+    },
+    image: {
+      src: Charles,
+      alt: 'Charles Wayn',
     },
     name: 'Charles Wayn',
     title: 'Co-Founder',
@@ -1609,6 +1831,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'CryptoConseils',
+      logo: {
+        src: CryptoConseils,
+        alt: 'CryptoConseils',
+      },
+    },
+    image: {
+      src: Shayldon,
+      alt: 'Shayldon Brown',
     },
     name: 'Shayldon Brown',
     title: 'Founder',
@@ -1620,6 +1850,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Blok.immo',
+      logo: {
+        src: BlokImmo,
+        alt: 'Blok.immo',
+      },
+    },
+    image: {
+      src: Pierre,
+      alt: 'Pierre Soulette',
     },
     name: 'Pierre Soulette',
     title: 'Founder, CEO',
@@ -1631,6 +1869,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Tal',
+      logo: {
+        src: Tal,
+        alt: 'Tal',
+      },
+    },
+    image: {
+      src: Alain,
+      alt: 'Alain Parize',
     },
     name: 'Alain Parize',
     title: 'Founder',
@@ -1653,6 +1899,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Chainsafe/Sygma',
+      logo: {
+        src: Chainsafe2,
+        alt: 'Chainsafe/Sygma',
+      },
+    },
+    image: {
+      src: Filip,
+      alt: 'Filip Nendl',
     },
     name: 'Filip Nendl',
     title: 'Product BD lead',
@@ -1664,6 +1918,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Web3 Foundation',
+      logo: {
+        src: Web3,
+        alt: 'Web3 Foundation',
+      },
+    },
+    image: {
+      src: Ursula,
+      alt: `Ursula O'Kuinghttons`,
     },
     name: `Ursula O'Kuinghttons`,
     title: 'Director of Communications and Partnerships',
@@ -1686,6 +1948,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Horizen',
+      logo: {
+        src: Horizen,
+        alt: 'Horizen',
+      },
+    },
+    image: {
+      src: Luca,
+      alt: 'Luca Cermelli',
     },
     name: 'Luca Cermelli',
     title: 'Corporate Strategy Manager',
@@ -1697,6 +1967,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Horizen',
+      logo: {
+        src: Horizen,
+        alt: 'Horizen',
+      },
+    },
+    image: {
+      src: Giacomo,
+      alt: 'Giacomo Gussoni',
     },
     name: 'Giacomo Gussoni',
     title: 'Project Manager',
@@ -1708,6 +1986,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Hash Consulting',
+      logo: {
+        src: HashConsulting,
+        alt: 'Hash Consulting',
+      },
+    },
+    image: {
+      src: Maxime,
+      alt: 'Maxime Baron',
     },
     name: 'Maxime Baron',
     title: 'Co-Founder, COO',
@@ -1715,5 +2001,22 @@ export const speakers: ISpeaker[] = [
       twitter: 'https://twitter.com/dlt_maximalist',
     },
     bio: '',
+  },
+  {
+    organization: {
+      name: 'Bifrost Finance',
+      logo: {
+        src: Thomas,
+        alt: 'Bifrost Finance',
+      },
+    },
+    image: {
+      src: Thomas,
+      alt: 'Thomas Riviere',
+    },
+    name: 'Thomas Riviere',
+    title: 'Community Manager',
+    socials: {},
+    bio: '15+ years of IT consulting in Tradfi. 2 years in crypto community management & Defi degen',
   },
 ]
