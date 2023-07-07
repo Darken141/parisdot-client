@@ -41,12 +41,12 @@ const heroSection: IHeroSectionProps = {
   //   label: 'Buy tickets',
   //   href: '/#',
   // },
-  secondaryCta: {
-    children: 'Apply to speak',
-    // disabled: true,
-    href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
-    target: '_blank',
-  },
+  // secondaryCta: {
+  //   children: 'Apply to speak',
+  //   // disabled: true,
+  //   href: 'https://forms.gle/d9bWi8y72Lh9nbPXA',
+  //   target: '_blank',
+  // },
   partners: [
     {
       children: 'Polkadot Francophonie',
