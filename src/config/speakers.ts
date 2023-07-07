@@ -10,14 +10,14 @@ import Alberto from '../../public/assets/speakers-pics/Alberto-Viera-Moonbeam/Al
 import Acurast from '../../public/assets/speakers-pics/Alessandro-De-Carli-Acurast/Acurast.jpg'
 import Alessandro from '../../public/assets/speakers-pics/Alessandro-De-Carli-Acurast/Alessandro-De-Carli-Acurast.jpeg'
 
-import Vnx from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/VNX3.jpg'
-import Alexander from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/Alexander-Tkachenko-VNX.jpeg'
+// import Vnx from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/VNX3.jpg'
+// import Alexander from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/Alexander-Tkachenko-VNX.jpeg'
 
 import PantherProtocol from '../../public/assets/speakers-pics/Anish-Mohammed-Panther-Protocol/Panther-Protocol.jpg'
 import Anish from '../../public/assets/speakers-pics/Anish-Mohammed-Panther-Protocol/Anish-Mohammed-Panther-Protocol.jpg'
 
-import Galxe from '../../public/assets/speakers-pics/Anne-Well-Galxe/Galxe.jpg'
-import Anne from '../../public/assets/speakers-pics/Anne-Well-Galxe/Anne-Well-Galxe.png'
+// import Galxe from '../../public/assets/speakers-pics/Anne-Well-Galxe/Galxe.jpg'
+// import Anne from '../../public/assets/speakers-pics/Anne-Well-Galxe/Anne-Well-Galxe.png'
 
 import Wakweli from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Wakweli.jpg'
 import Antoine from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/Antoine-Sarraute-Wakweli.jpg'
@@ -145,6 +145,24 @@ import Zoe from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Zo
 
 import GreenPill from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Green-Pill.jpg'
 import Sejal from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Sejal-Rekhan-Green-Pill.jpeg'
+
+import Dia from '../../public/assets/speakers-pics/Paul-Claudius-DIA/DIA.jpg'
+import PaulClaudius from '../../public/assets/speakers-pics/Paul-Claudius-DIA/Paul-Claudius-DIA.jpg'
+
+import Talisman from '../../public/assets/speakers-pics/Jonathan-Dune-Talisman/Talisman.jpg'
+import Jonathan from '../../public/assets/speakers-pics/Jonathan-Dune-Talisman/jonathan_talisman.jpg'
+
+import Invarch from '../../public/assets/speakers-pics/Dakota-Barnett-Invarch/Invarch.jpg'
+import Dakota from '../../public/assets/speakers-pics/Dakota-Barnett-Invarch/Dakota-Barnett-Invarch.jpg'
+
+import SummerFi from '../../public/assets/speakers-pics/Maria-Magenes-Summer.fi/Summer.fi.png'
+import MariaMagenes from '../../public/assets/speakers-pics/Maria-Magenes-Summer.fi/Maria-Magenes-Summer.fi.jpg'
+
+import Giveth from '../../public/assets/speakers-pics/Griff-Green-Giveth/Giveth.jpg'
+import Griff from '../../public/assets/speakers-pics/Griff-Green-Giveth/Griff-Green-Giveth.jpg'
+
+import CommComm from '../../public/assets/speakers-pics/Derek-Silva-CommComm/CommComm.jpg'
+import Derek from '../../public/assets/speakers-pics/Derek-Silva-CommComm/Derek-Silva-CommComm.jpg'
 
 import { ImageProps } from 'next/image'
 
@@ -346,7 +364,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/realjameswo',
     },
-    bio: '',
+    bio: 'James is an experienced entrepreneur and investor in the digital assets space who founded DFG in 2015, where he oversees over $1 billion assets under management. He is an early investor in companies like LedgerX, Coinlist, Circle, 3iQ. James is also an early investor and supporter of Polkadot and Kusama Network. He contributes substantially to the ecosystem through capital allocation, donations and actively supporting the Parachain Auctions.',
   },
   {
     organization: {
@@ -365,7 +383,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: ' https://twitter.com/joanna_jsquare',
     },
-    bio: '',
+    bio: 'Joanna has been involved in blockchain technology and digital assets investment for the past five years. She has keen business intuition and excellent business negotiation skills. Prior to Jsquare, she was Head of Investment at DFG, where she managed DFG’s crypto lending and liquidity mining business, participated in the $DOT investment negotiations, and led the establishment of the Polkadot Ecosystem Fund, bringing hundreds of millions of dollars in investment and business income to the company. Joanna continues to invest in and offer strategic advisory to top-rated projects at all stages.',
   },
   {
     organization: {
@@ -385,7 +403,7 @@ export const speakers: ISpeaker[] = [
       twitter:
         'https://twitter.com/sagarbarvaliya?t=mUYF2WXtAepkKnqYflzbWA&s=09',
     },
-    bio: '',
+    bio: 'Sagar is a partner at Blockchain Founders Capital , Early stage venture fund investing in  web3 startups. Engineer by background, Deeply passionate about the potential of blockchain technology, and strong connections within the web3 community.',
   },
   {
     organization: {
@@ -404,25 +422,25 @@ export const speakers: ISpeaker[] = [
     socials: {},
     bio: 'Max Rebol is the founder and CEO or Harbour Industrial Capital, a Cayman VC fund focused exclusively on Polkadot parachain auctions. Max has a background of working in traditional finance but after discovering Bitcoin in 2016, kept going deep down the rabbit hole. Within Polkadot, his main focus is Web3 infrastructure, RWAs and interoperability.',
   },
-  {
-    organization: {
-      name: 'VNX',
-      logo: {
-        src: Vnx,
-        alt: 'VNX',
-      },
-    },
-    image: {
-      src: Alexander,
-      alt: 'Alexander Tkachenko',
-    },
-    name: 'Alexander Tkachenko',
-    title: 'Founder, CEO',
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/alexander-tkachenko-2117434/',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'VNX',
+  //     logo: {
+  //       src: Vnx,
+  //       alt: 'VNX',
+  //     },
+  //   },
+  //   image: {
+  //     src: Alexander,
+  //     alt: 'Alexander Tkachenko',
+  //   },
+  //   name: 'Alexander Tkachenko',
+  //   title: 'Founder, CEO',
+  //   socials: {
+  //     linkedin: 'https://www.linkedin.com/in/alexander-tkachenko-2117434/',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'Pagoda/NEAR',
@@ -536,7 +554,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/0xevolve',
     },
-    bio: '',
+    bio: 'Ex. MakerDAO, Starknet Contributor, co-founder Pragma.',
   },
   {
     organization: {
@@ -555,7 +573,18 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/CristianMalfesi',
     },
-    bio: '',
+    bio: `I am an enthusiastic person with extensive experience across various IT domains,
+    specializing in blockchain technology, DeFi, and DAO projects. I excel at building
+    motivated teams and delivering high-quality outcomes through a thoughtful
+    approach. With a focus on agile methodologies, I have successfully managed
+    multiple teams concurrently.
+    As the Owner of the Seed Nodes Pool at Protofire.io, I'm focused on building a DAO
+    of a Human Protocol, scaling up teams and incubating high-impact projects in the
+    blockchain ecosystem. I have collaborated with essential blockchain protocols,
+    including The Graph, Livepeer, Secret Network, Tezos, Opyn, Polkadot, Filecoin,
+    Curve, Synthetix, Gnosis Safe, Chainlink, Cowswap, and Swarm, among others. I have
+    also integrated various protocols into several chain networks, expanding my
+    expertise.`,
   },
   {
     organization: {
@@ -574,7 +603,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/anishmohammed',
     },
-    bio: '',
+    bio: `Dr. Anish Mohammed is co-founder , chief scientist and CTO of Panther protocol, which provides privacy for DeFi. He has more than 20 years of experience in security and cryptography, half of which was dedicated to researching cryptographic algorithms and protocols at research groups including at Microsoft. Anish was an early advisor to Ripple and Ocean protocol, as well as an early member of Ethereum swarm (orange) team, becoming a reviewer of its orange paper. He was also the principle architect for Boson protocol.`,
   },
   {
     organization: {
@@ -605,34 +634,34 @@ export const speakers: ISpeaker[] = [
     },
     image: {
       src: Frederico,
-      alt: 'Frederico Ast',
+      alt: 'Federico Ast',
     },
-    name: 'Frederico Ast',
+    name: 'Federico Ast',
     title: 'Founder, CEO',
     socials: {
       twitter: 'https://twitter.com/federicoast',
     },
     bio: '',
   },
-  {
-    organization: {
-      name: 'Galxe',
-      logo: {
-        src: Galxe,
-        alt: 'Galxe',
-      },
-    },
-    image: {
-      src: Anne,
-      alt: 'Anne Well',
-    },
-    name: 'Anne Well',
-    title: 'CMO',
-    socials: {
-      twitter: 'https://twitter.com/annewell_eth',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'Galxe',
+  //     logo: {
+  //       src: Galxe,
+  //       alt: 'Galxe',
+  //     },
+  //   },
+  //   image: {
+  //     src: Anne,
+  //     alt: 'Anne Well',
+  //   },
+  //   name: 'Anne Well',
+  //   title: 'CMO',
+  //   socials: {
+  //     twitter: 'https://twitter.com/annewell_eth',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'GreenPill Network',
@@ -719,17 +748,17 @@ export const speakers: ISpeaker[] = [
     },
     bio: '',
   },
-  {
-    organization: {
-      name: 'Parity',
-    },
-    name: 'Sophia Gold',
-    title: 'Engineering Lead',
-    socials: {
-      twitter: 'https://twitter.com/_sophiagold_',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'Parity',
+  //   },
+  //   name: 'Sophia Gold',
+  //   title: 'Engineering Lead',
+  //   socials: {
+  //     twitter: 'https://twitter.com/_sophiagold_',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'Parity',
@@ -804,9 +833,9 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/JamesPrestonZA',
     },
-    bio: `"James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.
+    bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.
 
-    After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem."`,
+    After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
   },
   {
     organization: {
@@ -825,14 +854,14 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/zoemcfox',
     },
-    bio: `"Zoé is VP and Partner at Phala Network and leads European growth and business development for the protocol.
+    bio: `Zoé is VP and Partner at Phala Network and leads European growth and business development for the protocol.
     She is also the global head Ambassador of events for Polkadot as well as a curator for the on-chain events bounty and a council member for Phala.
     
     Zoé has worked for several blockchain start-ups as well as big tech giants like Google in silicon valley. Currently based in Berlin, Zoé grows the brand for Phala Network and Polkadot in Europe.
     
     With her background in information & cybersecurity and international business, Zoé’s passion is to break down complex concepts into simple to understand content to educate the masses.
     
-    Education: Zoé holds a B.A. in Chinese Society from Fudan University Shanghai, 2016, a B.A. in International Supply Chain Management from HIWL Bremen, 2017, and two master degrees: M.Sc. International Business from HULT Boston 2018, and M.Sc. Information & Cybersecurity from ITU Santa Clara, 2020."`,
+    Education: Zoé holds a B.A. in Chinese Society from Fudan University Shanghai, 2016, a B.A. in International Supply Chain Management from HIWL Bremen, 2017, and two master degrees: M.Sc. International Business from HULT Boston 2018, and M.Sc. Information & Cybersecurity from ITU Santa Clara, 2020.`,
   },
   {
     organization: {
@@ -965,8 +994,8 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/BenoLibre',
     },
-    bio: `"Starting as an early SORA community member and ambassador, Beno is now bringing SORA Card to you as director of SORA Biome.
-    Next to this he leads Polkaswap community initiatives with Polka Biome - an extension of the earlier Polkaswap Community Collective."`,
+    bio: `Starting as an early SORA community member and ambassador, Beno is now bringing SORA Card to you as director of SORA Biome.
+    Next to this he leads Polkaswap community initiatives with Polka Biome - an extension of the earlier Polkaswap Community Collective.`,
   },
   {
     organization: {
@@ -1042,13 +1071,13 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/seunlanlege',
     },
-    bio: `"Seun Lanlege is the founder of Polytope Labs. Polytope Labs is a
+    bio: `Seun Lanlege is the founder of Polytope Labs. Polytope Labs is a
     blockchain research and development lab, and has been the recipient of
     multiple R&D Grants from the Web3 Foundation and Polkadot treasury.
     Their research focus includes blockchain protocols, cryptography and
     zero-knowledge proofs. Prior to starting Polytope Labs, Seun was a
     core developer at Parity Technologies GmbH and contributed to the
-    development of Parity-Ethereum, Substrate & Polkadot"`,
+    development of Parity-Ethereum, Substrate & Polkadot`,
   },
   {
     organization: {
@@ -1101,7 +1130,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/Jason_Hbot',
     },
-    bio: '',
+    bio: 'Jason Tomlinson is the COO of CoinAlpha. CoinAlpha is the original creator of Hummingbot, the leading open source market making bot in digital assets. After setting Hummingbot free by establishing the non-profit Hummingbot Foundation in 2021, CoinAlpha now builds enterprise quality solutions on top of our hardened version of Hummingbot. We also operate a crowd-sourced liquidity platform and offer traditional market making and liquidity solutions through several global entities.',
   },
   {
     organization: {
@@ -1120,7 +1149,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/mar1dev',
     },
-    bio: '',
+    bio: `Co-founder & CTO of The Great Escape. In the web3 space since 2018, Marin started his career as a smart-contract developer while participating in hackatons across Europe. Nowadays, he's reinventing web3 gaming mechanisms by building The Great Escape, an accessible & chain-agnostic game playable by everyone.`,
   },
   {
     organization: {
@@ -1220,12 +1249,471 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'DIA',
+      logo: {
+        src: Dia,
+        alt: 'DIA',
+      },
+    },
+    image: {
+      src: PaulClaudius,
+      alt: 'Paul Claudius',
     },
     name: 'Paul Claudius',
-    title: 'Co-Founder @ DIA — Business Development',
+    title: 'Co-Founder, Business Development',
     socials: {
       twitter: 'https://twitter.com/pclaudius',
     },
     bio: 'Paul is a serial entrepreneur and crypto investor. Previously, he was Director Europe of the nu3 group based in Berlin, transforming the multi-million e-commerce business into a vertically integrated brand. Paul started his professional career as part of BNP Paribas Corporate Development in New York City and AXA Private Equity in Frankfurt am Main. Paul has advised and invested in multiple start-ups in health tech, IOT and e-commerce. At DIA, he manages the business development and the strategic partnerships.',
+  },
+  {
+    organization: {
+      name: 'Talisman',
+      logo: {
+        src: Talisman,
+        alt: 'Talisman',
+      },
+    },
+    image: {
+      src: Jonathan,
+      alt: 'Jonathan',
+    },
+    name: 'Jonathan',
+    title: 'Co-founder',
+    socials: {
+      twitter: 'https://twitter.com/JonPDunne',
+    },
+    bio: 'Jonathan is a co-founder and CTO of Talisman. Jonathan and the Talisman team bring strong product rigour to the Polkadot ecosystem, providing a suite of products that help every user interact with the ecosystem in a secure and polished way.',
+  },
+  {
+    organization: {
+      name: 'Invarch',
+      logo: {
+        src: Invarch,
+        alt: 'Invarch',
+      },
+    },
+    image: {
+      src: Dakota,
+      alt: 'Dakota Barnett',
+    },
+    name: 'Dakota Barnett',
+    title: 'InvArch Founder',
+    socials: {
+      twitter: 'https://twitter.com/XCAstronaut',
+    },
+    bio: 'With past experience working in US government & politics, Dakota is in a mission to transform the DAO landscape by realizing unstoppable multichain DAOs with the InvArch Network.',
+  },
+  {
+    organization: {
+      name: 'Summer.fi, SpaghettETH',
+      logo: {
+        src: SummerFi,
+        alt: 'Summer.fi',
+      },
+    },
+    image: {
+      src: MariaMagenes,
+      alt: 'Maria Magenes',
+    },
+    name: 'Maria Magenes',
+    title: 'Marketing Lead',
+    socials: {
+      twitter: 'https://twitter.com/mariamagenes1',
+    },
+    bio: 'Maria Magenes entered the world of Blockchain and in particular of Decentralized Finance (DeFi) in 2018. Today she is Marketing Lead of Summer.fi, the DApp that allows easy access to main DeFi lending protocols like Maker, Aave and more. In 2021 she co-founded the main Italian Ethereum community hub, SpaghettETH. She collaborates and advise other projects related to the blockchain, including LayerX, which provides hackathons and bounties. Previously Maria was part of Balancer, MakerDAO, PolygonDAO and Aave as a Marketing Manager. Before entering the world of blockchain, she was part of the Marketing Strategy team at Sky Italia for several years. Maria studied International Business at Bocconi University and is passionate about technology and innovation.',
+  },
+  {
+    organization: {
+      name: 'Giveth',
+      logo: {
+        src: Giveth,
+        alt: 'Giveth',
+      },
+    },
+    image: {
+      src: Griff,
+      alt: 'Griff Green',
+    },
+    name: 'Griff Green',
+    title: 'Co-Founder',
+    socials: {
+      twitter: 'https://twitter.com/thegrifft',
+    },
+    bio: `Cofounder of Giveth, Commons Stack, General Magic, Praise & dappnode. Community manager for TheDAO, led the crisis response effort for TheDAO Hack and first Parity Multisig Hack from every angle, co-founder of the White Hat Group and led the creation of Token Engineering Commons. Advisor for PolygonID, PolygonHermez, brightID, and steward for Gitcoin, ENS, Arbitrum & Optimism.
+
+    Also leads 2 crypto focused burning man camps ;-) `,
+  },
+  {
+    organization: {
+      name: 'CommComm',
+      logo: {
+        src: CommComm,
+        alt: 'CommComm',
+      },
+    },
+    image: {
+      src: Derek,
+      alt: 'Derek Silva',
+    },
+    name: 'Derek Silva',
+    title: 'President',
+    socials: {
+      twitter: 'https://twitter.com/DerekSilva',
+    },
+    bio: `Derek is a community builder and operations leader who has been working full-time in the blockchain industry since February 2018. He has had opportunities to work with teams like Bloom, Orchid, mStable, Reef, and Hxro, among others.
+
+    He continues to work in the industry with core tenets of helping the unbanked get access to better financial products on-chain, advocating for decentralized identity solutions, and better on-ramps so that everyone can take full control of their data and financial health. He loves to build communities around products and teams working to make real differences.`,
+  },
+  {
+    organization: {
+      name: 'Petale',
+    },
+    name: 'Babacar N. Seck',
+    title: 'Founder, CEO',
+    socials: {
+      twitter: 'https://twitter.com/BabacarNSeck',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'CNRS',
+    },
+    name: 'Primavera De Filippi',
+    title: 'Researcher',
+    socials: {
+      twitter: 'https://twitter.com/yaoeo',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'De gaulle Fleurance',
+    },
+    name: 'Anne Maréchal',
+    title: 'Lawyer',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/anne-mar%C3%A9chal-46ba8897/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Everdream soft',
+    },
+    name: 'Shaban Shaame',
+    title: 'Founder - CEO',
+    socials: {
+      twitter: 'https://twitter.com/shaban_shaame',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Defactor Labs',
+    },
+    name: 'Alejandro Gutierrez',
+    title: 'CEO',
+    socials: {
+      twitter: 'https://twitter.com/A_gutierro',
+    },
+    bio: 'With over 15 years of experience, Alejandro brings extensive experience in supply chain finance, supply chain management and procurement. He has worked with high-profile companies and is widely recognized for his expertise in the DeFi field. Alejandro is also an early adopter of real-world assets in DeFi, having worked with Maker Dao and Centrifuge, among others. He is committed to driving innovation and creating new opportunities for businesses in the evolving financial landscape. With his leadership, Defactor Labs is focused on providing accessible and secure investment opportunities while promoting a more inclusive and equitable economy.',
+  },
+  {
+    organization: {
+      name: 'logion / Kamea Labs',
+    },
+    name: 'Andréa Vistoli',
+    title: 'CEO',
+    socials: {
+      twitter: 'https://twitter.com/SanchezCrypto',
+    },
+    bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+  },
+  {
+    organization: {
+      name: 'Interlay',
+    },
+    name: 'Alexei Zamyatin',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/alexeiZamyatin',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Chainsafe/Sygma',
+    },
+    name: 'Robert Zhuang',
+    title: '',
+    socials: {
+      twitter: 'https://twitter.com/defibobbyz',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Horizen',
+    },
+    name: 'Manon Boudoux',
+    title: 'Marketing',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/manonboudoux/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Tapio Finance',
+    },
+    name: 'Sushant Kurren',
+    title: 'Project Lead',
+    socials: {
+      twitter: 'https://twitter.com/sushantkurren',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Tellor',
+    },
+    name: 'Brenda Loya',
+    title: 'CEO',
+    socials: {
+      twitter: 'https://twitter.com/JustBrendax',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Unique',
+    },
+    name: 'Alik Tsikhashev',
+    title: '',
+    socials: {
+      twitter: 'https://twitter.com/kalddet',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Amplica Labs',
+    },
+    name: 'Braxton Woodham',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/braxton',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'LayerX',
+    },
+    name: 'Mario Alves',
+    title: 'Co-Founder, CEO',
+    socials: {
+      twitter: 'https://twitter.com/marioralves',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Subsocial',
+    },
+    name: 'Alex',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/AlexSiman',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'pieces.market',
+    },
+    name: 'Stanislaw Herjan',
+    title: 'Builder',
+    socials: {
+      twitter: 'https://twitter.com/s_herjan',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Talisman',
+    },
+    name: 'Jonathan Dunne',
+    title: 'Co-founder',
+    socials: {
+      twitter: 'https://twitter.com/JonPDunne',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Journal Du Coin',
+    },
+    name: 'Grégory Guittard',
+    title: 'CEO',
+    socials: {
+      twitter: 'https://twitter.com/GregGuittard',
+    },
+    bio: 'CEO of Journal Du Coin',
+  },
+  {
+    organization: {
+      name: 'Deloitte',
+    },
+    name: 'Marie-Line Ricard',
+    title: 'Partner',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/marie-line-ricard-a64aa416/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Subsquid',
+    },
+    name: 'Dima Zhelezov',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/dizhel',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Polkahaus',
+    },
+    name: 'Irwin',
+    title: '',
+    socials: {},
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Galxe',
+    },
+    name: 'Charles Wayn',
+    title: 'Co-Founder',
+    socials: {
+      twitter: 'https://twitter.com/charleswayn',
+    },
+    bio: `Charles Wayn is a serial web3 entrepreneur and the Co-Founder of Galxe, the leading platform for building web3 community. Prior to founding Galxe, Charles Co-Founded and served as CEO of DLive, the largest live streaming platform in the world built with blockchain technology. The platform was acquired by BitTorrent in December 2019 and Charles served as VP of Interactive Entertainment. Charles is also the Co-Founder and Managing Partner of Bullet Labs,  a venture studio focusing on web3 product development. 
+
+    Galxe is the leading platform for building web3 communities. With over 11 million users and integrated across 16 different blockchains, Galxe has propelled the growth of Optimism, Polygon, Arbitrum, and more than 2,800 partners with reward-based loyalty programs. Protocols can leverage Web3 credentials from Galxe’s credential data network to power marketplace growth, issue Soul Bound Tokens, increase community engagement, boost ecosystem growth, and generate brand awareness.`,
+  },
+  {
+    organization: {
+      name: 'CryptoConseils',
+    },
+    name: 'Shayldon Brown',
+    title: 'Founder',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/shayldon-brown/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Blok.immo',
+    },
+    name: 'Pierre Soulette',
+    title: 'Founder, CEO',
+    socials: {
+      twitter: 'https://twitter.com/blok_souflette',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Tal',
+    },
+    name: 'Alain Parize',
+    title: 'Founder',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/alainparize/',
+    },
+    bio: 'Experienced entrepreneur with a demonstrated history of founding, funding, managing and coaching high growth companies and innovative teams. Practicing in various sectors with an emphasis on financial technology companies and customer relationship strategy.',
+  },
+  {
+    organization: {
+      name: 'Golden Gate',
+    },
+    name: 'Viktor Ihnatiuk',
+    title: 'Co-Founder, CEO',
+    socials: {
+      twitter: 'https://twitter.com/VIhnatiuk',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Chainsafe/Sygma',
+    },
+    name: 'Filip Nendl',
+    title: 'Product BD lead',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/fnendl/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Web3 Foundation',
+    },
+    name: `Ursula O'Kuinghttons`,
+    title: 'Director of Communications and Partnerships',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/ursulaok/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'BE Blockchain',
+    },
+    name: 'Harold Kinet',
+    title: 'Co-Founder, CEO',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/haroldkinet/',
+    },
+    bio: `Formerly a journalist in the defense & security sector and then a marketing manager in the theme park sector, Harold has a rich international background. In 2017, he fully immersed himself in the blockchain and Web3 sector. Initially working as a consultant, he later became the Head of Communications at Daneel.io, a French startup that raised $2M in ICO in early 2018 for developing an AI capable of creating new market indicators for traders in the crypto markets. Harold gained valuable experience during his time at Paris' Station F and the first European blockchain project incubator, Chain Accelerator, before returning to Belgium to establish BE Blockchain SRL in late 2019—a blockchain consulting and development company. BE Blockchain quickly became a prominent player in Belgium, leading to the launch of WalChain, the official business network of the Walloon region. WalChain brings together the government, universities, clusters, and private players. Harold is also a reviewer at LN24 (Belgian livenews channel) and is invited to numerous conferences and workshops, including the European Interreg programme`,
+  },
+  {
+    organization: {
+      name: 'Horizen',
+    },
+    name: 'Luca Cermelli',
+    title: 'Corporate Strategy Manager',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/cermelli/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Horizen',
+    },
+    name: 'Giacomo Gussoni',
+    title: 'Project Manager',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/giacomo-gussoni-2b9837b4/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Hash Consulting',
+    },
+    name: 'Maxime Baron',
+    title: 'Co-Founder, COO',
+    socials: {
+      twitter: 'https://twitter.com/dlt_maximalist',
+    },
+    bio: '',
   },
 ]
