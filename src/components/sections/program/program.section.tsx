@@ -2,6 +2,7 @@ import React from 'react'
 
 import Container from '@/components/container/container.component'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import homePageconfig from '@/config/home.page'
 
@@ -47,13 +48,30 @@ const ProgramSection = () => {
                 alt={day.image.alt}
                 className="w-[16.7rem] h-[17.1rem] object-contain flex items-center justify-center"
               />
-              <div>
+              <div className="flex flex-col h-full">
                 <h4 className="font-black text-[2.9rem] text-center mb-[0.5rem]">
                   {day.dateString}
                 </h4>
-                <p className="font-semibold text-[2rem] text-center">
-                  {day.description}
-                </p>
+                <div className="mb-[1.78rem] flex-grow">
+                  <p className="font-semibold text-[2rem] text-center">
+                    {day.description}
+                  </p>
+                  {day.description2 && (
+                    <p className="font-semibold text-[2rem] text-center">
+                      {day.description2}
+                    </p>
+                  )}
+                  {day.description3 && (
+                    <p className="font-semibold text-[2rem] text-center">
+                      {day.description3}
+                    </p>
+                  )}
+                </div>
+                <div className="flex justify-center">
+                  <Link className="btn-outline" {...day.primaryCta}>
+                    {day.primaryCta.children}
+                  </Link>
+                </div>
               </div>
             </div>
           ))}

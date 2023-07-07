@@ -4,7 +4,7 @@ import React from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 // Components
-import SubAccordion from '../sub-accordion/sub-accordion.component'
+import SubAccordion23 from '../sub-accordion-23/sub-accordion-23.component'
 
 // Icons
 import { FiArrowDownCircle, FiArrowUpCircle } from 'react-icons/fi'
@@ -14,6 +14,7 @@ interface IProps {
   idx: number
   dayID: string
   item: {
+    type?: string
     id: string
     title: string
     items: {
@@ -31,7 +32,7 @@ interface IAccordionContainerProps {
   isActive: boolean
 }
 
-const Accordion: React.FC<IProps> = ({
+const Accordion23: React.FC<IProps> = ({
   item,
   showContent,
   openEventDayProgram,
@@ -94,7 +95,7 @@ const Accordion: React.FC<IProps> = ({
             className="color-[#ddd] overflow-hidden"
           >
             {item.items.map((i, idx) => (
-              <SubAccordion item={i} id={idx} key={idx} />
+              <SubAccordion23 item={i} id={idx} key={idx} />
             ))}
           </motion.div>
         )}
@@ -103,4 +104,4 @@ const Accordion: React.FC<IProps> = ({
   )
 }
 
-export default Accordion
+export default Accordion23

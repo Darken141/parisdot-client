@@ -52,7 +52,10 @@ export interface IProgramSectionProps {
   items: {
     image: ImageProps
     dateString: string
+    primaryCta: ILinkProps
     description: string
+    description2?: string
+    description3?: string
   }[]
 }
 

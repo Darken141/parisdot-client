@@ -192,7 +192,13 @@ const programSection: IProgramSectionProps = {
         placeholder: 'blur',
       },
       dateString: '18th: 9am - 8.30pm',
-      description: '(institutional networking event)',
+      primaryCta: {
+        children: 'Check PROGRAM',
+        href: '/program/#day1',
+      },
+      description: '(Program main stage)',
+      description2: '(Polkadot stage)',
+      description3: '(Rooftop)',
     },
     {
       image: {
@@ -201,7 +207,13 @@ const programSection: IProgramSectionProps = {
         placeholder: 'blur',
       },
       dateString: '19th: 9am - 10pm',
-      description: '(networking party event)',
+      primaryCta: {
+        children: 'Check PROGRAM',
+        href: '/program/#day2',
+      },
+      description: '(Program main stage)',
+      description2: '(Polkadot stage)',
+      description3: '(Rooftop)',
     },
     {
       image: {
@@ -210,7 +222,12 @@ const programSection: IProgramSectionProps = {
         placeholder: 'blur',
       },
       dateString: '20th: 9am - 4pm',
-      description: '(closing door ceremony)',
+      primaryCta: {
+        children: 'Check PROGRAM',
+        href: '/program/#day3',
+      },
+      description: '(Program main stage)',
+      description2: '(Polkadot stage)',
     },
   ],
 }

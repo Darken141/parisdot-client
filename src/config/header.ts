@@ -27,7 +27,7 @@ const headerConfig = {
     },
     {
       children: 'Program',
-      href: '/#program',
+      href: '/program',
       scroll: false,
     },
     {
