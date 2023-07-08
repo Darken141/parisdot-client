@@ -301,7 +301,7 @@ export const day1Program = [
   {
     heading: 'Rooftop',
     id: 'day-1-3',
-    title: 'program for 18.07',
+    title: 'Day 1 - 18th July',
     showContent: false,
     items: [
       {
@@ -316,9 +316,9 @@ export const day1Program = [
 
 export const day2Program = [
   {
-    heading: 'Day 2 - 19th July - Considering blockchain through concrete projects',
+    heading: 'Program main stage',
     id: 'day-2-1',
-    title: 'program for 19.07',
+    title: 'Day 2 - 19th July - Considering blockchain through concrete projects',
     showContent: false,
     items: [
       {
@@ -392,7 +392,7 @@ export const day2Program = [
   {
     heading: 'polkadot stage',
     id: 'day-2-2',
-    title: 'program for 19.07',
+    title: 'Day 2 - 19th July',
     showContent: false,
     items: [
       {
@@ -500,7 +500,7 @@ export const day2Program = [
   {
     heading: 'Rooftop',
     id: 'day-2-3',
-    title: 'program for 19.07',
+    title: 'Day 2 - 19th July',
     showContent: false,
     items: [
       {
@@ -517,7 +517,7 @@ export const day3Program = [
   {
     heading: 'program main stage',
     id: 'day-3-1',
-    title: 'program for 20.07',
+    title: 'Day 3 - 20th July - Interoperability as a mandatory goal',
     showContent: false,
     items: [
       {
@@ -577,7 +577,7 @@ export const day3Program = [
   {
     heading: 'polkadot stage',
     id: 'day-3-2',
-    title: 'program for 20.07',
+    title: 'Day 3 - 20th July',
     showContent: false,
     items: [
       {
