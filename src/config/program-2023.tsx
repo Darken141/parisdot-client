@@ -25,8 +25,8 @@ import Antoine from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/
 import Sandbox from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Sandbox.png'
 import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Arnaud-Kamphuis-Sandbox.jpeg'
 
-import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
-import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
+// import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
+// import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
 
 import Fabernovel from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Fabernovel.jpeg'
 import ArthurDeLaBruniere from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Arthur-de-la-Bruniere-EY-Fabernovel.png'
@@ -41,8 +41,8 @@ import Bader from '../../public/assets/speakers-pics/Bader-Youssef-Web3-Foundati
 import Bertrand from '../../public/assets/speakers-pics/Bertrand-Perez-Web3-Foundation/Bertrand-Perez-Web3-Foundation.jpeg'
 import Qinwen from '../../public/assets/speakers-pics/Qinwen-Wang-Web3-foundation/Qinwen-Wang-Web3-foundation.jpg'
 
-import Sora from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Sora.jpg'
-import Beno from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Beno-Van-Gansen-Sora.jpg'
+// import Sora from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Sora.jpg'
+// import Beno from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Beno-Van-Gansen-Sora.jpg'
 
 import Bifrost from '../../public/assets/speakers-pics/Christian-Vinciguerra-Bifrost/Bifrost.png'
 import Christian from '../../public/assets/speakers-pics/Christian-Vinciguerra-Bifrost/Christian-Vinciguerra-Bifrost.jpeg'
@@ -78,8 +78,8 @@ import Zeitgeist from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Zeitgei
 import Hutch from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Hutch-Zeitgeist.jpg'
 import James from '../../public/assets/speakers-pics/James-Preston-Zeitgeist/James-Zeitgeist.jpeg'
 
-import Hydradx from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/HydraDX.png'
-import Jakub from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/Jakub-Gregus-HydraDX.jpg'
+// import Hydradx from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/HydraDX.png'
+// import Jakub from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/Jakub-Gregus-HydraDX.jpg'
 
 import Dfg from '../../public/assets/speakers-pics/James-Wo-DFG/DFG.jpg'
 import JamesWo from '../../public/assets/speakers-pics/James-Wo-DFG/James-Wo-DFG.jpeg'
@@ -90,11 +90,11 @@ import Jason from '../../public/assets/speakers-pics/Jason-Tomlinson-Hummingbot/
 import JsSquare from '../../public/assets/speakers-pics/Joanna-Ling-Jsquare/Jsquare.jpg'
 import Joanna from '../../public/assets/speakers-pics/Joanna-Ling-Jsquare/JoannaLing-Jsquare.jpeg'
 
-import Cess from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/CESS.jpg'
-import John from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/John-Humphreys-Ramos-CESS.jpg'
+// import Cess from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/CESS.jpg'
+// import John from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/John-Humphreys-Ramos-CESS.jpg'
 
-import Ink from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Ink-Lang.jpg'
-import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzis-Ink-Lang.jpeg'
+// import Ink from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Ink-Lang.jpg'
+// import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzis-Ink-Lang.jpeg'
 
 import Tokeny from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Tokeny.jpg'
 import Luc from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Luc-Falempin-Tokeny.jpeg'
@@ -170,8 +170,8 @@ import Babacar from '../../public/assets/speakers-pics/Babacar-N-Seck-Petale/Bab
 import Cnrs from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/CNRS.jpg'
 import Primavera from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/Primavera-De-Filippi-CNRS.jpg'
 
-import Degaullefleurance from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/De-gaulle-Fleurance.jpg'
-import AnneMarechal from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/Anne-Marechal-De-gaulle-Fleurance.jpeg'
+// import Degaullefleurance from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/De-gaulle-Fleurance.jpg'
+// import AnneMarechal from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/Anne-Marechal-De-gaulle-Fleurance.jpeg'
 
 import Everdreamsoft from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Everdream-Soft.jpg'
 import Shaban from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Shaban-Shaame-Everdream-Soft.jpg'
@@ -251,7 +251,8 @@ export const day1Program = [
   {
     heading: 'program main stage',
     id: 'day-1-1',
-    title: 'Day 1 - 18th July - Understanding and Fostering Blockchain Adoption',
+    title:
+      'Day 1 - 18th July - Understanding and Fostering Blockchain Adoption',
     showContent: false,
     items: [
       {
@@ -305,25 +306,25 @@ export const day1Program = [
             },
             bio: '',
           },
-          {
-            organization: {
-              name: 'Web3 Foundation',
-              logo: {
-                src: Web3foundation,
-                alt: 'Web3 Foundation',
-              },
-            },
-            image: {
-              src: Bertrand,
-              alt: 'Bertrand Perez',
-            },
-            name: 'Bertrand Perez',
-            title: 'CEO',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/bertrandperez/',
-            },
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: 'Web3 Foundation',
+          //     logo: {
+          //       src: Web3foundation,
+          //       alt: 'Web3 Foundation',
+          //     },
+          //   },
+          //   image: {
+          //     src: Bertrand,
+          //     alt: 'Bertrand Perez',
+          //   },
+          //   name: 'Bertrand Perez',
+          //   title: 'CEO',
+          //   socials: {
+          //     linkedin: 'https://www.linkedin.com/in/bertrandperez/',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: 'Sandbox',
@@ -396,7 +397,8 @@ export const day1Program = [
             name: 'Aurora Duan',
             title: 'VP Sustainability',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/xiaoyi-aurora-d-36a58b10a/',
+              linkedin:
+                'https://www.linkedin.com/in/xiaoyi-aurora-d-36a58b10a/',
             },
             bio: 'Co-founder of Impactopia. VP Sustainability Blockchain@HEC. X-HEC Entrepreneurs.',
           },
@@ -406,7 +408,8 @@ export const day1Program = [
         type: 'Panel',
         id: 'item-4',
         time: '12:30 - 13:20',
-        title: 'Bridging the Gap: How to Drive Blockchain Adoption Among the General Public',
+        title:
+          'Bridging the Gap: How to Drive Blockchain Adoption Among the General Public',
         speakers: [
           {
             organization: {
@@ -434,7 +437,8 @@ export const day1Program = [
             name: 'Aurora Duan',
             title: 'VP Sustainability',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/xiaoyi-aurora-d-36a58b10a/',
+              linkedin:
+                'https://www.linkedin.com/in/xiaoyi-aurora-d-36a58b10a/',
             },
             bio: 'Co-founder of Impactopia. VP Sustainability Blockchain@HEC. X-HEC Entrepreneurs.',
           },
@@ -453,7 +457,8 @@ export const day1Program = [
             name: 'Athan Guo',
             title: 'President of Student Associations',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/athan-xiaocong-guo-350665174/',
+              linkedin:
+                'https://www.linkedin.com/in/athan-xiaocong-guo-350665174/',
             },
             bio: 'President of Student Associations of Blockchain@HEC. VC Investor @ BAI Capital/Generative Ventures. Independent investor in consumer and retail.',
           },
@@ -587,7 +592,8 @@ export const day1Program = [
             name: 'Arthur de la Brunière',
             title: 'Senior Strategist',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/arthur-de-la-bruni%C3%A8re/',
+              linkedin:
+                'https://www.linkedin.com/in/arthur-de-la-bruni%C3%A8re/',
             },
             bio: 'Senior Strategist - Blockchain & Cryptoactifs at EY Fabernovel',
           },
@@ -624,102 +630,103 @@ export const day1Program = [
         id: 'item-9',
         time: '15:30 - 16:20',
         title: '"How to avoid Chaos" the theory part',
-        speakers: [{
-          organization: {
-            name: 'Journal Du Coin',
-            logo: {
-              src: JournalDuCoin,
-              alt: 'Journal Du Coin',
+        speakers: [
+          {
+            organization: {
+              name: 'Journal Du Coin',
+              logo: {
+                src: JournalDuCoin,
+                alt: 'Journal Du Coin',
+              },
             },
-          },
-          image: {
-            src: Gregory,
-            alt: 'Grégory Guittard',
-          },
-          name: 'Grégory Guittard',
-          title: 'CEO',
-          socials: {
-            twitter: 'https://twitter.com/GregGuittard',
-          },
-          bio: 'CEO of Journal Du Coin',
-        },
-        {
-          organization: {
-            name: 'Barreau de Paris',
-            logo: {
-              src: Barreau,
-              alt: 'Barreau de Paris',
+            image: {
+              src: Gregory,
+              alt: 'Grégory Guittard',
             },
-          },
-          image: {
-            src: Sabine,
-            alt: 'Sabine Van Haecke Lepic',
-          },
-          name: 'Sabine Van Haecke Lepic',
-          title: 'Lecturer, Researcher',
-          socials: {
-            linkedin:
-              'https://www.linkedin.com/in/sabine-van-haecke-lepic-ph-d-37b735140/',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'CNRS',
-            logo: {
-              src: Cnrs,
-              alt: 'CNRS',
+            name: 'Grégory Guittard',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/GregGuittard',
             },
+            bio: 'CEO of Journal Du Coin',
           },
-          image: {
-            src: Primavera,
-            alt: 'Primavera De Filippi',
-          },
-          name: 'Primavera De Filippi',
-          title: 'Researcher',
-          socials: {
-            twitter: 'https://twitter.com/yaoeo',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Kleros',
-            logo: {
-              src: Kleros,
-              alt: 'Kleros',
+          {
+            organization: {
+              name: 'Barreau de Paris',
+              logo: {
+                src: Barreau,
+                alt: 'Barreau de Paris',
+              },
             },
-          },
-          image: {
-            src: Frederico,
-            alt: 'Federico Ast',
-          },
-          name: 'Federico Ast',
-          title: 'Founder, CEO',
-          socials: {
-            twitter: 'https://twitter.com/federicoast',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Petale',
-            logo: {
-              src: Petale,
-              alt: 'Petale',
+            image: {
+              src: Sabine,
+              alt: 'Sabine Van Haecke Lepic',
             },
+            name: 'Sabine Van Haecke Lepic',
+            title: 'Lecturer, Researcher',
+            socials: {
+              linkedin:
+                'https://www.linkedin.com/in/sabine-van-haecke-lepic-ph-d-37b735140/',
+            },
+            bio: '',
           },
-          image: {
-            src: Babacar,
-            alt: 'Babacar N. Seck',
+          {
+            organization: {
+              name: 'CNRS',
+              logo: {
+                src: Cnrs,
+                alt: 'CNRS',
+              },
+            },
+            image: {
+              src: Primavera,
+              alt: 'Primavera De Filippi',
+            },
+            name: 'Primavera De Filippi',
+            title: 'Researcher',
+            socials: {
+              twitter: 'https://twitter.com/yaoeo',
+            },
+            bio: '',
           },
-          name: 'Babacar N. Seck',
-          title: 'Founder, CEO',
-          socials: {
-            twitter: 'https://twitter.com/BabacarNSeck',
+          {
+            organization: {
+              name: 'Kleros',
+              logo: {
+                src: Kleros,
+                alt: 'Kleros',
+              },
+            },
+            image: {
+              src: Frederico,
+              alt: 'Federico Ast',
+            },
+            name: 'Federico Ast',
+            title: 'Founder, CEO',
+            socials: {
+              twitter: 'https://twitter.com/federicoast',
+            },
+            bio: '',
           },
-          bio: '',
-        },
+          {
+            organization: {
+              name: 'Petale',
+              logo: {
+                src: Petale,
+                alt: 'Petale',
+              },
+            },
+            image: {
+              src: Babacar,
+              alt: 'Babacar N. Seck',
+            },
+            name: 'Babacar N. Seck',
+            title: 'Founder, CEO',
+            socials: {
+              twitter: 'https://twitter.com/BabacarNSeck',
+            },
+            bio: '',
+          },
         ],
       },
       {
@@ -806,7 +813,8 @@ export const day1Program = [
             name: 'Marie-Line Ricard',
             title: 'Partner',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/marie-line-ricard-a64aa416/',
+              linkedin:
+                'https://www.linkedin.com/in/marie-line-ricard-a64aa416/',
             },
             bio: '',
           },
@@ -844,7 +852,8 @@ export const day1Program = [
             name: 'Arthur de la Brunière',
             title: 'Senior Strategist',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/arthur-de-la-bruni%C3%A8re/',
+              linkedin:
+                'https://www.linkedin.com/in/arthur-de-la-bruni%C3%A8re/',
             },
             bio: 'Senior Strategist - Blockchain & Cryptoactifs at EY Fabernovel',
           },
@@ -1141,32 +1150,32 @@ export const day1Program = [
           },
         ],
       },
-      {
-        id: 'item-11',
-        time: '14:45 - 15:00',
-        title: 'TBD',
-        speakers: [
-          {
-            organization: {
-              name: 'Apillon',
-              logo: {
-                src: Apillon,
-                alt: 'Apillon',
-              },
-            },
-            image: {
-              src: Matjaz,
-              alt: 'Matjaz Sobocan',
-            },
-            name: 'Matjaz Sobocan',
-            title: 'Co-Founder, CEO',
-            socials: {
-              twitter: 'https://twitter.com/Matjazs',
-            },
-            bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
-          },
-        ],
-      },
+      // {
+      //   id: 'item-11',
+      //   time: '14:45 - 15:00',
+      //   title: 'TBD',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'Apillon',
+      //         logo: {
+      //           src: Apillon,
+      //           alt: 'Apillon',
+      //         },
+      //       },
+      //       image: {
+      //         src: Matjaz,
+      //         alt: 'Matjaz Sobocan',
+      //       },
+      //       name: 'Matjaz Sobocan',
+      //       title: 'Co-Founder, CEO',
+      //       socials: {
+      //         twitter: 'https://twitter.com/Matjazs',
+      //       },
+      //       bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
+      //     },
+      //   ],
+      // },
       {
         id: 'item-12',
         time: '15:00 - 15:15',
@@ -1222,7 +1231,8 @@ export const day1Program = [
       {
         id: 'item-14',
         time: '15:30 - 15:45',
-        title: 'The interoperable future: How SORA Card brings tradfi to substrate DeFi',
+        title:
+          'The interoperable future: How SORA Card brings tradfi to substrate DeFi',
         speakers: [
           {
             organization: {
@@ -1308,32 +1318,32 @@ export const day1Program = [
           },
         ],
       },
-      {
-        id: 'item-17',
-        time: '16:15 - 16:30',
-        title: 'TBD',
-        speakers: [
-          {
-            organization: {
-              name: 'HydraDX',
-              logo: {
-                src: Hydradx,
-                alt: 'HydraDX',
-              },
-            },
-            image: {
-              src: Jakub,
-              alt: 'Jakub Gregus',
-            },
-            name: 'Jakub Gregus',
-            title: 'CEO',
-            socials: {
-              twitter: 'https://twitter.com/GregusJakub',
-            },
-            bio: '',
-          },
-        ],
-      },
+      // {
+      //   id: 'item-17',
+      //   time: '16:15 - 16:30',
+      //   title: 'TBD',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'HydraDX',
+      //         logo: {
+      //           src: Hydradx,
+      //           alt: 'HydraDX',
+      //         },
+      //       },
+      //       image: {
+      //         src: Jakub,
+      //         alt: 'Jakub Gregus',
+      //       },
+      //       name: 'Jakub Gregus',
+      //       title: 'CEO',
+      //       socials: {
+      //         twitter: 'https://twitter.com/GregusJakub',
+      //       },
+      //       bio: '',
+      //     },
+      //   ],
+      // },
     ],
   },
   {
@@ -1356,7 +1366,8 @@ export const day2Program = [
   {
     heading: 'Program main stage',
     id: 'day-2-1',
-    title: 'Day 2 - 19th July - Considering blockchain through concrete projects',
+    title:
+      'Day 2 - 19th July - Considering blockchain through concrete projects',
     showContent: false,
     items: [
       {
@@ -1581,25 +1592,27 @@ export const day2Program = [
         id: 'item-5',
         time: '13:00 - 13:30',
         title: 'gaming / EverdreamSoft',
-        speakers: [{
-          organization: {
-            name: 'Everdream soft',
-            logo: {
-              src: Everdreamsoft,
-              alt: 'Everdream soft',
+        speakers: [
+          {
+            organization: {
+              name: 'Everdream soft',
+              logo: {
+                src: Everdreamsoft,
+                alt: 'Everdream soft',
+              },
             },
+            image: {
+              src: Shaban,
+              alt: 'Shaban Shaame',
+            },
+            name: 'Shaban Shaame',
+            title: 'Founder - CEO',
+            socials: {
+              twitter: 'https://twitter.com/shaban_shaame',
+            },
+            bio: '',
           },
-          image: {
-            src: Shaban,
-            alt: 'Shaban Shaame',
-          },
-          name: 'Shaban Shaame',
-          title: 'Founder - CEO',
-          socials: {
-            twitter: 'https://twitter.com/shaban_shaame',
-          },
-          bio: '',
-        },],
+        ],
       },
       {
         id: 'item-6',
@@ -2002,10 +2015,9 @@ export const day2Program = [
       {
         id: 'item-12',
         time: '17:30 - 18:30',
-        title: 'Croissant corner',
-        speakers: [],
+        title: 'Croissant corner | Duplex with Cannes',
+        // speakers: [],
       },
-
     ],
   },
   {
@@ -2066,32 +2078,32 @@ export const day2Program = [
           },
         ],
       },
-      {
-        id: 'item-3',
-        time: '11:30 - 11:45',
-        title: 'TBD',
-        speakers: [
-          {
-            organization: {
-              name: 'Subsocial',
-              logo: {
-                src: Subsocial,
-                alt: 'Subsocial',
-              },
-            },
-            image: {
-              src: Alex,
-              alt: 'Alex',
-            },
-            name: 'Alex',
-            title: 'Founder',
-            socials: {
-              twitter: 'https://twitter.com/AlexSiman',
-            },
-            bio: '',
-          },
-        ],
-      },
+      // {
+      //   id: 'item-3',
+      //   time: '11:30 - 11:45',
+      //   title: 'TBD',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'Subsocial',
+      //         logo: {
+      //           src: Subsocial,
+      //           alt: 'Subsocial',
+      //         },
+      //       },
+      //       image: {
+      //         src: Alex,
+      //         alt: 'Alex',
+      //       },
+      //       name: 'Alex',
+      //       title: 'Founder',
+      //       socials: {
+      //         twitter: 'https://twitter.com/AlexSiman',
+      //       },
+      //       bio: '',
+      //     },
+      //   ],
+      // },
       {
         id: 'item-4',
         time: '11:45 - 12:00',
@@ -2284,7 +2296,8 @@ export const day2Program = [
       {
         id: 'item-12',
         time: '14:45 - 15:00',
-        title: 'How we will migrate millions of users to the polkadot ecosystem',
+        title:
+          'How we will migrate millions of users to the polkadot ecosystem',
         speakers: [
           {
             organization: {
@@ -2333,12 +2346,12 @@ export const day2Program = [
           },
         ],
       },
-      {
-        id: 'item-14',
-        time: '15:15 - 15:30',
-        title: 'TBD',
-        speakers: [],
-      },
+      // {
+      //   id: 'item-14',
+      //   time: '15:15 - 15:30',
+      //   title: 'TBD',
+      //   speakers: [],
+      // },
       {
         id: 'item-15',
         time: '15:30 - 15:45',
@@ -2365,38 +2378,38 @@ export const day2Program = [
           },
         ],
       },
-      {
-        id: 'item-16',
-        time: '15:45 - 16:00',
-        title: 'TBD',
-        speakers: [
-          {
-            organization: {
-              name: 'Interlay',
-              logo: {
-                src: Interlay,
-                alt: 'Interlay',
-              },
-            },
-            image: {
-              src: Alexei,
-              alt: 'Alexei Zamyatin',
-            },
-            name: 'Alexei Zamyatin',
-            title: 'Founder',
-            socials: {
-              twitter: 'https://twitter.com/alexeiZamyatin',
-            },
-            bio: '',
-          },
-        ],
-      },
-      {
-        id: 'item-17',
-        time: '16:00 - 16:15',
-        title: 'TBD',
-        speakers: [],
-      },
+      // {
+      //   id: 'item-16',
+      //   time: '15:45 - 16:00',
+      //   title: 'TBD',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'Interlay',
+      //         logo: {
+      //           src: Interlay,
+      //           alt: 'Interlay',
+      //         },
+      //       },
+      //       image: {
+      //         src: Alexei,
+      //         alt: 'Alexei Zamyatin',
+      //       },
+      //       name: 'Alexei Zamyatin',
+      //       title: 'Founder',
+      //       socials: {
+      //         twitter: 'https://twitter.com/alexeiZamyatin',
+      //       },
+      //       bio: '',
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 'item-17',
+      //   time: '16:00 - 16:15',
+      //   title: 'TBD',
+      //   speakers: [],
+      // },
       {
         id: 'item-18',
         time: '16:15 - 16:30',
@@ -2445,7 +2458,7 @@ export const day2Program = [
         type: "Party with DJ's",
         id: 'item-1',
         time: '18:30 - 22:30',
-        title: "DJ Buffalo - D’nis Mongeries <br/>Food and Drinks",
+        title: 'DJ Buffalo - D’nis Mongeries <br/>Food and Drinks',
       },
     ],
   },
@@ -2541,7 +2554,8 @@ export const day3Program = [
             name: 'David Millar-Durrant',
             title: 'Engineering Manager',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
+              linkedin:
+                'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
             },
             bio: '',
           },
@@ -2551,7 +2565,7 @@ export const day3Program = [
         id: 'item-4',
         time: '12:15 - 12:45',
         title: 'Tezos Keynote',
-        speakers: [],
+        // speakers: [],
       },
       {
         id: 'item-5',
@@ -2590,12 +2604,12 @@ export const day3Program = [
         time: '13:15 - 14:00',
         title: 'LUNCH',
       },
-      {
-        id: 'item-7',
-        time: '14:00 - 14:30',
-        title: 'TBD',
-        speakers: [],
-      },
+      // {
+      //   id: 'item-7',
+      //   time: '14:00 - 14:30',
+      //   title: 'TBD',
+      //   speakers: [],
+      // },
       {
         type: 'Panel',
         id: 'item-8',
@@ -2683,7 +2697,8 @@ export const day3Program = [
             name: 'David Millar-Durrant',
             title: 'Engineering Manager',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
+              linkedin:
+                'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
             },
             bio: '',
           },
@@ -2712,121 +2727,123 @@ export const day3Program = [
             core developer at Parity Technologies GmbH and contributed to the
             development of Parity-Ethereum, Substrate & Polkadot`,
           },
-        ]
-        ,
+        ],
       },
       {
         type: 'Panel',
         id: 'item-9',
         time: '15:15 - 16:00',
         title: 'Challenges in Interoperability - Gaming',
-        speakers: [{
-          organization: {
-            name: 'Everdream soft',
-            logo: {
-              src: Everdreamsoft,
-              alt: 'Everdream soft',
+        speakers: [
+          {
+            organization: {
+              name: 'Everdream soft',
+              logo: {
+                src: Everdreamsoft,
+                alt: 'Everdream soft',
+              },
             },
-          },
-          image: {
-            src: Shaban,
-            alt: 'Shaban Shaame',
-          },
-          name: 'Shaban Shaame',
-          title: 'Founder - CEO',
-          socials: {
-            twitter: 'https://twitter.com/shaban_shaame',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Chainsafe/Sygma',
-            logo: {
-              src: Chainsafe2,
-              alt: 'Chainsafe/Sygma',
+            image: {
+              src: Shaban,
+              alt: 'Shaban Shaame',
             },
-          },
-          image: {
-            src: Filip,
-            alt: 'Filip Nendl',
-          },
-          name: 'Filip Nendl',
-          title: 'Product BD lead',
-          socials: {
-            linkedin: 'https://www.linkedin.com/in/fnendl/',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Horizen',
-            logo: {
-              src: Horizen,
-              alt: 'Horizen',
+            name: 'Shaban Shaame',
+            title: 'Founder - CEO',
+            socials: {
+              twitter: 'https://twitter.com/shaban_shaame',
             },
+            bio: '',
           },
-          image: {
-            src: Luca,
-            alt: 'Luca Cermelli',
-          },
-          name: 'Luca Cermelli',
-          title: 'Corporate Strategy Manager',
-          socials: {
-            linkedin: 'https://www.linkedin.com/in/cermelli/',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Pagoda/NEAR',
-            logo: {
-              src: Near,
-              alt: 'Pagoda/NEAR',
+          {
+            organization: {
+              name: 'Chainsafe/Sygma',
+              logo: {
+                src: Chainsafe2,
+                alt: 'Chainsafe/Sygma',
+              },
             },
-          },
-          image: {
-            src: David,
-            alt: 'David Millar-Durrant',
-          },
-          name: 'David Millar-Durrant',
-          title: 'Engineering Manager',
-          socials: {
-            linkedin: 'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
-          },
-          bio: '',
-        },
-        {
-          organization: {
-            name: 'Polytope Labs',
-            logo: {
-              src: Polytope,
-              alt: 'Polytope Labs',
+            image: {
+              src: Filip,
+              alt: 'Filip Nendl',
             },
+            name: 'Filip Nendl',
+            title: 'Product BD lead',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/fnendl/',
+            },
+            bio: '',
           },
-          image: {
-            src: Seun,
-            alt: 'Seun Lanlege',
+          {
+            organization: {
+              name: 'Horizen',
+              logo: {
+                src: Horizen,
+                alt: 'Horizen',
+              },
+            },
+            image: {
+              src: Luca,
+              alt: 'Luca Cermelli',
+            },
+            name: 'Luca Cermelli',
+            title: 'Corporate Strategy Manager',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/cermelli/',
+            },
+            bio: '',
           },
-          name: 'Seun Lanlege',
-          title: 'Mad scientist',
-          socials: {
-            twitter: 'https://twitter.com/seunlanlege',
+          {
+            organization: {
+              name: 'Pagoda/NEAR',
+              logo: {
+                src: Near,
+                alt: 'Pagoda/NEAR',
+              },
+            },
+            image: {
+              src: David,
+              alt: 'David Millar-Durrant',
+            },
+            name: 'David Millar-Durrant',
+            title: 'Engineering Manager',
+            socials: {
+              linkedin:
+                'https://www.linkedin.com/in/david-millar-durrant-8a87b0103/',
+            },
+            bio: '',
           },
-          bio: `Seun Lanlege is the founder of Polytope Labs. Polytope Labs is a
+          {
+            organization: {
+              name: 'Polytope Labs',
+              logo: {
+                src: Polytope,
+                alt: 'Polytope Labs',
+              },
+            },
+            image: {
+              src: Seun,
+              alt: 'Seun Lanlege',
+            },
+            name: 'Seun Lanlege',
+            title: 'Mad scientist',
+            socials: {
+              twitter: 'https://twitter.com/seunlanlege',
+            },
+            bio: `Seun Lanlege is the founder of Polytope Labs. Polytope Labs is a
           blockchain research and development lab, and has been the recipient of
           multiple R&D Grants from the Web3 Foundation and Polkadot treasury.
           Their research focus includes blockchain protocols, cryptography and
           zero-knowledge proofs. Prior to starting Polytope Labs, Seun was a
           core developer at Parity Technologies GmbH and contributed to the
           development of Parity-Ethereum, Substrate & Polkadot`,
-        },],
+          },
+        ],
       },
       {
         id: 'item-10',
         time: '16:00 - 16:10',
-        title: 'Closing note',
-        speakers: [],
+        title: 'Closing note | ParisDotComm team',
+        // speakers: [],
       },
     ],
   },
@@ -2839,7 +2856,8 @@ export const day3Program = [
       {
         id: 'item-1',
         time: '11:00 - 11:15',
-        title: 'L2 for everything. How to unite all fragmented infrastructure under one roof in a way TCP/IP did it for a bright future of internet where we all lives now',
+        title:
+          'L2 for everything. How to unite all fragmented infrastructure under one roof in a way TCP/IP did it for a bright future of internet where we all lives now',
         speakers: [
           {
             organization: {
@@ -2854,12 +2872,12 @@ export const day3Program = [
           },
         ],
       },
-      {
-        id: 'item-2',
-        time: '11:15 - 11:30',
-        title: 'TBD',
-        speakers: [],
-      },
+      // {
+      //   id: 'item-2',
+      //   time: '11:15 - 11:30',
+      //   title: 'TBD',
+      //   speakers: [],
+      // },
       {
         id: 'item-3',
         time: '11:30 - 11:45',
@@ -3076,7 +3094,8 @@ export const day3Program = [
       {
         id: 'item-10',
         time: '14:15 - 14:30',
-        title: 'Share the Latam experience boosting the developer ecosystem, connecting with the private sector and empowering communities',
+        title:
+          'Share the Latam experience boosting the developer ecosystem, connecting with the private sector and empowering communities',
         speakers: [
           {
             organization: {
@@ -3095,12 +3114,12 @@ export const day3Program = [
           },
         ],
       },
-      {
-        id: 'item-11',
-        time: '14:30 - 14:45',
-        title: 'TBD',
-        speakers: [],
-      },
+      // {
+      //   id: 'item-11',
+      //   time: '14:30 - 14:45',
+      //   title: 'TBD',
+      //   speakers: [],
+      // },
       {
         id: 'item-12',
         time: '14:45 : 15:00',

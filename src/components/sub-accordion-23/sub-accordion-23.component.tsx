@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 import Image from 'next/image'
+import { FaUserAlt } from 'react-icons/fa'
 
 import { FiArrowRightCircle, FiArrowUpCircle } from 'react-icons/fi'
 
@@ -46,7 +47,7 @@ const SubAccordion23: React.FC<IProps> = ({ item }) => {
           <p>{item.time}</p>
         </div>
         <div
-          className={`pr-bullet hidden md:flex md:items-center md:justify-center w-[3.1rem] h-[3.1rem] bg-[${
+          className={`mt-[1.4rem] pr-bullet hidden md:flex md:items-center md:justify-center w-[3.1rem] h-[3.1rem] bg-[${
             showContent ? '#FF008C' : '#0C2746'
           }] rounded-full before:content-[""] before:absolute before:top-[4rem] before:w-[1px] before:h-full  before:bg-[#0C2746]`}
         />
@@ -109,7 +110,7 @@ const SubAccordion23: React.FC<IProps> = ({ item }) => {
                       key={idx}
                       className="grid grid-cols-[5.1rem,1fr] py-[1rem] gap-[1.1rem]"
                     >
-                      {speaker.image && (
+                      {speaker.image ? (
                         <figure className="speaker w-[5.1rem] h-[5.1rem] flex items-center justify-center rounded-[50%] overflow-hidden">
                           <Image
                             {...speaker.image}
@@ -117,6 +118,10 @@ const SubAccordion23: React.FC<IProps> = ({ item }) => {
                             className="w-full h-full object-cover"
                             placeholder="blur"
                           />
+                        </figure>
+                      ) : (
+                        <figure className="w-[5.1rem] h-[5.1rem] rounded-[50%] overflow-hidden flex items-center justify-center text-[2.5rem] bg-[#003059] text-[#041222] mb-[1.26rem]">
+                          <FaUserAlt />
                         </figure>
                       )}
                       <div>
