@@ -1957,6 +1957,23 @@ export const day2Program = [
           },
           {
             organization: {
+              name: 'BPI France',
+              // logo: {
+              //   src: KameaLabs,
+              //   alt: 'logion / Kamea Labs',
+              // },
+            },
+            // image: {
+            //   src: AndreaVistoli,
+            //   alt: 'Andréa Vistoli',
+            // },
+            name: 'Ivan De lastours',
+            title: '',
+            socials: {},
+            bio: ``,
+          },
+          {
+            organization: {
               name: 'Bifrost Finance',
               logo: {
                 src: Thomas,
