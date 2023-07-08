@@ -316,26 +316,77 @@ export const day1Program = [
 
 export const day2Program = [
   {
-    heading: 'program main stage',
+    heading: 'Day 2 - 19th July - Considering blockchain through concrete projects',
     id: 'day-2-1',
     title: 'program for 19.07',
     showContent: false,
     items: [
       {
         id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
+        time: '10:45 - 11:15',
+        title: 'The dual Polkadot VC Model',
       },
       {
+        type: 'Panel',
         id: 'item-2',
-        time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
+        time: '11:15 - 12:00',
+        title: 'VC panel',
       },
       {
-        id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
+        id: 'item-3',
+        time: '12:00 - 12:30',
+        title: 'gaming / Sandbox',
       },
+      {
+        id: 'item-4',
+        time: '12:30 - 13:00',
+        title: 'Web3 in Japan',
+      },
+      {
+        id: 'item-5',
+        time: '13:00 - 13:30',
+        title: 'gaming / EverdreamSoft',
+      },
+      {
+        id: 'item-6',
+        time: '13:30 - 14:15',
+        title: 'LUNCH',
+      },
+      {
+        type: 'Workshop',
+        id: 'item-7',
+        time: '14:15 - 15:00',
+        title: 'tokenisation / Tokeny',
+      },
+      {
+        type: 'Panel',
+        id: 'item-8',
+        time: '15:00 - 15:45',
+        title: 'Scaling community through different ecosystems',
+      },
+      {
+        type: 'Workshop',
+        id: 'item-9',
+        time: '15:45 - 16:30',
+        title: 'Real world assets and DeFi',
+      },
+      {
+        id: 'item-11',
+        time: '16:30 - 16:45',
+        title: 'BREAK',
+      },
+      {
+        type: 'Panel',
+        id: 'item-12',
+        time: '16:45 - 17:30',
+        title: 'DeFi and regulation',
+      },
+      {
+        id: 'item-12',
+        time: '17:30 - 18:30',
+        title: 'Croissant corner',
+      },
+      
     ],
   },
   {
@@ -346,18 +397,103 @@ export const day2Program = [
     items: [
       {
         id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
+        time: '11:00 - 11:15',
+        title: 'Talisman: How Polkadot enables a trailblazing wallet stack.',
       },
       {
         id: 'item-2',
-        time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
+        time: '11:15 - 11:30',
+        title: 'Taiga Protocol - Unifying Staking Derivatives',
+      },
+      {
+        id: 'item-3',
+        time: '11:30 - 11:45',
+        title: 'TBD',
+      },
+      {
+        id: 'item-4',
+        time: '11:45 - 12:00',
+        title: 'Tellor on Polkadot',
+      },
+      {
+        id: 'item-5',
+        time: '12:00 - 12:15',
+        title: 'Democratizing access to on-chain data',
+      },
+      {
+        id: 'item-6',
+        time: '12:30 - 12:45',
+        title: 'Universal interoperability',
+      },
+      {
+        id: 'item-7',
+        time: '12:45 - 13:00',
+        title: 'Zero-Knowledge Proofs using ink!',
       },
       {
         id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
+        time: '13:00 - 14:00',
+        title: 'LUNCH',
+      },
+      {
+        id: 'item-9',
+        time: '14:00 - 14:15',
+        title: 'Customizable NFTs',
+      },
+      {
+        id: 'item-10',
+        time: '14:15 - 14:30',
+        title: 'Community Building and Engagement',
+      },
+      {
+        id: 'item-11',
+        time: '14:30 - 14:45',
+        title: 'Liquidity Solutions on Polkadot Parachains & Apps',
+      },
+      {
+        id: 'item-12',
+        time: '14:45 - 15:00',
+        title: 'How we will migrate millions of users to the polkadot ecosystem',
+      },
+      {
+        id: 'item-13',
+        time: '15:00 - 15:15',
+        title: 'Saturn: one multisig, any blockchain.',
+      },
+      {
+        id: 'item-14',
+        time: '15:15 - 15:30',
+        title: 'TBD',
+      },
+      {
+        id: 'item-15',
+        time: '15:30 - 15:45',
+        title: 'WorkFi: The Future of Employment on the Blockchain',
+      },
+      {
+        id: 'item-16',
+        time: '15:45 - 16:00',
+        title: 'TBD',
+      },
+      {
+        id: 'item-17',
+        time: '16:00 - 16:15',
+        title: 'TBD',
+      },
+      {
+        id: 'item-18',
+        time: '16:15 - 16:30',
+        title: 'How do I become a Substrate Developer?',
+      },
+      {
+        id: 'item-19',
+        time: '16:30 - 18:00',
+        title: ' -- ',
+      },
+      {
+        id: 'item-20',
+        time: '18:00 - 20:00',
+        title: 'Cocktail',
       },
     ],
   },
@@ -368,19 +504,10 @@ export const day2Program = [
     showContent: false,
     items: [
       {
+        type: "Party with DJ's",
         id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
-      },
-      {
-        id: 'item-2',
-        time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
-      },
-      {
-        id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
+        time: '18:30 - 22:30',
+        title: "DJ Buffalo - D’nis Mongeries <br/>Food and Drinks",
       },
     ],
   },
@@ -395,18 +522,55 @@ export const day3Program = [
     items: [
       {
         id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
+        time: '10:45 - 11:15',
+        title: 'Chainsafe Keynote',
       },
       {
         id: 'item-2',
-        time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
+        time: '11:15 - 11:45',
+        title: 'Horizen Keynote',
       },
       {
+        id: 'item-3',
+        time: '11:45 - 12:15',
+        title: 'Near Keynote',
+      },
+      {
+        id: 'item-4',
+        time: '12:15 - 12:45',
+        title: 'Tezos Keynote',
+      },
+      {
+        id: 'item-5',
+        time: '12:45 - 13:15',
+        title: 'Polkadot Keynote',
+      },
+      {
+        id: 'item-6',
+        time: '13:15 - 14:00',
+        title: 'LUNCH',
+      },
+      {
+        id: 'item-7',
+        time: '14:00 - 14:30',
+        title: 'TBD',
+      },
+      {
+        type: 'Panel',
         id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
+        time: '14:30 - 15:15',
+        title: 'Challenges in Interoperability - DeFi / Users management',
+      },
+      {
+        type: 'Panel',
+        id: 'item-9',
+        time: '15:15 - 16:00',
+        title: 'Challenges in Interoperability - Gaming',
+      },
+      {
+        id: 'item-10',
+        time: '16:00 - 16:10',
+        title: 'Closing note',
       },
     ],
   },
@@ -418,41 +582,63 @@ export const day3Program = [
     items: [
       {
         id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
+        time: '11:00 - 11:15',
+        title: 'L2 for everything. How to unite all fragmented infrastructure under one roof in a way TCP/IP did it for a bright future of internet where we all lives now',
       },
       {
         id: 'item-2',
-        time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
+        time: '11:15 - 11:30',
+        title: 'TBD',
+      },
+      {
+        id: 'item-3',
+        time: '11:30 - 11:45',
+        title: 'Dive into Madara : The provable layer for substrate',
+      },
+      {
+        id: 'item-4',
+        time: '11:45 - 12:00',
+        title: 'Multisig wallet: challenges and adoption',
+      },
+      {
+        id: 'item-5',
+        time: '12:00 - 12:15',
+        title: 'Play To Earn is dead, long live Play & Earn!',
+      },
+      {
+        id: 'item-6',
+        time: '12:00 - 12:45',
+        title: 'Panel DeFi DIA',
+      },
+      {
+        id: 'item-7',
+        time: '12:45 - 13:45',
+        title: 'BREAK',
       },
       {
         id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
-      },
-    ],
-  },
-  {
-    heading: 'Rooftop',
-    id: 'day-3-3',
-    title: 'program for 20.07',
-    showContent: false,
-    items: [
-      {
-        id: 'item-1',
-        time: '12:00 - 14:00',
-        title: 'Registration - pillar room',
+        time: '13:45 - 14:00',
+        title: 'The imperative need to focus on User Acquisition',
       },
       {
-        id: 'item-2',
+        id: 'item-9',
         time: '14:00 - 14:15',
-        title: 'Opening the conference Hello from the organizers',
+        title: 'How to destroy scams with community powered certification',
       },
       {
-        id: 'item-8',
-        time: '18:30 - 18:35',
-        title: 'Closing',
+        id: 'item-10',
+        time: '14:15 - 14:30',
+        title: 'Share the Latam experience boosting the developer ecosystem, connecting with the private sector and empowering communities',
+      },
+      {
+        id: 'item-11',
+        time: '14:30 - 14:45',
+        title: 'TBD',
+      },
+      {
+        id: 'item-12',
+        time: '14:45 : 15:00',
+        title: 'Simulate OpenGov proposals with Chopsticks',
       },
     ],
   },
