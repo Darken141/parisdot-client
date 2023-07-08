@@ -305,7 +305,7 @@ export const day1Program = [
     showContent: false,
     items: [
       {
-        type: 'Networking session'
+        type: 'Networking session',
         id: 'item-1',
         time: '18:00 - 20:30',
         title: 'Food and Drinks"',
