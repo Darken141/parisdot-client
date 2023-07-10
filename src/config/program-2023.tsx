@@ -108,8 +108,8 @@ import Marin from '../../public/assets/speakers-pics/Marin-Enault-The-Great-Esca
 import SubQuery from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/SubQuery.jpg'
 import Marta from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/Marta-Adamczyk-Subquery.png'
 
-import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
-import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
+// import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
+// import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
 
 import Harbour from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Harbour-Industrial.jpg'
 import Max from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Max-Rebol-Harbour-Industrial-Capital.jpg'
@@ -203,8 +203,8 @@ import Braxton from '../../public/assets/speakers-pics/Braxton-Woodham-Amplica-L
 import LayerX from '../../public/assets/speakers-pics/Mario-Alves-LayerX/LayerX.png'
 import Mario from '../../public/assets/speakers-pics/Mario-Alves-LayerX/Mario-Alves-LayerX.jpg'
 
-import Subsocial from '../../public/assets/speakers-pics/Alex-Subsocial/Subsocial.png'
-import Alex from '../../public/assets/speakers-pics/Alex-Subsocial/Alex-Subsocial.png'
+// import Subsocial from '../../public/assets/speakers-pics/Alex-Subsocial/Subsocial.png'
+// import Alex from '../../public/assets/speakers-pics/Alex-Subsocial/Alex-Subsocial.png'
 
 import PiecesMarket from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Pieces.market.jpg'
 import Stanislaw from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Stanislaw-Herjan-Pieces.market.jpg'
@@ -239,9 +239,21 @@ import Ursula from '../../public/assets/speakers-pics/Ursula-O_Kuinghttons-Web3-
 import Horizen from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Horizen.jpg'
 import Luca from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Luca-Cermelli-Horizen.jpeg'
 import Giacomo from '../../public/assets/speakers-pics/Giacomo-Gussoni-Horizen/Giacomo-Gussoni-Horizen.jpeg'
+import ManonBoudoux from '../../public/assets/speakers-pics/Manon-Boudoux-Horizen/Manon Boudoux, Horizen.jpeg'
 
 import HashConsulting from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Hash-Consulting.jpg'
 import Maxime from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Maxime-Baron-Hash-Consulting.jpg'
+
+import Bpifrance from '../../public/assets/speakers-pics/Ivan-De-lastours-Bpifrance/Bpifrance.jpg'
+import Ivan from '../../public/assets/speakers-pics/Ivan-De-lastours-Bpifrance/Ivan-de-Lastours-Bpifrance.jpeg'
+
+import GoldenGate from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Golden-Gate.jpg'
+import Viktor from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Viktor-Ihnatiuk-Golden-Gate.jpg'
+
+import BEBlockchain from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/BE-Blockchain.jpeg'
+import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
+
+import Benjamin from '../../public/assets/speakers-pics/Benjamin-Bellity-Blockchain-Innov/Benjamin-Bellity-Blockchain-Innov.jpg'
 
 import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
 
@@ -375,12 +387,16 @@ export const day1Program = [
             organization: {
               name: 'Blockchain Innov',
             },
+            image: {
+              src: Benjamin,
+              alt: 'Benjamin Bellity',
+            },
             name: 'Benjamin Bellity',
             title: 'VP Corporate Relations & Events',
             socials: {
               linkedin: 'https://www.linkedin.com/in/bbellity/',
             },
-            bio: '',
+            bio: 'Founder & Product Manager @ W3 Art + VP @ Blockchain Innov. Happy husband and father. Mission: help society control progress and evolve with it, instead of being controlled by progress and suffer from it',
           },
           {
             organization: {
@@ -2522,6 +2538,14 @@ export const day3Program = [
           {
             organization: {
               name: 'Horizen',
+              logo: {
+                src: Horizen,
+                alt: 'Horizen',
+              },
+            },
+            image: {
+              src: ManonBoudoux,
+              alt: 'Manon Boudoux',
             },
             name: 'Manon Boudoux',
             title: 'Marketing',
@@ -2879,6 +2903,14 @@ export const day3Program = [
           {
             organization: {
               name: 'Golden Gate',
+              logo: {
+                src: GoldenGate,
+                alt: 'Golden Gate',
+              },
+            },
+            image: {
+              src: Viktor,
+              alt: 'Viktor Ihnatiuk',
             },
             name: 'Viktor Ihnatiuk',
             title: 'Co-Founder, CEO',
