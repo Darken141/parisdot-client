@@ -25,8 +25,9 @@ import Antoine from '../../public/assets/speakers-pics/Antoine-Sarraute-Wakweli/
 import Sandbox from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Sandbox.png'
 import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Arnaud-Kamphuis-Sandbox.jpeg'
 
-// import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
+import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
 // import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
+import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-Tezos.jpg'
 
 import Fabernovel from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Fabernovel.jpeg'
 import ArthurDeLaBruniere from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Arthur-de-la-Bruniere-EY-Fabernovel.png'
@@ -78,8 +79,8 @@ import Zeitgeist from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Zeitgei
 import Hutch from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Hutch-Zeitgeist.jpg'
 import James from '../../public/assets/speakers-pics/James-Preston-Zeitgeist/James-Zeitgeist.jpeg'
 
-// import Hydradx from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/HydraDX.png'
-// import Jakub from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/Jakub-Gregus-HydraDX.jpg'
+import Hydradx from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/HydraDX.png'
+import Jakub from '../../public/assets/speakers-pics/Jakub-Gregus-HydraDX/Jakub-Gregus-HydraDX.jpg'
 
 import Dfg from '../../public/assets/speakers-pics/James-Wo-DFG/DFG.jpg'
 import JamesWo from '../../public/assets/speakers-pics/James-Wo-DFG/James-Wo-DFG.jpeg'
@@ -93,8 +94,8 @@ import Joanna from '../../public/assets/speakers-pics/Joanna-Ling-Jsquare/Joanna
 // import Cess from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/CESS.jpg'
 // import John from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/John-Humphreys-Ramos-CESS.jpg'
 
-// import Ink from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Ink-Lang.jpg'
-// import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzis-Ink-Lang.jpeg'
+import Ink from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Ink-Lang.jpg'
+import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzis-Ink-Lang.jpeg'
 
 import Tokeny from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Tokeny.jpg'
 import Luc from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Luc-Falempin-Tokeny.jpeg'
@@ -108,8 +109,8 @@ import Marin from '../../public/assets/speakers-pics/Marin-Enault-The-Great-Esca
 import SubQuery from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/SubQuery.jpg'
 import Marta from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/Marta-Adamczyk-Subquery.png'
 
-// import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
-// import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
+import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
+import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
 
 import Harbour from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Harbour-Industrial.jpg'
 import Max from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Max-Rebol-Harbour-Industrial-Capital.jpg'
@@ -203,8 +204,8 @@ import Braxton from '../../public/assets/speakers-pics/Braxton-Woodham-Amplica-L
 import LayerX from '../../public/assets/speakers-pics/Mario-Alves-LayerX/LayerX.png'
 import Mario from '../../public/assets/speakers-pics/Mario-Alves-LayerX/Mario-Alves-LayerX.jpg'
 
-// import Subsocial from '../../public/assets/speakers-pics/Alex-Subsocial/Subsocial.png'
-// import Alex from '../../public/assets/speakers-pics/Alex-Subsocial/Alex-Subsocial.png'
+import Subsocial from '../../public/assets/speakers-pics/Alex-Subsocial/Subsocial.png'
+import Alex from '../../public/assets/speakers-pics/Alex-Subsocial/Alex-Subsocial.png'
 
 import PiecesMarket from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Pieces.market.jpg'
 import Stanislaw from '../../public/assets/speakers-pics/Stanislaw-Herjan-Pieces.market/Stanislaw-Herjan-Pieces.market.jpg'
@@ -250,8 +251,8 @@ import Ivan from '../../public/assets/speakers-pics/Ivan-De-lastours-Bpifrance/I
 import GoldenGate from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Golden-Gate.jpg'
 import Viktor from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Viktor-Ihnatiuk-Golden-Gate.jpg'
 
-import BEBlockchain from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/BE-Blockchain.jpeg'
-import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
+// import BEBlockchain from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/BE-Blockchain.jpeg'
+// import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
 
 import Benjamin from '../../public/assets/speakers-pics/Benjamin-Bellity-Blockchain-Innov/Benjamin-Bellity-Blockchain-Innov.jpg'
 
@@ -613,6 +614,55 @@ export const day1Program = [
             },
             bio: 'Senior Strategist - Blockchain & Cryptoactifs at EY Fabernovel',
           },
+          {
+            organization: {
+              name: 'Chaos DAO',
+              // logo: {
+              //   src: KameaLabs,
+              //   alt: 'logion / Kamea Labs',
+              // },
+            },
+            image: {
+              src: AndreaVistoli,
+              alt: 'Andréa Vistoli',
+            },
+            name: 'Andréa Vistoli',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/SanchezCrypto',
+            },
+            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+          },
+          {
+            organization: {
+              name: '',
+            },
+
+            name: 'TBD - FFPB partner',
+            title: '',
+            socials: {},
+            bio: ``,
+          },
+          {
+            organization: {
+              name: '',
+            },
+
+            name: 'TBD - FFPB partner',
+            title: '',
+            socials: {},
+            bio: ``,
+          },
+          {
+            organization: {
+              name: '',
+            },
+
+            name: 'Open slot',
+            title: '',
+            socials: {},
+            bio: ``,
+          },
         ],
       },
       {
@@ -742,6 +792,16 @@ export const day1Program = [
               twitter: 'https://twitter.com/BabacarNSeck',
             },
             bio: '',
+          },
+          {
+            organization: {
+              name: '',
+            },
+
+            name: 'TBD',
+            title: '',
+            socials: {},
+            bio: ``,
           },
         ],
       },
@@ -917,6 +977,16 @@ export const day1Program = [
               linkedin: 'https://www.linkedin.com/in/christophedebeukelaer/',
             },
             bio: '',
+          },
+          {
+            organization: {
+              name: '',
+            },
+
+            name: 'TBD - political guest',
+            title: '',
+            socials: {},
+            bio: ``,
           },
         ],
       },
@@ -1170,27 +1240,27 @@ export const day1Program = [
         id: 'item-11',
         time: '14:45 - 15:00',
         title: 'TBD',
-        // speakers: [
-        //   {
-        //     organization: {
-        //       name: 'Apillon',
-        //       logo: {
-        //         src: Apillon,
-        //         alt: 'Apillon',
-        //       },
-        //     },
-        //     image: {
-        //       src: Matjaz,
-        //       alt: 'Matjaz Sobocan',
-        //     },
-        //     name: 'Matjaz Sobocan',
-        //     title: 'Co-Founder, CEO',
-        //     socials: {
-        //       twitter: 'https://twitter.com/Matjazs',
-        //     },
-        //     bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
-        //   },
-        // ],
+        speakers: [
+          {
+            organization: {
+              name: 'Apillon',
+              logo: {
+                src: Apillon,
+                alt: 'Apillon',
+              },
+            },
+            image: {
+              src: Matjaz,
+              alt: 'Matjaz Sobocan',
+            },
+            name: 'Matjaz Sobocan',
+            title: 'Co-Founder, CEO',
+            socials: {
+              twitter: 'https://twitter.com/Matjazs',
+            },
+            bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
+          },
+        ],
       },
       {
         id: 'item-12',
@@ -1338,27 +1408,27 @@ export const day1Program = [
         id: 'item-17',
         time: '16:15 - 16:30',
         title: 'TBD',
-        // speakers: [
-        //   {
-        //     organization: {
-        //       name: 'HydraDX',
-        //       logo: {
-        //         src: Hydradx,
-        //         alt: 'HydraDX',
-        //       },
-        //     },
-        //     image: {
-        //       src: Jakub,
-        //       alt: 'Jakub Gregus',
-        //     },
-        //     name: 'Jakub Gregus',
-        //     title: 'CEO',
-        //     socials: {
-        //       twitter: 'https://twitter.com/GregusJakub',
-        //     },
-        //     bio: '',
-        //   },
-        // ],
+        speakers: [
+          {
+            organization: {
+              name: 'HydraDX',
+              logo: {
+                src: Hydradx,
+                alt: 'HydraDX',
+              },
+            },
+            image: {
+              src: Jakub,
+              alt: 'Jakub Gregus',
+            },
+            name: 'Jakub Gregus',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/GregusJakub',
+            },
+            bio: '',
+          },
+        ],
       },
     ],
   },
@@ -1639,8 +1709,21 @@ export const day2Program = [
         type: 'Workshop',
         id: 'item-7',
         time: '14:15 - 15:00',
-        title: 'tokenisation / Tokeny',
+        title:
+          'Case Study: How ERC3643 Brings Compliance to Real-World Asset Tokenization',
         speakers: [
+          {
+            organization: {
+              name: 'Deloitte',
+            },
+            name: 'Jérémy Stevance',
+            title: 'Manager Blockchain & Web3',
+            socials: {
+              linkedin:
+                'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-stevance-084464121/',
+            },
+            bio: '',
+          },
           {
             organization: {
               name: 'Tokeny',
@@ -1678,6 +1761,17 @@ export const day2Program = [
               twitter: 'https://twitter.com/A_gutierro',
             },
             bio: 'With over 15 years of experience, Alejandro brings extensive experience in supply chain finance, supply chain management and procurement. He has worked with high-profile companies and is widely recognized for his expertise in the DeFi field. Alejandro is also an early adopter of real-world assets in DeFi, having worked with Maker Dao and Centrifuge, among others. He is committed to driving innovation and creating new opportunities for businesses in the evolving financial landscape. With his leadership, Defactor Labs is focused on providing accessible and secure investment opportunities while promoting a more inclusive and equitable economy.',
+          },
+          {
+            organization: {
+              name: 'Tokeny',
+            },
+            name: 'Joachim Lebrun',
+            title: 'Head of Blockchain',
+            socials: {
+              twitter: 'https://twitter.com/LebrunJoachim',
+            },
+            bio: '',
           },
         ],
       },
@@ -1939,6 +2033,16 @@ export const day2Program = [
             },
             bio: 'Experienced entrepreneur with a demonstrated history of founding, funding, managing and coaching high growth companies and innovative teams. Practicing in various sectors with an emphasis on financial technology companies and customer relationship strategy.',
           },
+
+          {
+            organization: {
+              name: '',
+            },
+            name: 'Open slot',
+            title: '',
+            socials: {},
+            bio: '',
+          },
         ],
       },
       {
@@ -1973,20 +2077,22 @@ export const day2Program = [
           },
           {
             organization: {
-              name: 'BPI France',
-              // logo: {
-              //   src: KameaLabs,
-              //   alt: 'logion / Kamea Labs',
-              // },
+              name: 'Bpifrance',
+              logo: {
+                src: Bpifrance,
+                alt: 'Bpifrance',
+              },
             },
-            // image: {
-            //   src: AndreaVistoli,
-            //   alt: 'Andréa Vistoli',
-            // },
-            name: 'Ivan De lastours',
-            title: '',
-            socials: {},
-            bio: ``,
+            image: {
+              src: Ivan,
+              alt: 'Ivan de Lastours',
+            },
+            name: 'Ivan de Lastours',
+            title: 'Blockchain/Crypto Lead',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/ivandelastours/',
+            },
+            bio: '',
           },
           {
             organization: {
@@ -2040,6 +2146,36 @@ export const day2Program = [
             title: 'Researcher',
             socials: {
               twitter: 'https://twitter.com/yaoeo',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Archethic Blockchain',
+            },
+            name: 'Sebastien Dupont',
+            title: 'CEO',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/sebastien-dupont-uniris/',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'HydraDX',
+              logo: {
+                src: Hydradx,
+                alt: 'HydraDX',
+              },
+            },
+            image: {
+              src: Jakub,
+              alt: 'Jakub Gregus',
+            },
+            name: 'Jakub Gregus',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/GregusJakub',
             },
             bio: '',
           },
@@ -2115,27 +2251,27 @@ export const day2Program = [
         id: 'item-3',
         time: '11:30 - 11:45',
         title: 'TBD',
-        // speakers: [
-        //   {
-        //     organization: {
-        //       name: 'Subsocial',
-        //       logo: {
-        //         src: Subsocial,
-        //         alt: 'Subsocial',
-        //       },
-        //     },
-        //     image: {
-        //       src: Alex,
-        //       alt: 'Alex',
-        //     },
-        //     name: 'Alex',
-        //     title: 'Founder',
-        //     socials: {
-        //       twitter: 'https://twitter.com/AlexSiman',
-        //     },
-        //     bio: '',
-        //   },
-        // ],
+        speakers: [
+          {
+            organization: {
+              name: 'Subsocial',
+              logo: {
+                src: Subsocial,
+                alt: 'Subsocial',
+              },
+            },
+            image: {
+              src: Alex,
+              alt: 'Alex',
+            },
+            name: 'Alex',
+            title: 'Founder',
+            socials: {
+              twitter: 'https://twitter.com/AlexSiman',
+            },
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-4',
@@ -2383,7 +2519,17 @@ export const day2Program = [
         id: 'item-14',
         time: '15:15 - 15:30',
         title: 'TBD',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: '',
+            },
+            name: 'TBD - t3rn',
+            title: '',
+            socials: {},
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-15',
@@ -2415,33 +2561,43 @@ export const day2Program = [
         id: 'item-16',
         time: '15:45 - 16:00',
         title: 'TBD',
-        // speakers: [
-        //   {
-        //     organization: {
-        //       name: 'Interlay',
-        //       logo: {
-        //         src: Interlay,
-        //         alt: 'Interlay',
-        //       },
-        //     },
-        //     image: {
-        //       src: Alexei,
-        //       alt: 'Alexei Zamyatin',
-        //     },
-        //     name: 'Alexei Zamyatin',
-        //     title: 'Founder',
-        //     socials: {
-        //       twitter: 'https://twitter.com/alexeiZamyatin',
-        //     },
-        //     bio: '',
-        //   },
-        // ],
+        speakers: [
+          {
+            organization: {
+              name: 'Interlay',
+              logo: {
+                src: Interlay,
+                alt: 'Interlay',
+              },
+            },
+            image: {
+              src: Alexei,
+              alt: 'Alexei Zamyatin',
+            },
+            name: 'Alexei Zamyatin',
+            title: 'Founder',
+            socials: {
+              twitter: 'https://twitter.com/alexeiZamyatin',
+            },
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-17',
         time: '16:00 - 16:15',
         title: 'TBD',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: '',
+            },
+            name: 'TBD - Wormhole',
+            title: '',
+            socials: {},
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-18',
@@ -2606,7 +2762,27 @@ export const day3Program = [
         id: 'item-4',
         time: '12:15 - 12:45',
         title: 'Tezos Keynote',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: 'Tezos',
+              logo: {
+                src: Tezos,
+                alt: 'Tezos',
+              },
+            },
+            image: {
+              src: ThomasLetan,
+              alt: 'Thomas Letan',
+            },
+            name: 'Thomas Letan',
+            title: 'L2 Team Lead',
+            socials: {
+              twitter: 'https://twitter.com/_lthms_',
+            },
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-5',
@@ -2649,7 +2825,17 @@ export const day3Program = [
         id: 'item-7',
         time: '14:00 - 14:30',
         title: 'TBD',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: '',
+            },
+            name: 'TBD',
+            title: '',
+            socials: {},
+            bio: '',
+          },
+        ],
       },
       {
         type: 'Panel',
@@ -2768,6 +2954,36 @@ export const day3Program = [
             core developer at Parity Technologies GmbH and contributed to the
             development of Parity-Ethereum, Substrate & Polkadot`,
           },
+          {
+            organization: {
+              name: 'Tezos',
+              logo: {
+                src: Tezos,
+                alt: 'Tezos',
+              },
+            },
+            image: {
+              src: ThomasLetan,
+              alt: 'Thomas Letan',
+            },
+            name: 'Thomas Letan',
+            title: 'L2 Team Lead',
+            socials: {
+              twitter: 'https://twitter.com/_lthms_',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Archethic Blockchain',
+            },
+            name: 'Sebastien Dupont',
+            title: 'CEO',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/sebastien-dupont-uniris/',
+            },
+            bio: '',
+          },
         ],
       },
       {
@@ -2878,6 +3094,43 @@ export const day3Program = [
           core developer at Parity Technologies GmbH and contributed to the
           development of Parity-Ethereum, Substrate & Polkadot`,
           },
+          {
+            organization: {
+              name: 'Tezos',
+              logo: {
+                src: Tezos,
+                alt: 'Tezos',
+              },
+            },
+            image: {
+              src: ThomasLetan,
+              alt: 'Thomas Letan',
+            },
+            name: 'Thomas Letan',
+            title: 'L2 Team Lead',
+            socials: {
+              twitter: 'https://twitter.com/_lthms_',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: '',
+            },
+            name: 'TBD',
+            title: '',
+            socials: {},
+            bio: '',
+          },
+          {
+            organization: {
+              name: '',
+            },
+            name: 'Open slot',
+            title: '',
+            socials: {},
+            bio: '',
+          },
         ],
       },
       {
@@ -2925,7 +3178,27 @@ export const day3Program = [
         id: 'item-2',
         time: '11:15 - 11:30',
         title: 'TBD',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: 'Jsquare',
+              logo: {
+                src: JsSquare,
+                alt: 'Jsquare',
+              },
+            },
+            image: {
+              src: Joanna,
+              alt: 'Joanna Liang',
+            },
+            name: 'Joanna Liang',
+            title: 'Co-founde, CEO',
+            socials: {
+              twitter: ' https://twitter.com/joanna_jsquare',
+            },
+            bio: 'Joanna has been involved in blockchain technology and digital assets investment for the past five years. She has keen business intuition and excellent business negotiation skills. Prior to Jsquare, she was Head of Investment at DFG, where she managed DFG’s crypto lending and liquidity mining business, participated in the $DOT investment negotiations, and led the establishment of the Polkadot Ecosystem Fund, bringing hundreds of millions of dollars in investment and business income to the company. Joanna continues to invest in and offer strategic advisory to top-rated projects at all stages.',
+          },
+        ],
       },
       {
         id: 'item-3',
@@ -3081,6 +3354,34 @@ export const day3Program = [
             },
             bio: '',
           },
+          {
+            organization: {
+              name: 'HydraDX',
+              logo: {
+                src: Hydradx,
+                alt: 'HydraDX',
+              },
+            },
+            image: {
+              src: Jakub,
+              alt: 'Jakub Gregus',
+            },
+            name: 'Jakub Gregus',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/GregusJakub',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: '',
+            },
+            name: 'Open slot',
+            title: '',
+            socials: {},
+            bio: '',
+          },
         ],
       },
       {
@@ -3167,7 +3468,27 @@ export const day3Program = [
         id: 'item-11',
         time: '14:30 - 14:45',
         title: 'TBD',
-        // speakers: [],
+        speakers: [
+          {
+            organization: {
+              name: 'Ink! Lang',
+              logo: {
+                src: Ink,
+                alt: 'Ink! Lang',
+              },
+            },
+            image: {
+              src: Lea,
+              alt: 'Léa Narzis',
+            },
+            name: 'Léa Narzis',
+            title: 'Developper',
+            socials: {
+              twitter: 'https://twitter.com/leana_pple',
+            },
+            bio: '',
+          },
+        ],
       },
       {
         id: 'item-12',
@@ -3192,6 +3513,33 @@ export const day3Program = [
               twitter: 'https://twitter.com/theAlbertoV19',
             },
             bio: `Alberto Viera, is Head of developer relations at Purestake, a development team for Moonbeam. Formerly a Mechanical Engineer from Venezuela, Ph.D. in Internal Combustion Engines, you might ask yourself, "What is this guy doing here?" I've been passionate about crypto since late 2013, reading and educating myself about the tech. I decided to go full-time in crypto around January 2020, doing courses, reading, and engaging with mostly the Ethereum tech stack. I started as the Developer Relations Manager at Moonbeam in June 2020, and I've never looked back. As the old saying goes: "Do what you love, and you won't have to work a day in your life."`,
+          },
+        ],
+      },
+      {
+        id: 'item-13',
+        time: '15:00 : 15:15',
+        title:
+          'Disrupting investment and accelerating adoption through compliance & self-custody',
+        speakers: [
+          {
+            organization: {
+              name: 'logion / Kamea Labs',
+              logo: {
+                src: KameaLabs,
+                alt: 'logion / Kamea Labs',
+              },
+            },
+            image: {
+              src: AndreaVistoli,
+              alt: 'Andréa Vistoli',
+            },
+            name: 'Andréa Vistoli',
+            title: 'CTO',
+            socials: {
+              twitter: 'https://twitter.com/SanchezCrypto',
+            },
+            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
           },
         ],
       },
