@@ -44,6 +44,9 @@ export default function SpeakerOverview({ speaker }: IProps) {
         <div className="flex justify-between gap-[2rem]">
           <div className="">
             <div>
+              <p className="text-[1.4rem] leading-none opacity-70">
+                {speaker.title}
+              </p>
               <h3 className="font-bold text-[2rem]">{speaker.name}</h3>
               {speaker.organization.link ? (
                 <a

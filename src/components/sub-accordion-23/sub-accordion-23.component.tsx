@@ -108,7 +108,7 @@ const SubAccordion23: React.FC<IProps> = ({ item }) => {
                   item.speakers.map((speaker, idx) => (
                     <div
                       key={idx}
-                      className="grid grid-cols-[5.1rem,1fr] py-[1rem] gap-[1.1rem]"
+                      className="grid grid-cols-[5.1rem,1fr] py-[1rem] gap-[1.1rem] items-center"
                     >
                       {speaker.image ? (
                         <figure className="speaker w-[5.1rem] h-[5.1rem] flex items-center justify-center rounded-[50%] overflow-hidden">
@@ -138,6 +138,9 @@ const SubAccordion23: React.FC<IProps> = ({ item }) => {
                         ) : (
                           <p>{speaker.organization.name}</p>
                         )} */}
+                        <p className="text-[1.4rem] leading-none opacity-70">
+                          {speaker.title}
+                        </p>
                         <h4 className="text-[2rem] font-black uppercase">
                           {speaker.name}
                         </h4>

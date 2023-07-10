@@ -27,6 +27,7 @@ import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Ar
 
 import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
 import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
+import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-Tezos.jpg'
 
 import Fabernovel from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Fabernovel.jpeg'
 import ArthurDeLaBruniere from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Arthur-de-la-Bruniere-EY-Fabernovel.png'
@@ -1569,7 +1570,7 @@ export const speakers: ISpeaker[] = [
       alt: 'Andréa Vistoli',
     },
     name: 'Andréa Vistoli',
-    title: 'CEO',
+    title: 'CTO',
     socials: {
       twitter: 'https://twitter.com/SanchezCrypto',
     },
@@ -2075,6 +2076,68 @@ export const speakers: ISpeaker[] = [
     title: 'Blockchain/Crypto Lead',
     socials: {
       linkedin: 'https://www.linkedin.com/in/ivandelastours/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Tezos',
+      logo: {
+        src: Tezos,
+        alt: 'Tezos',
+      },
+    },
+    image: {
+      src: ThomasLetan,
+      alt: 'Thomas Letan',
+    },
+    name: 'Thomas Letan',
+    title: 'L2 Team Lead',
+    socials: {
+      twitter: 'https://twitter.com/_lthms_',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Scytale',
+    },
+    name: 'Christoph Da Kampe',
+    title: '',
+    socials: {},
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Archethic Blockchain',
+    },
+    name: 'Sebastien Dupont',
+    title: 'CEO',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/sebastien-dupont-uniris/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Deloitte',
+    },
+    name: 'Jérémy Stevance',
+    title: 'Manager Blockchain & Web3',
+    socials: {
+      linkedin:
+        'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-stevance-084464121/',
+    },
+    bio: '',
+  },
+  {
+    organization: {
+      name: 'Tokeny',
+    },
+    name: 'Joachim Lebrun',
+    title: 'Head of Blockchain',
+    socials: {
+      twitter: 'https://twitter.com/LebrunJoachim',
     },
     bio: '',
   },
