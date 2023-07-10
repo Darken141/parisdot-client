@@ -2491,7 +2491,7 @@ export const day2Program = [
         type: "Party with DJ's",
         id: 'item-1',
         time: '18:30 - 22:30',
-        title: 'DJ Buffalo - D’nis Mongeries <br/>Food and Drinks',
+        title: 'DJ Buffalo - D’nis Mongeries Food and Drinks',
       },
     ],
   },
