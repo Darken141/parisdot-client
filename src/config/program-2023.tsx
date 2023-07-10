@@ -1150,32 +1150,32 @@ export const day1Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-11',
-      //   time: '14:45 - 15:00',
-      //   title: 'TBD',
-      //   speakers: [
-      //     {
-      //       organization: {
-      //         name: 'Apillon',
-      //         logo: {
-      //           src: Apillon,
-      //           alt: 'Apillon',
-      //         },
-      //       },
-      //       image: {
-      //         src: Matjaz,
-      //         alt: 'Matjaz Sobocan',
-      //       },
-      //       name: 'Matjaz Sobocan',
-      //       title: 'Co-Founder, CEO',
-      //       socials: {
-      //         twitter: 'https://twitter.com/Matjazs',
-      //       },
-      //       bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
-      //     },
-      //   ],
-      // },
+      {
+        id: 'item-11',
+        time: '14:45 - 15:00',
+        title: 'TBD',
+        // speakers: [
+        //   {
+        //     organization: {
+        //       name: 'Apillon',
+        //       logo: {
+        //         src: Apillon,
+        //         alt: 'Apillon',
+        //       },
+        //     },
+        //     image: {
+        //       src: Matjaz,
+        //       alt: 'Matjaz Sobocan',
+        //     },
+        //     name: 'Matjaz Sobocan',
+        //     title: 'Co-Founder, CEO',
+        //     socials: {
+        //       twitter: 'https://twitter.com/Matjazs',
+        //     },
+        //     bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
+        //   },
+        // ],
+      },
       {
         id: 'item-12',
         time: '15:00 - 15:15',
@@ -1318,32 +1318,32 @@ export const day1Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-17',
-      //   time: '16:15 - 16:30',
-      //   title: 'TBD',
-      //   speakers: [
-      //     {
-      //       organization: {
-      //         name: 'HydraDX',
-      //         logo: {
-      //           src: Hydradx,
-      //           alt: 'HydraDX',
-      //         },
-      //       },
-      //       image: {
-      //         src: Jakub,
-      //         alt: 'Jakub Gregus',
-      //       },
-      //       name: 'Jakub Gregus',
-      //       title: 'CEO',
-      //       socials: {
-      //         twitter: 'https://twitter.com/GregusJakub',
-      //       },
-      //       bio: '',
-      //     },
-      //   ],
-      // },
+      {
+        id: 'item-17',
+        time: '16:15 - 16:30',
+        title: 'TBD',
+        // speakers: [
+        //   {
+        //     organization: {
+        //       name: 'HydraDX',
+        //       logo: {
+        //         src: Hydradx,
+        //         alt: 'HydraDX',
+        //       },
+        //     },
+        //     image: {
+        //       src: Jakub,
+        //       alt: 'Jakub Gregus',
+        //     },
+        //     name: 'Jakub Gregus',
+        //     title: 'CEO',
+        //     socials: {
+        //       twitter: 'https://twitter.com/GregusJakub',
+        //     },
+        //     bio: '',
+        //   },
+        // ],
+      },
     ],
   },
   {
@@ -2095,32 +2095,32 @@ export const day2Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-3',
-      //   time: '11:30 - 11:45',
-      //   title: 'TBD',
-      //   speakers: [
-      //     {
-      //       organization: {
-      //         name: 'Subsocial',
-      //         logo: {
-      //           src: Subsocial,
-      //           alt: 'Subsocial',
-      //         },
-      //       },
-      //       image: {
-      //         src: Alex,
-      //         alt: 'Alex',
-      //       },
-      //       name: 'Alex',
-      //       title: 'Founder',
-      //       socials: {
-      //         twitter: 'https://twitter.com/AlexSiman',
-      //       },
-      //       bio: '',
-      //     },
-      //   ],
-      // },
+      {
+        id: 'item-3',
+        time: '11:30 - 11:45',
+        title: 'TBD',
+        // speakers: [
+        //   {
+        //     organization: {
+        //       name: 'Subsocial',
+        //       logo: {
+        //         src: Subsocial,
+        //         alt: 'Subsocial',
+        //       },
+        //     },
+        //     image: {
+        //       src: Alex,
+        //       alt: 'Alex',
+        //     },
+        //     name: 'Alex',
+        //     title: 'Founder',
+        //     socials: {
+        //       twitter: 'https://twitter.com/AlexSiman',
+        //     },
+        //     bio: '',
+        //   },
+        // ],
+      },
       {
         id: 'item-4',
         time: '11:45 - 12:00',
@@ -2363,12 +2363,12 @@ export const day2Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-14',
-      //   time: '15:15 - 15:30',
-      //   title: 'TBD',
-      //   speakers: [],
-      // },
+      {
+        id: 'item-14',
+        time: '15:15 - 15:30',
+        title: 'TBD',
+        // speakers: [],
+      },
       {
         id: 'item-15',
         time: '15:30 - 15:45',
@@ -2395,38 +2395,38 @@ export const day2Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-16',
-      //   time: '15:45 - 16:00',
-      //   title: 'TBD',
-      //   speakers: [
-      //     {
-      //       organization: {
-      //         name: 'Interlay',
-      //         logo: {
-      //           src: Interlay,
-      //           alt: 'Interlay',
-      //         },
-      //       },
-      //       image: {
-      //         src: Alexei,
-      //         alt: 'Alexei Zamyatin',
-      //       },
-      //       name: 'Alexei Zamyatin',
-      //       title: 'Founder',
-      //       socials: {
-      //         twitter: 'https://twitter.com/alexeiZamyatin',
-      //       },
-      //       bio: '',
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 'item-17',
-      //   time: '16:00 - 16:15',
-      //   title: 'TBD',
-      //   speakers: [],
-      // },
+      {
+        id: 'item-16',
+        time: '15:45 - 16:00',
+        title: 'TBD',
+        // speakers: [
+        //   {
+        //     organization: {
+        //       name: 'Interlay',
+        //       logo: {
+        //         src: Interlay,
+        //         alt: 'Interlay',
+        //       },
+        //     },
+        //     image: {
+        //       src: Alexei,
+        //       alt: 'Alexei Zamyatin',
+        //     },
+        //     name: 'Alexei Zamyatin',
+        //     title: 'Founder',
+        //     socials: {
+        //       twitter: 'https://twitter.com/alexeiZamyatin',
+        //     },
+        //     bio: '',
+        //   },
+        // ],
+      },
+      {
+        id: 'item-17',
+        time: '16:00 - 16:15',
+        title: 'TBD',
+        // speakers: [],
+      },
       {
         id: 'item-18',
         time: '16:15 - 16:30',
@@ -2621,12 +2621,12 @@ export const day3Program = [
         time: '13:15 - 14:00',
         title: 'LUNCH',
       },
-      // {
-      //   id: 'item-7',
-      //   time: '14:00 - 14:30',
-      //   title: 'TBD',
-      //   speakers: [],
-      // },
+      {
+        id: 'item-7',
+        time: '14:00 - 14:30',
+        title: 'TBD',
+        // speakers: [],
+      },
       {
         type: 'Panel',
         id: 'item-8',
@@ -2889,12 +2889,12 @@ export const day3Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-2',
-      //   time: '11:15 - 11:30',
-      //   title: 'TBD',
-      //   speakers: [],
-      // },
+      {
+        id: 'item-2',
+        time: '11:15 - 11:30',
+        title: 'TBD',
+        // speakers: [],
+      },
       {
         id: 'item-3',
         time: '11:30 - 11:45',
@@ -3131,12 +3131,12 @@ export const day3Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-11',
-      //   time: '14:30 - 14:45',
-      //   title: 'TBD',
-      //   speakers: [],
-      // },
+      {
+        id: 'item-11',
+        time: '14:30 - 14:45',
+        title: 'TBD',
+        // speakers: [],
+      },
       {
         id: 'item-12',
         time: '14:45 : 15:00',

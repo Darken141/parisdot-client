@@ -170,8 +170,10 @@ import Babacar from '../../public/assets/speakers-pics/Babacar-N-Seck-Petale/Bab
 import Cnrs from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/CNRS.jpg'
 import Primavera from '../../public/assets/speakers-pics/Primavera-De-Filippi-CNRS/Primavera-De-Filippi-CNRS.jpg'
 
-import Degaullefleurance from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/De-gaulle-Fleurance.jpg'
-import AnneMarechal from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/Anne-Marechal-De-gaulle-Fleurance.jpeg'
+// import Degaullefleurance from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/De-gaulle-Fleurance.jpg'
+// import AnneMarechal from '../../public/assets/speakers-pics/Anne-Marechal-De-gaulle-Fleurance/Anne-Marechal-De-gaulle-Fleurance.jpeg'
+
+import Benjamin from '../../public/assets/speakers-pics/Benjamin-Bellity-Blockchain-Innov/Benjamin-Bellity-Blockchain-Innov.jpg'
 
 import Everdreamsoft from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Everdream-Soft.jpg'
 import Shaban from '../../public/assets/speakers-pics/Shaban-Shaame-Everdream-Soft/Shaban-Shaame-Everdream-Soft.jpg'
@@ -383,12 +385,16 @@ export const speakers: ISpeaker[] = [
     organization: {
       name: 'Blockchain Innov',
     },
+    image: {
+      src: Benjamin,
+      alt: 'Benjamin Bellity',
+    },
     name: 'Benjamin Bellity',
     title: 'VP Corporate Relations & Events',
     socials: {
       linkedin: 'https://www.linkedin.com/in/bbellity/',
     },
-    bio: '',
+    bio: 'Founder & Product Manager @ W3 Art + VP @ Blockchain Innov. Happy husband and father. Mission: help society control progress and evolve with it, instead of being controlled by progress and suffer from it',
   },
   {
     organization: {
@@ -1483,25 +1489,25 @@ export const speakers: ISpeaker[] = [
     },
     bio: '',
   },
-  {
-    organization: {
-      name: 'De gaulle Fleurance',
-      logo: {
-        src: Degaullefleurance,
-        alt: 'De gaulle Fleurance',
-      },
-    },
-    image: {
-      src: AnneMarechal,
-      alt: 'Anne Maréchal',
-    },
-    name: 'Anne Maréchal',
-    title: 'Lawyer',
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/anne-mar%C3%A9chal-46ba8897/',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'De gaulle Fleurance',
+  //     logo: {
+  //       src: Degaullefleurance,
+  //       alt: 'De gaulle Fleurance',
+  //     },
+  //   },
+  //   image: {
+  //     src: AnneMarechal,
+  //     alt: 'Anne Maréchal',
+  //   },
+  //   name: 'Anne Maréchal',
+  //   title: 'Lawyer',
+  //   socials: {
+  //     linkedin: 'https://www.linkedin.com/in/anne-mar%C3%A9chal-46ba8897/',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'Everdream soft',
