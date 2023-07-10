@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Container from '@/components/container/container.component'
 import topRightIlu from '../../../public/assets/hero-section/top-right-ilu.png'
 import topLeftIlu from '../../../public/assets/hero-section/top-left-ilu.png'
-import { FaUserAlt } from 'react-icons/fa'
+import SpeakerOverview from '@/components/speaker-overview/speaker-overview.component'
 
 import { speakersPageConfig } from '@/config/speakers.page'
 import { speakers } from '@/config/speakers'
@@ -54,56 +54,9 @@ export default function Home() {
 
       <section className="mb-[19.9rem]">
         <Container>
-          <div className="grid gap-[2rem] gap-y-[6rem] md:gap-[6rem] grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="grid gap-[2rem] gap-y-[6rem] md:gap-[6rem] grid-cols-1 md:grid-cols-2">
             {speakers.map((speaker, idx) => (
-              <article key={idx} className="flex flex-col items-center">
-                {speaker.image ? (
-                  <figure className="w-[11rem] h-[11rem] rounded-[50%] overflow-hidden mb-[1.26rem]">
-                    <Image
-                      {...speaker.image}
-                      alt={speaker.image.alt}
-                      className="w-full h-full object-cover"
-                      placeholder="blur"
-                    />
-                  </figure>
-                ) : (
-                  <figure className="w-[11rem] h-[11rem] rounded-[50%] overflow-hidden flex items-center justify-center text-[6rem] bg-[#003059] text-[#041222] mb-[1.26rem]">
-                    <FaUserAlt />
-                  </figure>
-                )}
-                {speaker.socials ? (
-                  <a
-                    href={speaker.socials.linkedin ?? speaker.socials.twitter}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-center transition-all hover:text-[#ff008c]"
-                  >
-                    <h3 className="font-bold text-[1.7rem] text-center">
-                      {speaker.name}
-                    </h3>
-                  </a>
-                ) : (
-                  <h3 className="font-bold text-[1.7rem] text-center">
-                    {speaker.name}
-                  </h3>
-                )}
-                {speaker.organization.link ? (
-                  <a
-                    href={speaker.organization.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-center transition-all hover:text-[#ff008c]"
-                  >
-                    <p className="text-[1.6rem] text-center">
-                      {speaker?.organization.name}
-                    </p>
-                  </a>
-                ) : (
-                  <p className="text-[1.6rem] text-center">
-                    {speaker?.organization.name}
-                  </p>
-                )}
-              </article>
+              <SpeakerOverview key={idx} speaker={speaker} />
             ))}
           </div>
         </Container>
