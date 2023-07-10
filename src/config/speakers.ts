@@ -241,9 +241,19 @@ import Ursula from '../../public/assets/speakers-pics/Ursula-O_Kuinghttons-Web3-
 import Horizen from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Horizen.jpg'
 import Luca from '../../public/assets/speakers-pics/Luca-Cermelli-Horizen/Luca-Cermelli-Horizen.jpeg'
 import Giacomo from '../../public/assets/speakers-pics/Giacomo-Gussoni-Horizen/Giacomo-Gussoni-Horizen.jpeg'
+import ManonBoudoux from '../../public/assets/speakers-pics/Manon-Boudoux-Horizen/Manon Boudoux, Horizen.jpeg'
 
 import HashConsulting from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Hash-Consulting.jpg'
 import Maxime from '../../public/assets/speakers-pics/Maxime-Baron-Hash-Consulting/Maxime-Baron-Hash-Consulting.jpg'
+
+import Bpifrance from '../../public/assets/speakers-pics/Ivan-De-lastours-Bpifrance/Bpifrance.jpg'
+import Ivan from '../../public/assets/speakers-pics/Ivan-De-lastours-Bpifrance/Ivan-de-Lastours-Bpifrance.jpeg'
+
+import GoldenGate from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Golden-Gate.jpg'
+import Viktor from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gate/Viktor-Ihnatiuk-Golden-Gate.jpg'
+
+import BEBlockchain from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/BE-Blockchain.jpeg'
+import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
 
 import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
 
@@ -1606,6 +1616,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Horizen',
+      logo: {
+        src: Horizen,
+        alt: 'Horizen',
+      },
+    },
+    image: {
+      src: ManonBoudoux,
+      alt: 'Manon Boudoux',
     },
     name: 'Manon Boudoux',
     title: 'Marketing',
@@ -1894,6 +1912,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Golden Gate',
+      logo: {
+        src: GoldenGate,
+        alt: 'Golden Gate',
+      },
+    },
+    image: {
+      src: Viktor,
+      alt: 'Viktor Ihnatiuk',
     },
     name: 'Viktor Ihnatiuk',
     title: 'Co-Founder, CEO',
@@ -1943,6 +1969,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'BE Blockchain',
+      logo: {
+        src: BEBlockchain,
+        alt: 'BE Blockchain',
+      },
+    },
+    image: {
+      src: Harold,
+      alt: 'Harold Kinet',
     },
     name: 'Harold Kinet',
     title: 'Co-Founder, CEO',
@@ -2024,5 +2058,24 @@ export const speakers: ISpeaker[] = [
     title: 'Community Manager',
     socials: {},
     bio: '15+ years of IT consulting in Tradfi. 2 years in crypto community management & Defi degen',
+  },
+  {
+    organization: {
+      name: 'Bpifrance',
+      logo: {
+        src: Bpifrance,
+        alt: 'Bpifrance',
+      },
+    },
+    image: {
+      src: Ivan,
+      alt: 'Ivan de Lastours',
+    },
+    name: 'Ivan de Lastours',
+    title: 'Blockchain/Crypto Lead',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/ivandelastours/',
+    },
+    bio: '',
   },
 ]
