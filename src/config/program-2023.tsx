@@ -27,7 +27,7 @@ import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Ar
 
 import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
 // import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
-import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-Tezos.jpg'
+import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-2Tezos.jpg'
 
 import Fabernovel from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Fabernovel.jpeg'
 import ArthurDeLaBruniere from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Arthur-de-la-Bruniere-EY-Fabernovel.png'
@@ -99,6 +99,7 @@ import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzi
 
 import Tokeny from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Tokeny.jpg'
 import Luc from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Luc-Falempin-Tokeny.jpeg'
+import Joachim from '../../public/assets/speakers-pics/Joachim-Lebrun-Tokeny/Joachim-Lebrun-Tokeny.jpg'
 
 import CrustNetwork from '../../public/assets/speakers-pics/Ludwig-Trappe-Crust-Network/Crust-Network.jpg'
 import Ludwig from '../../public/assets/speakers-pics/Ludwig-Trappe-Crust-Network/Ludwig-Trappe-Crust-Network.jpeg'
@@ -214,6 +215,7 @@ import JournalDuCoin from '../../public/assets/speakers-pics/Gregory-Guittard-Jo
 import Gregory from '../../public/assets/speakers-pics/Gregory-Guittard-Journal-Du-Coin/Gregory-Guittard-Journal-Du-Coin.jpg'
 
 import Deloitte from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Deloitte.png'
+import Jeremy from '../../public/assets/speakers-pics/Jeremy-Stevance-Deloitte/Jeremy-Stevance-Deloitte.jpeg'
 import Marie from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Marie-Line-Ricard-Deloitte.jpeg'
 
 import Subsquid from '../../public/assets/speakers-pics/Dima-Zhelezov-Subsquid/Subsquid.jpg'
@@ -255,6 +257,11 @@ import Viktor from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gat
 // import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
 
 import Benjamin from '../../public/assets/speakers-pics/Benjamin-Bellity-Blockchain-Innov/Benjamin-Bellity-Blockchain-Innov.jpg'
+import ChrisKampe from '../../public/assets/speakers-pics/Christoph-Da-Kampe-Scytale /Christoph-Da-Kampe-Scytale.jpg'
+
+import Archethic from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Archethic-Blockchain.jpg'
+import Sebastien from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Sebastien-Dupont-Archethic-Blockchain.jpeg'
+import Irvin from '../../public/assets/speakers-pics/Irvin-Polkahaus/BAYC_Bored_Ape_Yacht_Club_7738.png'
 
 import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
 
@@ -319,25 +326,25 @@ export const day1Program = [
             },
             bio: '',
           },
-          // {
-          //   organization: {
-          //     name: 'Web3 Foundation',
-          //     logo: {
-          //       src: Web3foundation,
-          //       alt: 'Web3 Foundation',
-          //     },
-          //   },
-          //   image: {
-          //     src: Bertrand,
-          //     alt: 'Bertrand Perez',
-          //   },
-          //   name: 'Bertrand Perez',
-          //   title: 'CEO',
-          //   socials: {
-          //     linkedin: 'https://www.linkedin.com/in/bertrandperez/',
-          //   },
-          //   bio: '',
-          // },
+          {
+            organization: {
+              name: 'Web3 Foundation',
+              logo: {
+                src: Web3foundation,
+                alt: 'Web3 Foundation',
+              },
+            },
+            image: {
+              src: Bertrand,
+              alt: 'Bertrand Perez',
+            },
+            name: 'Bertrand Perez',
+            title: 'CEO',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/bertrandperez/',
+            },
+            bio: '',
+          },
           {
             organization: {
               name: 'Sandbox',
@@ -432,12 +439,16 @@ export const day1Program = [
             organization: {
               name: 'Blockchain Innov',
             },
+            image: {
+              src: Benjamin,
+              alt: 'Benjamin Bellity',
+            },
             name: 'Benjamin Bellity',
             title: 'VP Corporate Relations & Events',
             socials: {
               linkedin: 'https://www.linkedin.com/in/bbellity/',
             },
-            bio: '',
+            bio: 'Founder & Product Manager @ W3 Art + VP @ Blockchain Innov. Happy husband and father. Mission: help society control progress and evolve with it, instead of being controlled by progress and suffer from it',
           },
           {
             organization: {
@@ -616,22 +627,18 @@ export const day1Program = [
           },
           {
             organization: {
-              name: 'Chaos DAO',
-              // logo: {
-              //   src: KameaLabs,
-              //   alt: 'logion / Kamea Labs',
-              // },
+              name: 'Novasama Technologies',
             },
-            image: {
-              src: AndreaVistoli,
-              alt: 'Andréa Vistoli',
-            },
-            name: 'Andréa Vistoli',
-            title: 'CEO',
+            name: 'Leemo',
+            title: 'Chief Nice Officer',
             socials: {
-              twitter: 'https://twitter.com/SanchezCrypto',
+              twitter: 'https://twitter.com/LeemoXD',
             },
-            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+            bio: `Chief Nice Officer at Novasama Technologies
+            Doing cool stuff with Robonomics
+            Co-founder of ChaosDAO
+            Co-founder GM Parachain
+            Council over at HydraDX & Basilisk`,
           },
           {
             organization: {
@@ -1627,10 +1634,14 @@ export const day2Program = [
             organization: {
               name: 'Scytale',
             },
+            image: {
+              src: ChrisKampe,
+              alt: 'Christoph Da Kampe',
+            },
             name: 'Christoph Da Kampe',
             title: '',
             socials: {},
-            bio: '',
+            bio: 'Christoph worked throughout his almost 30 year long career in various functions for Erste Group Vienna. He started as an executive assistant for the CEO before he gained experience in various departments like Controlling, Accounting and Interest Rate Risk Management. For more than 10 years he built the Alternative Investment Division together with Mark into a respected European player with almost USD 2bn under management. During that time the team launched multiple products with focus on Emerging Markets. After that he became the Head of Product Development and Sales leading teams in Vienna and London. After a short stint in helping the Chief Risk Officer to sell off a portfolio of non-performing loans, he headed the Private Wealth Management department.',
           },
         ],
       },
@@ -1727,6 +1738,14 @@ export const day2Program = [
           {
             organization: {
               name: 'Deloitte',
+              logo: {
+                src: Deloitte,
+                alt: 'Deloitte',
+              },
+            },
+            image: {
+              src: Jeremy,
+              alt: 'Jérémy Stevance',
             },
             name: 'Jérémy Stevance',
             title: 'Manager Blockchain & Web3',
@@ -1777,6 +1796,14 @@ export const day2Program = [
           {
             organization: {
               name: 'Tokeny',
+              logo: {
+                src: Tokeny,
+                alt: 'Tokeny',
+              },
+            },
+            image: {
+              src: Joachim,
+              alt: 'Joachim Lebrun',
             },
             name: 'Joachim Lebrun',
             title: 'Head of Blockchain',
@@ -1918,10 +1945,16 @@ export const day2Program = [
             organization: {
               name: 'Polkahaus',
             },
-            name: 'Irwin',
-            title: '',
-            socials: {},
-            bio: '',
+            image: {
+              src: Irvin,
+              alt: 'Irvin',
+            },
+            name: 'Irvin',
+            title: 'Co-founder',
+            socials: {
+              twitter: 'https://twitter.com/irvinxyz',
+            },
+            bio: `Irvin is a co-founder of Polka Häus — one of the growing communities in the Polkadot ecosystem, and a co-founder of PizzaDAO — creators of the RarePizzas project, who's hosted a global Bitcoin pizza party world wide. He’s also CEO and Co-Founder of OpenDive Technologies, a R&D innovation firm focused on developing immersive reality, gaming, and blockchain infrastructure. OpenDive is developing Mayhem League — a cross-IP first-person shooter with over a dozen NFT collections integrated in beta, OpenEra — a fantasy MMORG, and Kiyomi — an interactive augmented reality application to display and play with your digital collectibles. Irvin is also an advisor to Metaplex Foundation. In 2015, Irvin led blockchain strategy at Goldman Sachs, and in 2012 he co-founded Decentral Bank, an early Bitcoin startup with a successful exit in 2014. He's published numerous academic papers in the fields of robotics, and blockchain technology during his PhD candidacy.`,
           },
           {
             organization: {
@@ -1952,18 +1985,18 @@ export const day2Program = [
         speakers: [
           {
             organization: {
-              name: 'logion / Kamea Labs',
-              logo: {
-                src: KameaLabs,
-                alt: 'logion / Kamea Labs',
-              },
+              name: 'logion',
+              // logo: {
+              //   src: KameaLabs,
+              //   alt: 'logion',
+              // },
             },
             image: {
               src: AndreaVistoli,
               alt: 'Andréa Vistoli',
             },
             name: 'Andréa Vistoli',
-            title: 'CEO',
+            title: '',
             socials: {
               twitter: 'https://twitter.com/SanchezCrypto',
             },
@@ -2070,10 +2103,10 @@ export const day2Program = [
         speakers: [
           {
             organization: {
-              name: 'logion / Kamea Labs',
+              name: 'Kamea Labs',
               logo: {
                 src: KameaLabs,
-                alt: 'logion / Kamea Labs',
+                alt: 'Kamea Labs',
               },
             },
             image: {
@@ -2081,7 +2114,7 @@ export const day2Program = [
               alt: 'Andréa Vistoli',
             },
             name: 'Andréa Vistoli',
-            title: 'CEO',
+            title: 'CTO',
             socials: {
               twitter: 'https://twitter.com/SanchezCrypto',
             },
@@ -2164,6 +2197,14 @@ export const day2Program = [
           {
             organization: {
               name: 'Archethic Blockchain',
+              logo: {
+                src: Archethic,
+                alt: 'Archethic Blockchain',
+              },
+            },
+            image: {
+              src: Sebastien,
+              alt: 'Sebastien Dupont',
             },
             name: 'Sebastien Dupont',
             title: 'CEO',
@@ -2401,7 +2442,7 @@ export const day2Program = [
         speakers: [
           {
             organization: {
-              name: 'Unique',
+              name: 'Unique Network',
               logo: {
                 src: UniqueNetwork,
                 alt: 'Unique',
@@ -2411,8 +2452,8 @@ export const day2Program = [
               src: Alik,
               alt: 'Alik',
             },
-            name: 'Alik Tsikhashev',
-            title: '',
+            name: 'Alik',
+            title: 'Product Manager',
             socials: {
               twitter: 'https://twitter.com/kalddet',
             },
@@ -2705,7 +2746,7 @@ export const day3Program = [
         speakers: [
           {
             organization: {
-              name: 'Horizen',
+              name: 'Horizen Global',
               logo: {
                 src: Horizen,
                 alt: 'Horizen',
@@ -2724,7 +2765,7 @@ export const day3Program = [
           },
           {
             organization: {
-              name: 'Horizen',
+              name: 'Horizen Labs',
               logo: {
                 src: Horizen,
                 alt: 'Horizen',
@@ -2912,7 +2953,7 @@ export const day3Program = [
           },
           {
             organization: {
-              name: 'Horizen',
+              name: 'Horizen Global',
             },
             name: 'Manon Boudoux',
             title: 'Marketing',
@@ -3044,7 +3085,7 @@ export const day3Program = [
           },
           {
             organization: {
-              name: 'Horizen',
+              name: 'Horizen Labs',
               logo: {
                 src: Horizen,
                 alt: 'Horizen',
@@ -3536,10 +3577,10 @@ export const day3Program = [
         speakers: [
           {
             organization: {
-              name: 'logion / Kamea Labs',
+              name: 'Kamea Labs',
               logo: {
                 src: KameaLabs,
-                alt: 'logion / Kamea Labs',
+                alt: 'Kamea Labs',
               },
             },
             image: {
@@ -3552,6 +3593,28 @@ export const day3Program = [
               twitter: 'https://twitter.com/SanchezCrypto',
             },
             bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+          },
+        ],
+      },
+      {
+        id: 'item-14',
+        time: '15:15 : 15:30',
+        title: 'TBD',
+        speakers: [
+          {
+            organization: {
+              name: 'Novasama Technologies',
+            },
+            name: 'Leemo',
+            title: 'Chief Nice Officer',
+            socials: {
+              twitter: 'https://twitter.com/LeemoXD',
+            },
+            bio: `Chief Nice Officer at Novasama Technologies
+            Doing cool stuff with Robonomics
+            Co-founder of ChaosDAO
+            Co-founder GM Parachain
+            Council over at HydraDX & Basilisk`,
           },
         ],
       },

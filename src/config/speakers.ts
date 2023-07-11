@@ -27,7 +27,7 @@ import Arnaud from '../../public/assets/speakers-pics/Arnaud-Kamphuis-Sandbox/Ar
 
 import Tezos from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Tezos.jpg'
 import ArthurBreitman from '../../public/assets/speakers-pics/Arthur-Breitman-Tezos/Arthur-Breitman-Tezos.jpg'
-import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-Tezos.jpg'
+import ThomasLetan from '../../public/assets/speakers-pics/Thomas-Letan-Tezos/Thomas-Letan-2Tezos.jpg'
 
 import Fabernovel from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Fabernovel.jpeg'
 import ArthurDeLaBruniere from '../../public/assets/speakers-pics/Arthur-de-la-Bruniere-ey-Fabernovel/Arthur-de-la-Bruniere-EY-Fabernovel.png'
@@ -99,6 +99,7 @@ import Lea from '../../public/assets/speakers-pics/Lea-Narzis-Ink-Lang/Lea-Narzi
 
 import Tokeny from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Tokeny.jpg'
 import Luc from '../../public/assets/speakers-pics/Luc-Falempin-Tokeny/Luc-Falempin-Tokeny.jpeg'
+import Joachim from '../../public/assets/speakers-pics/Joachim-Lebrun-Tokeny/Joachim-Lebrun-Tokeny.jpg'
 
 import CrustNetwork from '../../public/assets/speakers-pics/Ludwig-Trappe-Crust-Network/Crust-Network.jpg'
 import Ludwig from '../../public/assets/speakers-pics/Ludwig-Trappe-Crust-Network/Ludwig-Trappe-Crust-Network.jpeg'
@@ -216,6 +217,7 @@ import JournalDuCoin from '../../public/assets/speakers-pics/Gregory-Guittard-Jo
 import Gregory from '../../public/assets/speakers-pics/Gregory-Guittard-Journal-Du-Coin/Gregory-Guittard-Journal-Du-Coin.jpg'
 
 import Deloitte from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Deloitte.png'
+import Jeremy from '../../public/assets/speakers-pics/Jeremy-Stevance-Deloitte/Jeremy-Stevance-Deloitte.jpeg'
 import Marie from '../../public/assets/speakers-pics/Marie-Line-Ricard-Deloitte/Marie-Line-Ricard-Deloitte.jpeg'
 
 import Subsquid from '../../public/assets/speakers-pics/Dima-Zhelezov-Subsquid/Subsquid.jpg'
@@ -256,7 +258,13 @@ import Viktor from '../../public/assets/speakers-pics/Viktor-Ihnatiuk-Golden-Gat
 import BEBlockchain from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/BE-Blockchain.jpeg'
 import Harold from '../../public/assets/speakers-pics/Harold-Kinet-BE-Blockchain/Harold-Kinet-BE-Blockchain.jpg'
 
+import ChrisKampe from '../../public/assets/speakers-pics/Christoph-Da-Kampe-Scytale /Christoph-Da-Kampe-Scytale.jpg'
+
 import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
+
+import Archethic from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Archethic-Blockchain.jpg'
+import Sebastien from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Sebastien-Dupont-Archethic-Blockchain.jpeg'
+import Irvin from '../../public/assets/speakers-pics/Irvin-Polkahaus/BAYC_Bored_Ape_Yacht_Club_7738.png'
 
 import { ImageProps } from 'next/image'
 
@@ -796,7 +804,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       linkedin: 'https://www.linkedin.com/in/bertrandperez/',
     },
-    bio: '',
+    bio: `Bertrand Perez is the CEO of the Web3 Foundation. With over two decades of experience in the software and telecom industry, he developed a keen interest in blockchain during his tenure as Senior Director at Paypal in 2014. With a strong background in computer software engineering and computer applications, Bertrand excels in managing and guiding large technical teams, specializing in architecture and services. Prior to joining Web3 Foundation in 2021, he served as the COO of Diem (formerly Libra), a blockchain-based payment system created by Meta, focused on universal access to financial services. With a shared vision of empowering users to control their own data, identity, and future, the Web3 Foundation's mission aligns perfectly with Bertrand's longstanding goal of delivering exceptional services using cutting-edge technologies and networks.`,
   },
   {
     organization: {
@@ -1559,10 +1567,10 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'logion / Kamea Labs',
+      name: 'Kamea Labs',
       logo: {
         src: KameaLabs,
-        alt: 'logion / Kamea Labs',
+        alt: 'Kamea Labs',
       },
     },
     image: {
@@ -1616,7 +1624,7 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Horizen',
+      name: 'Horizen Global',
       logo: {
         src: Horizen,
         alt: 'Horizen',
@@ -1673,7 +1681,7 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Unique',
+      name: 'Unique Network',
       logo: {
         src: UniqueNetwork,
         alt: 'Unique',
@@ -1683,8 +1691,8 @@ export const speakers: ISpeaker[] = [
       src: Alik,
       alt: 'Alik',
     },
-    name: 'Alik Tsikhashev',
-    title: '',
+    name: 'Alik',
+    title: 'Product Manager',
     socials: {
       twitter: 'https://twitter.com/kalddet',
     },
@@ -1827,10 +1835,16 @@ export const speakers: ISpeaker[] = [
     organization: {
       name: 'Polkahaus',
     },
-    name: 'Irwin',
-    title: '',
-    socials: {},
-    bio: '',
+    image: {
+      src: Irvin,
+      alt: 'Irvin',
+    },
+    name: 'Irvin',
+    title: 'Co-founder',
+    socials: {
+      twitter: 'https://twitter.com/irvinxyz',
+    },
+    bio: `Irvin is a co-founder of Polka Häus — one of the growing communities in the Polkadot ecosystem, and a co-founder of PizzaDAO — creators of the RarePizzas project, who's hosted a global Bitcoin pizza party world wide. He’s also CEO and Co-Founder of OpenDive Technologies, a R&D innovation firm focused on developing immersive reality, gaming, and blockchain infrastructure. OpenDive is developing Mayhem League — a cross-IP first-person shooter with over a dozen NFT collections integrated in beta, OpenEra — a fantasy MMORG, and Kiyomi — an interactive augmented reality application to display and play with your digital collectibles. Irvin is also an advisor to Metaplex Foundation. In 2015, Irvin led blockchain strategy at Goldman Sachs, and in 2012 he co-founded Decentral Bank, an early Bitcoin startup with a successful exit in 2014. He's published numerous academic papers in the fields of robotics, and blockchain technology during his PhD candidacy.`,
   },
   {
     organization: {
@@ -1988,7 +2002,7 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Horizen',
+      name: 'Horizen Labs',
       logo: {
         src: Horizen,
         alt: 'Horizen',
@@ -2007,7 +2021,7 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Horizen',
+      name: 'Horizen Labs',
       logo: {
         src: Horizen,
         alt: 'Horizen',
@@ -2102,14 +2116,26 @@ export const speakers: ISpeaker[] = [
     organization: {
       name: 'Scytale',
     },
+    image: {
+      src: ChrisKampe,
+      alt: 'Christoph Da Kampe',
+    },
     name: 'Christoph Da Kampe',
     title: '',
     socials: {},
-    bio: '',
+    bio: 'Christoph worked throughout his almost 30 year long career in various functions for Erste Group Vienna. He started as an executive assistant for the CEO before he gained experience in various departments like Controlling, Accounting and Interest Rate Risk Management. For more than 10 years he built the Alternative Investment Division together with Mark into a respected European player with almost USD 2bn under management. During that time the team launched multiple products with focus on Emerging Markets. After that he became the Head of Product Development and Sales leading teams in Vienna and London. After a short stint in helping the Chief Risk Officer to sell off a portfolio of non-performing loans, he headed the Private Wealth Management department.',
   },
   {
     organization: {
       name: 'Archethic Blockchain',
+      logo: {
+        src: Archethic,
+        alt: 'Archethic Blockchain',
+      },
+    },
+    image: {
+      src: Sebastien,
+      alt: 'Sebastien Dupont',
     },
     name: 'Sebastien Dupont',
     title: 'CEO',
@@ -2121,6 +2147,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Deloitte',
+      logo: {
+        src: Deloitte,
+        alt: 'Deloitte',
+      },
+    },
+    image: {
+      src: Jeremy,
+      alt: 'Jérémy Stevance',
     },
     name: 'Jérémy Stevance',
     title: 'Manager Blockchain & Web3',
@@ -2133,6 +2167,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Tokeny',
+      logo: {
+        src: Tokeny,
+        alt: 'Tokeny',
+      },
+    },
+    image: {
+      src: Joachim,
+      alt: 'Joachim Lebrun',
     },
     name: 'Joachim Lebrun',
     title: 'Head of Blockchain',
@@ -2140,5 +2182,20 @@ export const speakers: ISpeaker[] = [
       twitter: 'https://twitter.com/LebrunJoachim',
     },
     bio: '',
+  },
+  {
+    organization: {
+      name: 'Novasama Technologies',
+    },
+    name: 'Leemo',
+    title: 'Chief Nice Officer',
+    socials: {
+      twitter: 'https://twitter.com/LeemoXD',
+    },
+    bio: `Chief Nice Officer at Novasama Technologies
+    Doing cool stuff with Robonomics
+    Co-founder of ChaosDAO
+    Co-founder GM Parachain
+    Council over at HydraDX & Basilisk`,
   },
 ]
