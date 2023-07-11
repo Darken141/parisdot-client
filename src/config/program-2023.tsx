@@ -658,7 +658,7 @@ export const day1Program = [
               name: '',
             },
 
-            name: 'Open slot',
+            name: 'TBD',
             title: '',
             socials: {},
             bio: ``,
@@ -2038,7 +2038,7 @@ export const day2Program = [
             organization: {
               name: '',
             },
-            name: 'Open slot',
+            name: 'TBD',
             title: '',
             socials: {},
             bio: '',
@@ -3126,7 +3126,7 @@ export const day3Program = [
             organization: {
               name: '',
             },
-            name: 'Open slot',
+            name: 'TBD',
             title: '',
             socials: {},
             bio: '',
@@ -3377,7 +3377,7 @@ export const day3Program = [
             organization: {
               name: '',
             },
-            name: 'Open slot',
+            name: 'TBD',
             title: '',
             socials: {},
             bio: '',
