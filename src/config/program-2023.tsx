@@ -1620,6 +1620,15 @@ export const day2Program = [
             },
             bio: 'Sagar is a partner at Blockchain Founders Capital , Early stage venture fund investing in  web3 startups. Engineer by background, Deeply passionate about the potential of blockchain technology, and strong connections within the web3 community.',
           },
+          {
+            organization: {
+              name: 'Scytale',
+            },
+            name: 'Christoph Da Kampe',
+            title: '',
+            socials: {},
+            bio: '',
+          },
         ],
       },
       {
@@ -2160,25 +2169,25 @@ export const day2Program = [
             },
             bio: '',
           },
-          {
-            organization: {
-              name: 'HydraDX',
-              logo: {
-                src: Hydradx,
-                alt: 'HydraDX',
-              },
-            },
-            image: {
-              src: Jakub,
-              alt: 'Jakub Gregus',
-            },
-            name: 'Jakub Gregus',
-            title: 'CEO',
-            socials: {
-              twitter: 'https://twitter.com/GregusJakub',
-            },
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: 'HydraDX',
+          //     logo: {
+          //       src: Hydradx,
+          //       alt: 'HydraDX',
+          //     },
+          //   },
+          //   image: {
+          //     src: Jakub,
+          //     alt: 'Jakub Gregus',
+          //   },
+          //   name: 'Jakub Gregus',
+          //   title: 'CEO',
+          //   socials: {
+          //     twitter: 'https://twitter.com/GregusJakub',
+          //   },
+          //   bio: '',
+          // },
         ],
       },
       {
@@ -3354,25 +3363,25 @@ export const day3Program = [
             },
             bio: '',
           },
-          {
-            organization: {
-              name: 'HydraDX',
-              logo: {
-                src: Hydradx,
-                alt: 'HydraDX',
-              },
-            },
-            image: {
-              src: Jakub,
-              alt: 'Jakub Gregus',
-            },
-            name: 'Jakub Gregus',
-            title: 'CEO',
-            socials: {
-              twitter: 'https://twitter.com/GregusJakub',
-            },
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: 'HydraDX',
+          //     logo: {
+          //       src: Hydradx,
+          //       alt: 'HydraDX',
+          //     },
+          //   },
+          //   image: {
+          //     src: Jakub,
+          //     alt: 'Jakub Gregus',
+          //   },
+          //   name: 'Jakub Gregus',
+          //   title: 'CEO',
+          //   socials: {
+          //     twitter: 'https://twitter.com/GregusJakub',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: '',
