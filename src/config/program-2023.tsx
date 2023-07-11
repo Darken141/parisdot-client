@@ -638,7 +638,8 @@ export const day1Program = [
               name: '',
             },
 
-            name: 'TBD - FFPB partner',
+            name: 'TBD',
+            // name: 'TBD - FFPB partner',
             title: '',
             socials: {},
             bio: ``,
@@ -648,7 +649,8 @@ export const day1Program = [
               name: '',
             },
 
-            name: 'TBD - FFPB partner',
+            name: 'TBD',
+            // name: 'TBD - FFPB partner',
             title: '',
             socials: {},
             bio: ``,
@@ -983,7 +985,8 @@ export const day1Program = [
               name: '',
             },
 
-            name: 'TBD - political guest',
+            name: 'TBD',
+            // name: 'TBD - political guest',
             title: '',
             socials: {},
             bio: ``,
