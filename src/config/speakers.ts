@@ -280,6 +280,9 @@ import Ingrid from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-G
 import Moonlit from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/Monolit-Games.jpg'
 import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/PatrickMc-Grath-Moonlit-Games.jpeg'
 
+import FinanceInnovation from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Finance-Innovation.svg'
+import Cyril from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Cyril-Armange-Finance-Innovation.jpeg'
+
 import { ImageProps } from 'next/image'
 
 export interface ISpeaker {
@@ -697,7 +700,7 @@ export const speakers: ISpeaker[] = [
     specializing in blockchain technology, DeFi, and DAO projects. I excel at building
     motivated teams and delivering high-quality outcomes through a thoughtful
     approach. With a focus on agile methodologies, I have successfully managed
-    multiple teams concurrently.
+    multiple teams concurrently.<br/>
     As the Owner of the Seed Nodes Pool at Protofire.io, I'm focused on building a DAO
     of a Human Protocol, scaling up teams and incubating high-impact projects in the
     blockchain ecosystem. I have collaborated with essential blockchain protocols,
@@ -953,7 +956,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/JamesPrestonZA',
     },
-    bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.
+    bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.<br/>
 
     After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
   },
@@ -974,12 +977,12 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/zoemcfox',
     },
-    bio: `Zoé is VP and Partner at Phala Network and leads European growth and business development for the protocol.
-    She is also the global head Ambassador of events for Polkadot as well as a curator for the on-chain events bounty and a council member for Phala.
+    bio: `Zoé is VP and Partner at Phala Network and leads European growth and business development for the protocol.<br/>
+    She is also the global head Ambassador of events for Polkadot as well as a curator for the on-chain events bounty and a council member for Phala.<br/>
     
-    Zoé has worked for several blockchain start-ups as well as big tech giants like Google in silicon valley. Currently based in Berlin, Zoé grows the brand for Phala Network and Polkadot in Europe.
+    Zoé has worked for several blockchain start-ups as well as big tech giants like Google in silicon valley. Currently based in Berlin, Zoé grows the brand for Phala Network and Polkadot in Europe.<br/>
     
-    With her background in information & cybersecurity and international business, Zoé’s passion is to break down complex concepts into simple to understand content to educate the masses.
+    With her background in information & cybersecurity and international business, Zoé’s passion is to break down complex concepts into simple to understand content to educate the masses.<br/>
     
     Education: Zoé holds a B.A. in Chinese Society from Fudan University Shanghai, 2016, a B.A. in International Supply Chain Management from HIWL Bremen, 2017, and two master degrees: M.Sc. International Business from HULT Boston 2018, and M.Sc. Information & Cybersecurity from ITU Santa Clara, 2020.`,
   },
@@ -1114,7 +1117,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/BenoLibre',
     },
-    bio: `Starting as an early SORA community member and ambassador, Beno is now bringing SORA Card to you as director of SORA Biome.
+    bio: `Starting as an early SORA community member and ambassador, Beno is now bringing SORA Card to you as director of SORA Biome.<br/>
     Next to this he leads Polkaswap community initiatives with Polka Biome - an extension of the earlier Polkaswap Community Collective.`,
   },
   {
@@ -1459,7 +1462,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/thegrifft',
     },
-    bio: `Cofounder of Giveth, Commons Stack, General Magic, Praise & dappnode. Community manager for TheDAO, led the crisis response effort for TheDAO Hack and first Parity Multisig Hack from every angle, co-founder of the White Hat Group and led the creation of Token Engineering Commons. Advisor for PolygonID, PolygonHermez, brightID, and steward for Gitcoin, ENS, Arbitrum & Optimism.
+    bio: `Cofounder of Giveth, Commons Stack, General Magic, Praise & dappnode. Community manager for TheDAO, led the crisis response effort for TheDAO Hack and first Parity Multisig Hack from every angle, co-founder of the White Hat Group and led the creation of Token Engineering Commons. Advisor for PolygonID, PolygonHermez, brightID, and steward for Gitcoin, ENS, Arbitrum & Optimism.<br/>
 
     Also leads 2 crypto focused burning man camps ;-) `,
   },
@@ -1480,7 +1483,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/DerekSilva',
     },
-    bio: `Derek is a community builder and operations leader who has been working full-time in the blockchain industry since February 2018. He has had opportunities to work with teams like Bloom, Orchid, mStable, Reef, and Hxro, among others.
+    bio: `Derek is a community builder and operations leader who has been working full-time in the blockchain industry since February 2018. He has had opportunities to work with teams like Bloom, Orchid, mStable, Reef, and Hxro, among others.<br/>
 
     He continues to work in the industry with core tenets of helping the unbanked get access to better financial products on-chain, advocating for decentralized identity solutions, and better on-ramps so that everyone can take full control of their data and financial health. He loves to build communities around products and teams working to make real differences.`,
   },
@@ -1877,7 +1880,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/charleswayn',
     },
-    bio: `Charles Wayn is a serial web3 entrepreneur and the Co-Founder of Galxe, the leading platform for building web3 community. Prior to founding Galxe, Charles Co-Founded and served as CEO of DLive, the largest live streaming platform in the world built with blockchain technology. The platform was acquired by BitTorrent in December 2019 and Charles served as VP of Interactive Entertainment. Charles is also the Co-Founder and Managing Partner of Bullet Labs,  a venture studio focusing on web3 product development. 
+    bio: `Charles Wayn is a serial web3 entrepreneur and the Co-Founder of Galxe, the leading platform for building web3 community. Prior to founding Galxe, Charles Co-Founded and served as CEO of DLive, the largest live streaming platform in the world built with blockchain technology. The platform was acquired by BitTorrent in December 2019 and Charles served as VP of Interactive Entertainment. Charles is also the Co-Founder and Managing Partner of Bullet Labs,  a venture studio focusing on web3 product development. <br/>
 
     Galxe is the leading platform for building web3 communities. With over 11 million users and integrated across 16 different blockchains, Galxe has propelled the growth of Optimism, Polygon, Arbitrum, and more than 2,800 partners with reward-based loyalty programs. Protocols can leverage Web3 credentials from Galxe’s credential data network to power marketplace growth, issue Soul Bound Tokens, increase community engagement, boost ecosystem growth, and generate brand awareness.`,
   },
@@ -2176,9 +2179,9 @@ export const speakers: ISpeaker[] = [
       linkedin:
         'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-stevance-084464121/',
     },
-    bio: `Jeremy Stevance is the manager at Deloitte in the fields of Blockchain x Web3.
+    bio: `Jeremy Stevance is the manager at Deloitte in the fields of Blockchain x Web3. <br/>
 
-    He has carried out over 30 missions for clients operating in the ecosystem with their strategic, technical and audit challenges.
+    He has carried out over 30 missions for clients operating in the ecosystem with their strategic, technical and audit challenges. <br/>
     
     He also holds the French CPA diploma and has written a thesis on the audit of blockchain transactions.`,
   },
@@ -2304,8 +2307,15 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Finance Innovation',
+      logo: {
+        src: FinanceInnovation,
+        alt: 'Finance Innovation',
+      },
     },
-
+    image: {
+      src: Cyril,
+      alt: 'Cyril Armange',
+    },
     name: 'Cyril Armange',
     title: 'Deputy General Director',
     socials: {
@@ -2329,6 +2339,63 @@ export const speakers: ISpeaker[] = [
     title: 'Platform Marketing Lead',
     socials: {
       linkedin: 'https://www.linkedin.com/in/natalie-tillack/',
+    },
+    bio: `Natalie is a Web3 marketing strategist. <br/>
+
+In her product marketing role at Parity, she's responsible for the strategic positioning of Polkadot, its products, and ecosystem. <br/>
+ 
+During her time at McKinsey, she focused on growth, product, and marketing strategies in the digital space. <br/>
+
+In 2016, she obtained her PhD in Computational Physics at Oxford University, where she studied the origins of a novel type of magnetic interaction. <br/><br/>
+
+Her side projects include: <br/>
+<ul style="margin-left: 2rem;">
+    <li>- An educational blockchain game, which she developed in 2019; </li>
+    <li>- Teaching and consulting in the crypto space for universities, corporates, and investors;  </li>
+    <li>- Mentor at Techstars, helping deep-tech startups grow;  </li>
+    <li>- Tech/SaaS angel investing: supporting in BD-, product- and marketing-related questions;  </li>
+    <li>- Tech/SaaS angel investing: supporting in BD-, product- and marketing-related questions;  </li>
+    <li>- Real-estate;  </li>
+    <li>- Founding member of the Strategy working group of the ITSA (the International Token Standardization Association) and the Digital Finance working group of the Wirtschaftsrat </li>
+</ul>
+
+`,
+  },
+  {
+    organization: {
+      name: 'Polygon Labs',
+      // logo: {
+      //   src: Parity,
+      //   alt: 'Polygon Labs',
+      // },
+    },
+    // image: {
+    //   src: Natalie,
+    //   alt: 'Tanisha Katara',
+    // },
+    name: 'Tanisha Katara',
+    title: 'Governance and Reputation Consultant',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/tanishakatara/',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Amforc',
+      // logo: {
+      //   src: Parity,
+      //   alt: 'Amforc',
+      // },
+    },
+    // image: {
+    //   src: Natalie,
+    //   alt: 'Tugy',
+    // },
+    name: 'Tugy',
+    title: 'Co-founder',
+    socials: {
+      twitter: 'https://twitter.com/TugyTur',
     },
     bio: ``,
   },

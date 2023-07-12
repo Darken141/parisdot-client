@@ -281,6 +281,9 @@ import Ingrid from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-G
 import Moonlit from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/Monolit-Games.jpg'
 import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/PatrickMc-Grath-Moonlit-Games.jpeg'
 
+import FinanceInnovation from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Finance-Innovation.svg'
+import Cyril from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Cyril-Armange-Finance-Innovation.jpeg'
+
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
 export const day1Program = [
@@ -417,6 +420,25 @@ export const day1Program = [
               linkedin: 'https://www.linkedin.com/in/natalie-tillack/',
             },
             bio: ``,
+          },
+          {
+            organization: {
+              name: 'IoTEX',
+              logo: {
+                src: Iotex,
+                alt: 'IoTEX',
+              },
+            },
+            image: {
+              src: Raullen,
+              alt: 'Raullen Chai',
+            },
+            name: 'Raullen Chai',
+            title: 'Co-Founder ',
+            socials: {
+              twitter: 'https://twitter.com/raullen',
+            },
+            bio: '',
           },
         ],
       },
@@ -874,8 +896,15 @@ export const day1Program = [
           {
             organization: {
               name: 'Finance Innovation',
+              logo: {
+                src: FinanceInnovation,
+                alt: 'Finance Innovation',
+              },
             },
-
+            image: {
+              src: Cyril,
+              alt: 'Cyril Armange',
+            },
             name: 'Cyril Armange',
             title: 'Deputy General Director',
             socials: {
@@ -1035,8 +1064,15 @@ export const day1Program = [
           {
             organization: {
               name: 'Finance Innovation',
+              logo: {
+                src: FinanceInnovation,
+                alt: 'Finance Innovation',
+              },
             },
-
+            image: {
+              src: Cyril,
+              alt: 'Cyril Armange',
+            },
             name: 'Cyril Armange',
             title: 'Deputy General Director',
             socials: {
@@ -2983,16 +3019,26 @@ export const day3Program = [
       {
         id: 'item-7',
         time: '14:00 - 14:30',
-        title: 'TBD',
+        title: 'Polygon Keynote',
         speakers: [
           {
             organization: {
-              name: '',
+              name: 'Polygon Labs',
+              // logo: {
+              //   src: Parity,
+              //   alt: 'Polygon Labs',
+              // },
             },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
+            // image: {
+            //   src: Natalie,
+            //   alt: 'Tanisha Katara',
+            // },
+            name: 'Tanisha Katara',
+            title: 'Governance and Reputation Consultant',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/tanishakatara/',
+            },
+            bio: ``,
           },
         ],
       },
@@ -3079,6 +3125,14 @@ export const day3Program = [
           {
             organization: {
               name: 'Horizen Global',
+              logo: {
+                src: Horizen,
+                alt: 'Horizen',
+              },
+            },
+            image: {
+              src: ManonBoudoux,
+              alt: 'Manon Boudoux',
             },
             name: 'Manon Boudoux',
             title: 'Marketing',
@@ -3154,6 +3208,14 @@ export const day3Program = [
           {
             organization: {
               name: 'Archethic Blockchain',
+              logo: {
+                src: Archethic,
+                alt: 'Archethic Blockchain',
+              },
+            },
+            image: {
+              src: Sebastien,
+              alt: 'Sebastien Dupont',
             },
             name: 'Sebastien Dupont',
             title: 'CEO',
@@ -3797,14 +3859,24 @@ export const day3Program = [
           },
         ],
       },
-      // {
-      //   id: 'item-15',
-      //   time: '15:45 : 16:00',
-      //   title: 'The Infrastructure Builder Program',
-      //   speakers: [
-
-      //   ],
-      // },
+      {
+        id: 'item-15',
+        time: '15:45 : 16:00',
+        title: 'The Infrastructure Builder Program',
+        speakers: [
+          {
+            organization: {
+              name: 'Amforc',
+            },
+            name: 'Tugy',
+            title: 'Co-founder',
+            socials: {
+              twitter: 'https://twitter.com/TugyTur',
+            },
+            bio: ``,
+          },
+        ],
+      },
     ],
   },
 ]
