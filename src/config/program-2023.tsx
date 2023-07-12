@@ -111,7 +111,8 @@ import SubQuery from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/
 import Marta from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/Marta-Adamczyk-Subquery.png'
 
 import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
-import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
+// import Nino from '../../public/assets/speakers-pics/Nino-Kutnjak-Apillon/Nino-Kutnjak-Apillon.jpg'
+// import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
 
 import Harbour from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Harbour-Industrial.jpg'
 import Max from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Max-Rebol-Harbour-Industrial-Capital.jpg'
@@ -187,8 +188,8 @@ import AndreaVistoli from '../../public/assets/speakers-pics/Andrea-Vistoli-Kame
 import Interlay from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Interlay.png'
 import Alexei from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Alexei-Zanyatin-Interlay.jpg'
 
-import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
-import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
+// import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
+// import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
 
 import TapioFinance from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Tapio-Finance.jpg'
 import Sushant from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Sushant-Kurren-Tapio-Finance.jpg'
@@ -264,6 +265,21 @@ import Sebastien from '../../public/assets/speakers-pics/Sebastien-Dupont-Archet
 import Irvin from '../../public/assets/speakers-pics/Irvin-Polkahaus/BAYC_Bored_Ape_Yacht_Club_7738.png'
 
 import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Thomas-Bifrost.jpg'
+import Belma from '../../public/assets/speakers-pics/Belma-Gutlic-Chainsafe/Belma-Gutlic-Chainsafe.jpg'
+import Nino from '../../public/assets/speakers-pics/Nino-Kutnjak-Apillon/Nino-Kutnjak-Apillon.jpg'
+import Natalie from '../../public/assets/speakers-pics/Natalie-Tillack-Parity/Natalie-Tillack-Parity.jpeg'
+
+import Nova from '../../public/assets/speakers-pics/Leemo-Novasama-Technologies/Nova.jpg'
+import Leemo from '../../public/assets/speakers-pics/Leemo-Novasama-Technologies/Leemo-Novasama-Technologies.jpg'
+
+import Exaion from '../../public/assets/speakers-pics/Thomas-Simon-Exaion/Exaion.png'
+import ThomasSimon from '../../public/assets/speakers-pics/Thomas-Simon-Exaion/Thomas-Simon-Exaion.jpg'
+
+import AvantGarde from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-Garde-Avocats/Avant-Garde-Avocats.jpeg'
+import Ingrid from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-Garde-Avocats/Ingrid-Mery-Haziot-Avant-Garde-Avocats.jpeg'
+
+import Moonlit from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/Monolit-Games.jpg'
+import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/PatrickMc-Grath-Moonlit-Games.jpeg'
 
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
@@ -382,6 +398,25 @@ export const day1Program = [
               twitter: 'https://twitter.com/dlt_maximalist',
             },
             bio: '',
+          },
+          {
+            organization: {
+              name: 'Parity',
+              logo: {
+                src: Parity,
+                alt: 'Parity',
+              },
+            },
+            image: {
+              src: Natalie,
+              alt: 'Natalie Tillack',
+            },
+            name: 'Natalie Tillack',
+            title: 'Platform Marketing Lead',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/natalie-tillack/',
+            },
+            bio: ``,
           },
         ],
       },
@@ -628,6 +663,14 @@ export const day1Program = [
           {
             organization: {
               name: 'Novasama Technologies',
+              logo: {
+                src: Nova,
+                alt: 'Novasama Technologies',
+              },
+            },
+            image: {
+              src: Leemo,
+              alt: 'Leemo',
             },
             name: 'Leemo',
             title: 'Chief Nice Officer',
@@ -642,34 +685,60 @@ export const day1Program = [
           },
           {
             organization: {
-              name: '',
+              name: 'Exaion',
+              logo: {
+                src: Exaion,
+                alt: 'Exaion',
+              },
             },
-
-            name: 'TBD',
-            // name: 'TBD - FFPB partner',
-            title: '',
-            socials: {},
+            image: {
+              src: ThomasSimon,
+              alt: 'Thomas Simon',
+            },
+            name: 'Thomas Simon',
+            title: 'Blockchain Partnerships, Sales Manager',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/simon-thomas-381245137/',
+            },
             bio: ``,
           },
           {
             organization: {
-              name: '',
+              name: 'Avant-Garde Avocats',
+              logo: {
+                src: AvantGarde,
+                alt: 'Avant-Garde Avocats',
+              },
             },
-
-            name: 'TBD',
-            // name: 'TBD - FFPB partner',
-            title: '',
-            socials: {},
+            image: {
+              src: Ingrid,
+              alt: 'Ingrid Mery Haziot',
+            },
+            name: 'Ingrid Mery Haziot',
+            title: 'Lawyer',
+            socials: {
+              linkedin:
+                'https://www.linkedin.com/in/ingrid-mery-haziot-avantgardeavocats/',
+            },
             bio: ``,
           },
           {
             organization: {
-              name: '',
+              name: 'Moonlit Games',
+              logo: {
+                src: Moonlit,
+                alt: 'Moonlit Games',
+              },
             },
-
-            name: 'TBD',
-            title: '',
-            socials: {},
+            image: {
+              src: PatrickMc,
+              alt: 'Patrick McGrath',
+            },
+            name: 'PatrickMc Grath',
+            title: 'Co-Founder, CEO',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/psmcgrath/',
+            },
             bio: ``,
           },
         ],
@@ -804,12 +873,14 @@ export const day1Program = [
           },
           {
             organization: {
-              name: '',
+              name: 'Finance Innovation',
             },
 
-            name: 'TBD',
-            title: '',
-            socials: {},
+            name: 'Cyril Armange',
+            title: 'Deputy General Director',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/cyril-armange-55167525/',
+            },
             bio: ``,
           },
         ],
@@ -960,6 +1031,18 @@ export const day1Program = [
               twitter: 'https://twitter.com/federicoast',
             },
             bio: '',
+          },
+          {
+            organization: {
+              name: 'Finance Innovation',
+            },
+
+            name: 'Cyril Armange',
+            title: 'Deputy General Director',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/cyril-armange-55167525/',
+            },
+            bio: ``,
           },
         ],
       },
@@ -1162,7 +1245,7 @@ export const day1Program = [
       {
         id: 'item-8',
         time: '14:00 - 14:15',
-        title: 'Remote Execution Using XCM',
+        title: 'Extending XCM Capabilities to ERC-20s',
         speakers: [
           {
             organization: {
@@ -1260,15 +1343,15 @@ export const day1Program = [
               },
             },
             image: {
-              src: Matjaz,
-              alt: 'Matjaz Sobocan',
+              src: Nino,
+              alt: 'Nino Kutnjak',
             },
-            name: 'Matjaz Sobocan',
-            title: 'Co-Founder, CEO',
+            name: 'Nino Kutnjak',
+            title: 'CPO',
             socials: {
-              twitter: 'https://twitter.com/Matjazs',
+              twitter: 'https://twitter.com/gosu128',
             },
-            bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
+            bio: `With a background in graphic and media technology, Nino jumped into the startup world and rolled up his sleeves in different roles, ranging from developer, CTO to startup founder. Being highly experienced in front- and back-end development, UX, marketing, and growth, the road led him straight to the crypto world where he skyrocketed.`,
           },
         ],
       },
@@ -1753,7 +1836,11 @@ export const day2Program = [
               linkedin:
                 'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-stevance-084464121/',
             },
-            bio: '',
+            bio: `Jeremy Stevance is the manager at Deloitte in the fields of Blockchain x Web3.
+        
+            He has carried out over 30 missions for clients operating in the ecosystem with their strategic, technical and audit challenges.
+            
+            He also holds the French CPA diploma and has written a thesis on the audit of blockchain transactions.`,
           },
           {
             organization: {
@@ -2718,22 +2805,41 @@ export const day3Program = [
         time: '10:45 - 11:15',
         title: 'Chainsafe Keynote',
         speakers: [
+          // {
+          //   organization: {
+          //     name: 'Chainsafe/Sygma',
+          //     logo: {
+          //       src: Chainsafe,
+          //       alt: 'Chainsafe/Sygma',
+          //     },
+          //   },
+          //   image: {
+          //     src: Robert,
+          //     alt: 'Robert Zhuang',
+          //   },
+          //   name: 'Robert Zhuang',
+          //   title: '',
+          //   socials: {
+          //     twitter: 'https://twitter.com/defibobbyz',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: 'Chainsafe/Sygma',
               logo: {
-                src: Chainsafe,
+                src: Chainsafe2,
                 alt: 'Chainsafe/Sygma',
               },
             },
             image: {
-              src: Robert,
-              alt: 'Robert Zhuang',
+              src: Filip,
+              alt: 'Filip Nendl',
             },
-            name: 'Robert Zhuang',
-            title: '',
+            name: 'Filip Nendl',
+            title: 'Product BD lead',
             socials: {
-              twitter: 'https://twitter.com/defibobbyz',
+              linkedin: 'https://www.linkedin.com/in/fnendl/',
             },
             bio: '',
           },
@@ -2932,24 +3038,43 @@ export const day3Program = [
             },
             bio: '',
           },
+          // {
+          //   organization: {
+          //     name: 'Chainsafe/Sygma',
+          //     logo: {
+          //       src: Chainsafe,
+          //       alt: 'Chainsafe/Sygma',
+          //     },
+          //   },
+          //   image: {
+          //     src: Robert,
+          //     alt: 'Robert Zhuang',
+          //   },
+          //   name: 'Robert Zhuang',
+          //   title: '',
+          //   socials: {
+          //     twitter: 'https://twitter.com/defibobbyz',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: 'Chainsafe/Sygma',
               logo: {
-                src: Chainsafe,
+                src: Chainsafe2,
                 alt: 'Chainsafe/Sygma',
               },
             },
             image: {
-              src: Robert,
-              alt: 'Robert Zhuang',
+              src: Belma,
+              alt: 'Belma Gutlic',
             },
-            name: 'Robert Zhuang',
-            title: '',
+            name: 'Belma Gutlic',
+            title: 'VP of Engineering',
             socials: {
-              twitter: 'https://twitter.com/defibobbyz',
+              linkedin: 'https://www.linkedin.com/in/belmagutlic/',
             },
-            bio: '',
+            bio: `Belma co-founded NodeFactory, a successful blockchain R&D startup, which she led to an exit when it was acquired in 2021. Active member of local crypto communities as co-founder of Alice in Blockchains and board member at UBIK. She now works at ChainSafe as VP of Engineering.`,
           },
           {
             organization: {
@@ -3520,7 +3645,7 @@ export const day3Program = [
       {
         id: 'item-11',
         time: '14:30 - 14:45',
-        title: 'TBD',
+        title: 'Polkadot Blockchain Academy',
         speakers: [
           {
             organization: {
@@ -3538,6 +3663,25 @@ export const day3Program = [
             title: 'Developper',
             socials: {
               twitter: 'https://twitter.com/leana_pple',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Parity',
+              logo: {
+                src: Parity,
+                alt: 'Parity',
+              },
+            },
+            image: {
+              src: German,
+              alt: 'German Nikolishin',
+            },
+            name: 'German',
+            title: 'Rust Core Developper',
+            socials: {
+              twitter: 'https://twitter.com/skyman_one',
             },
             bio: '',
           },
@@ -3604,6 +3748,14 @@ export const day3Program = [
           {
             organization: {
               name: 'Novasama Technologies',
+              logo: {
+                src: Nova,
+                alt: 'Novasama Technologies',
+              },
+            },
+            image: {
+              src: Leemo,
+              alt: 'Leemo',
             },
             name: 'Leemo',
             title: 'Chief Nice Officer',
@@ -3618,6 +3770,41 @@ export const day3Program = [
           },
         ],
       },
+      {
+        id: 'item-15',
+        time: '15:30 : 15:45',
+        title:
+          'Tanssi: Pioneering & Powering Rapid Developer Adoption on Polkadot',
+        speakers: [
+          {
+            organization: {
+              name: 'Moonbeam',
+              logo: {
+                src: Moonbeam,
+                alt: 'Moonbeam',
+              },
+            },
+            image: {
+              src: Alberto,
+              alt: 'Alberto Viera',
+            },
+            name: 'Alberto',
+            title: 'Developer Relations',
+            socials: {
+              twitter: 'https://twitter.com/theAlbertoV19',
+            },
+            bio: `Alberto Viera, is Head of developer relations at Purestake, a development team for Moonbeam. Formerly a Mechanical Engineer from Venezuela, Ph.D. in Internal Combustion Engines, you might ask yourself, "What is this guy doing here?" I've been passionate about crypto since late 2013, reading and educating myself about the tech. I decided to go full-time in crypto around January 2020, doing courses, reading, and engaging with mostly the Ethereum tech stack. I started as the Developer Relations Manager at Moonbeam in June 2020, and I've never looked back. As the old saying goes: "Do what you love, and you won't have to work a day in your life."`,
+          },
+        ],
+      },
+      // {
+      //   id: 'item-15',
+      //   time: '15:45 : 16:00',
+      //   title: 'The Infrastructure Builder Program',
+      //   speakers: [
+
+      //   ],
+      // },
     ],
   },
 ]
