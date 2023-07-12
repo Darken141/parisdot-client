@@ -74,6 +74,7 @@ import Gerard from '../../public/assets/speakers-pics/Gerard-Dethier-Logion/Gera
 
 import Parity from '../../public/assets/speakers-pics/German-Nikolishin-Parity/Parity.jpg'
 import German from '../../public/assets/speakers-pics/German-Nikolishin-Parity/German-Nikolishin-Parity.jpeg'
+import Natalie from '../../public/assets/speakers-pics/Natalie-Tillack-Parity/Natalie-Tillack-Parity.jpeg'
 
 import Zeitgeist from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Zeitgeist.jpg'
 import Hutch from '../../public/assets/speakers-pics/Hutch-Zeitgeist/Hutch-Zeitgeist.jpg'
@@ -111,7 +112,7 @@ import SubQuery from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/
 import Marta from '../../public/assets/speakers-pics/Marta-Adamczyk-SubQuery/Marta-Adamczyk-Subquery.png'
 
 import Apillon from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Apillon.jpg'
-import Matjaz from '../../public/assets/speakers-pics/Matjaz-Sobocan-Apillon/Matjaz-Sobocan-Apillon.jpg'
+import Nino from '../../public/assets/speakers-pics/Nino-Kutnjak-Apillon/Nino-Kutnjak-Apillon.jpg'
 
 import Harbour from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Harbour-Industrial.jpg'
 import Max from '../../public/assets/speakers-pics/Max-Rebol-Harbour-Industrial-Capital/Max-Rebol-Harbour-Industrial-Capital.jpg'
@@ -189,8 +190,9 @@ import AndreaVistoli from '../../public/assets/speakers-pics/Andrea-Vistoli-Kame
 import Interlay from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Interlay.png'
 import Alexei from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Alexei-Zanyatin-Interlay.jpg'
 
-import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
-import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
+// import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
+// import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
+import Belma from '../../public/assets/speakers-pics/Belma-Gutlic-Chainsafe/Belma-Gutlic-Chainsafe.jpg'
 
 import TapioFinance from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Tapio-Finance.jpg'
 import Sushant from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Sushant-Kurren-Tapio-Finance.jpg'
@@ -265,6 +267,18 @@ import Thomas from '../../public/assets/speakers-pics/Thomas-Riviere-Bifrost/Tho
 import Archethic from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Archethic-Blockchain.jpg'
 import Sebastien from '../../public/assets/speakers-pics/Sebastien-Dupont-Archethic-Blockchain/Sebastien-Dupont-Archethic-Blockchain.jpeg'
 import Irvin from '../../public/assets/speakers-pics/Irvin-Polkahaus/BAYC_Bored_Ape_Yacht_Club_7738.png'
+
+import Nova from '../../public/assets/speakers-pics/Leemo-Novasama-Technologies/Nova.jpg'
+import Leemo from '../../public/assets/speakers-pics/Leemo-Novasama-Technologies/Leemo-Novasama-Technologies.jpg'
+
+import Exaion from '../../public/assets/speakers-pics/Thomas-Simon-Exaion/Exaion.png'
+import ThomasSimon from '../../public/assets/speakers-pics/Thomas-Simon-Exaion/Thomas-Simon-Exaion.jpg'
+
+import AvantGarde from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-Garde-Avocats/Avant-Garde-Avocats.jpeg'
+import Ingrid from '../../public/assets/speakers-pics/Ingrid-Mery-Haziot-Avant-Garde-Avocats/Ingrid-Mery-Haziot-Avant-Garde-Avocats.jpeg'
+
+import Moonlit from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/Monolit-Games.jpg'
+import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit-Games/PatrickMc-Grath-Moonlit-Games.jpeg'
 
 import { ImageProps } from 'next/image'
 
@@ -1016,15 +1030,15 @@ export const speakers: ISpeaker[] = [
       },
     },
     image: {
-      src: Matjaz,
-      alt: 'Matjaz Sobocan',
+      src: Nino,
+      alt: 'Nino Kutnjak',
     },
-    name: 'Matjaz Sobocan',
-    title: 'Co-Founder, CEO',
+    name: 'Nino Kutnjak',
+    title: 'CPO',
     socials: {
-      twitter: 'https://twitter.com/Matjazs',
+      twitter: 'https://twitter.com/gosu128',
     },
-    bio: `Matjaz is a seasoned professional with over 15 years of experience in various IT roles. Before stepping up to become Apillon's CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, gaining knowledge about the potential of decentralized systems.`,
+    bio: `With a background in graphic and media technology, Nino jumped into the startup world and rolled up his sleeves in different roles, ranging from developer, CTO to startup founder. Being highly experienced in front- and back-end development, UX, marketing, and growth, the road led him straight to the crypto world where he skyrocketed.`,
   },
   {
     organization: {
@@ -1603,25 +1617,25 @@ export const speakers: ISpeaker[] = [
     },
     bio: '',
   },
-  {
-    organization: {
-      name: 'Chainsafe/Sygma',
-      logo: {
-        src: Chainsafe,
-        alt: 'Chainsafe/Sygma',
-      },
-    },
-    image: {
-      src: Robert,
-      alt: 'Robert Zhuang',
-    },
-    name: 'Robert Zhuang',
-    title: '',
-    socials: {
-      twitter: 'https://twitter.com/defibobbyz',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'Chainsafe/Sygma',
+  //     logo: {
+  //       src: Chainsafe,
+  //       alt: 'Chainsafe/Sygma',
+  //     },
+  //   },
+  //   image: {
+  //     src: Robert,
+  //     alt: 'Robert Zhuang',
+  //   },
+  //   name: 'Robert Zhuang',
+  //   title: '',
+  //   socials: {
+  //     twitter: 'https://twitter.com/defibobbyz',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'Horizen Global',
@@ -2162,7 +2176,11 @@ export const speakers: ISpeaker[] = [
       linkedin:
         'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-stevance-084464121/',
     },
-    bio: '',
+    bio: `Jeremy Stevance is the manager at Deloitte in the fields of Blockchain x Web3.
+
+    He has carried out over 30 missions for clients operating in the ecosystem with their strategic, technical and audit challenges.
+    
+    He also holds the French CPA diploma and has written a thesis on the audit of blockchain transactions.`,
   },
   {
     organization: {
@@ -2186,6 +2204,14 @@ export const speakers: ISpeaker[] = [
   {
     organization: {
       name: 'Novasama Technologies',
+      logo: {
+        src: Nova,
+        alt: 'Novasama Technologies',
+      },
+    },
+    image: {
+      src: Leemo,
+      alt: 'Leemo',
     },
     name: 'Leemo',
     title: 'Chief Nice Officer',
@@ -2197,5 +2223,113 @@ export const speakers: ISpeaker[] = [
     Co-founder of ChaosDAO
     Co-founder GM Parachain
     Council over at HydraDX & Basilisk`,
+  },
+  {
+    organization: {
+      name: 'Exaion',
+      logo: {
+        src: Exaion,
+        alt: 'Exaion',
+      },
+    },
+    image: {
+      src: ThomasSimon,
+      alt: 'Thomas Simon',
+    },
+    name: 'Thomas Simon',
+    title: 'Blockchain Partnerships, Sales Manager',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/simon-thomas-381245137/',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Avant-Garde Avocats',
+      logo: {
+        src: AvantGarde,
+        alt: 'Avant-Garde Avocats',
+      },
+    },
+    image: {
+      src: Ingrid,
+      alt: 'Ingrid Mery Haziot',
+    },
+    name: 'Ingrid Mery Haziot',
+    title: 'Lawyer',
+    socials: {
+      linkedin:
+        'https://www.linkedin.com/in/ingrid-mery-haziot-avantgardeavocats/',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Moonlit Games',
+      logo: {
+        src: Moonlit,
+        alt: 'Moonlit Games',
+      },
+    },
+    image: {
+      src: PatrickMc,
+      alt: 'Patrick McGrath',
+    },
+    name: 'PatrickMc Grath',
+    title: 'Co-Founder, CEO',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/psmcgrath/',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Chainsafe/Sygma',
+      logo: {
+        src: Chainsafe2,
+        alt: 'Chainsafe/Sygma',
+      },
+    },
+    image: {
+      src: Belma,
+      alt: 'Belma Gutlic',
+    },
+    name: 'Belma Gutlic',
+    title: 'VP of Engineering',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/belmagutlic/',
+    },
+    bio: `Belma co-founded NodeFactory, a successful blockchain R&D startup, which she led to an exit when it was acquired in 2021. Active member of local crypto communities as co-founder of Alice in Blockchains and board member at UBIK. She now works at ChainSafe as VP of Engineering.`,
+  },
+  {
+    organization: {
+      name: 'Finance Innovation',
+    },
+
+    name: 'Cyril Armange',
+    title: 'Deputy General Director',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/cyril-armange-55167525/',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Parity',
+      logo: {
+        src: Parity,
+        alt: 'Parity',
+      },
+    },
+    image: {
+      src: Natalie,
+      alt: 'Natalie Tillack',
+    },
+    name: 'Natalie Tillack',
+    title: 'Platform Marketing Lead',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/natalie-tillack/',
+    },
+    bio: ``,
   },
 ]
