@@ -283,6 +283,18 @@ import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit
 import FinanceInnovation from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Finance-Innovation.svg'
 import Cyril from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Cyril-Armange-Finance-Innovation.jpeg'
 
+import PolygonLab from '../../public/assets/speakers-pics/Tanisha-Katara-Polygon-Labs/Polygon-Labs.jpg'
+import Tanisha from '../../public/assets/speakers-pics/Tanisha-Katara-Polygon-Labs/Tanisha-Katara-Polygon-Labs.jpeg'
+
+import Amforc from '../../public/assets/speakers-pics/Tugy-Amforc/Amforc.jpg'
+import Tugy from '../../public/assets/speakers-pics/Tugy-Amforc/Tugy-Amforc.jpg'
+
+import Helikon from '../../public/assets/speakers-pics/Kukabi-Helikon/Helikon.jpg'
+import Kukabi from '../../public/assets/speakers-pics/Kukabi-Helikon/kukabi-Helikon.jpeg'
+
+import DeGenerousDAO from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/DeGenerousDAO.jpg'
+import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGenerousDAO.jpg'
+
 import { ImageProps } from 'next/image'
 
 export interface ISpeaker {
@@ -502,7 +514,7 @@ export const speakers: ISpeaker[] = [
       alt: 'Joanna Liang',
     },
     name: 'Joanna Liang',
-    title: 'Co-founde, CEO',
+    title: 'Co-founder, CEO',
     socials: {
       twitter: ' https://twitter.com/joanna_jsquare',
     },
@@ -1658,25 +1670,25 @@ export const speakers: ISpeaker[] = [
     },
     bio: '',
   },
-  {
-    organization: {
-      name: 'Tapio Finance',
-      logo: {
-        src: TapioFinance,
-        alt: 'Tapio Finance',
-      },
-    },
-    image: {
-      src: Sushant,
-      alt: 'Sushant Kurren',
-    },
-    name: 'Sushant Kurren',
-    title: 'Project Lead',
-    socials: {
-      twitter: 'https://twitter.com/sushantkurren',
-    },
-    bio: '',
-  },
+  // {
+  //   organization: {
+  //     name: 'Tapio Finance',
+  //     logo: {
+  //       src: TapioFinance,
+  //       alt: 'Tapio Finance',
+  //     },
+  //   },
+  //   image: {
+  //     src: Sushant,
+  //     alt: 'Sushant Kurren',
+  //   },
+  //   name: 'Sushant Kurren',
+  //   title: 'Project Lead',
+  //   socials: {
+  //     twitter: 'https://twitter.com/sushantkurren',
+  //   },
+  //   bio: '',
+  // },
   {
     organization: {
       name: 'Tellor',
@@ -1785,7 +1797,7 @@ export const speakers: ISpeaker[] = [
       alt: 'Stanislaw Herjan',
     },
     name: 'Stanislaw Herjan',
-    title: 'Builder',
+    title: 'Co-Founder, CEO',
     socials: {
       twitter: 'https://twitter.com/s_herjan',
     },
@@ -2088,7 +2100,9 @@ export const speakers: ISpeaker[] = [
     },
     name: 'Thomas Riviere',
     title: 'Community Manager',
-    socials: {},
+    socials: {
+      twitter: 'https://twitter.com/ThomasR_SupDup',
+    },
     bio: '15+ years of IT consulting in Tradfi. 2 years in crypto community management & Defi degen',
   },
   {
@@ -2364,15 +2378,15 @@ Her side projects include: <br/>
   {
     organization: {
       name: 'Polygon Labs',
-      // logo: {
-      //   src: Parity,
-      //   alt: 'Polygon Labs',
-      // },
+      logo: {
+        src: PolygonLab,
+        alt: 'Polygon Labs',
+      },
     },
-    // image: {
-    //   src: Natalie,
-    //   alt: 'Tanisha Katara',
-    // },
+    image: {
+      src: Tanisha,
+      alt: 'Tanisha Katara',
+    },
     name: 'Tanisha Katara',
     title: 'Governance and Reputation Consultant',
     socials: {
@@ -2383,20 +2397,58 @@ Her side projects include: <br/>
   {
     organization: {
       name: 'Amforc',
-      // logo: {
-      //   src: Parity,
-      //   alt: 'Amforc',
-      // },
+      logo: {
+        src: Amforc,
+        alt: 'Amforc',
+      },
     },
-    // image: {
-    //   src: Natalie,
-    //   alt: 'Tugy',
-    // },
+    image: {
+      src: Tugy,
+      alt: 'Tugy',
+    },
     name: 'Tugy',
     title: 'Co-founder',
     socials: {
       twitter: 'https://twitter.com/TugyTur',
     },
     bio: ``,
+  },
+  {
+    organization: {
+      name: 'Helikon',
+      logo: {
+        src: Helikon,
+        alt: 'Helikon',
+      },
+    },
+    image: {
+      src: Kukabi,
+      alt: 'Kukabi',
+    },
+    name: 'Kukabi',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/helikonlabs',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'DeGenerousDAO',
+      logo: {
+        src: DeGenerousDAO,
+        alt: 'DeGenerousDAO',
+      },
+    },
+    image: {
+      src: Maxi,
+      alt: 'Maxi',
+    },
+    name: 'Maxi',
+    title: 'Founder',
+    socials: {
+      twitter: 'https://twitter.com/Kusamaximalist',
+    },
+    bio: `Experienced in marketing, growth, and writing as an ex-founder of a news platform with over 1M monthly viewers. Managed over 900k followers across facebook, instagram, and twitter.`,
   },
 ]
