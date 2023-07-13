@@ -10,6 +10,9 @@ import Alberto from '../../public/assets/speakers-pics/Alberto-Viera-Moonbeam/Al
 import Acurast from '../../public/assets/speakers-pics/Alessandro-De-Carli-Acurast/Acurast.jpg'
 import Alessandro from '../../public/assets/speakers-pics/Alessandro-De-Carli-Acurast/Alessandro-De-Carli-Acurast.jpeg'
 
+import Sora from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Sora.jpg'
+import Beno from '../../public/assets/speakers-pics/Beno-Van-Gansen-Sora/Beno-Van-Gansen-Sora.jpg'
+
 // import Vnx from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/VNX3.jpg'
 // import Alexander from '../../public/assets/speakers-pics/Alexander-Tkachenko-VNX/Alexander-Tkachenko-VNX.jpeg'
 
@@ -283,6 +286,18 @@ import PatrickMc from '../../public/assets/speakers-pics/PatrickMc-Grath-Moonlit
 
 import FinanceInnovation from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Finance-Innovation.svg'
 import Cyril from '../../public/assets/speakers-pics/Cyril-Armange-Finance-Innovation/Cyril-Armange-Finance-Innovation.jpeg'
+
+import PolygonLab from '../../public/assets/speakers-pics/Tanisha-Katara-Polygon-Labs/Polygon-Labs.jpg'
+import Tanisha from '../../public/assets/speakers-pics/Tanisha-Katara-Polygon-Labs/Tanisha-Katara-Polygon-Labs.jpeg'
+
+import Amforc from '../../public/assets/speakers-pics/Tugy-Amforc/Amforc.jpg'
+import Tugy from '../../public/assets/speakers-pics/Tugy-Amforc/Tugy-Amforc.jpg'
+
+import Helikon from '../../public/assets/speakers-pics/Kukabi-Helikon/Helikon.jpg'
+import Kukabi from '../../public/assets/speakers-pics/Kukabi-Helikon/kukabi-Helikon.jpeg'
+
+import DeGenerousDAO from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/DeGenerousDAO.jpg'
+import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGenerousDAO.jpg'
 
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
@@ -1451,22 +1466,23 @@ export const day1Program = [
         speakers: [
           {
             organization: {
-              name: 'Blockchain@HEC',
+              name: 'SORA Card',
               logo: {
-                src: BlockchainHec,
-                alt: 'Blockchain@HEC',
+                src: Sora,
+                alt: 'SORA Card',
               },
             },
             image: {
-              src: Benoit,
-              alt: 'Benoît de Dieuleveult',
+              src: Beno,
+              alt: 'Beno Van Gansen',
             },
-            name: 'Benoît de Dieuleveult',
-            title: 'VP Community',
+            name: 'Beno',
+            title: 'Director',
             socials: {
-              linkedin: 'https://www.linkedin.com/in/benoit-de-dieuleveult/',
+              twitter: 'https://twitter.com/BenoLibre',
             },
-            bio: 'Co-founder ClariFi. VP Community Blockchain@HEC. X-HEC Entrepreneurs.',
+            bio: `Starting as an early SORA community member and ambassador, Beno is now bringing SORA Card to you as director of SORA Biome.<br/>
+            Next to this he leads Polkaswap community initiatives with Polka Biome - an extension of the earlier Polkaswap Community Collective.`,
           },
         ],
       },
@@ -2400,26 +2416,27 @@ export const day2Program = [
       {
         id: 'item-2',
         time: '11:15 - 11:30',
-        title: 'Taiga Protocol - Unifying Staking Derivatives',
+        title:
+          'The Rise of AI and the Re-Evolution of NFTs through Dynamic storytelling',
         speakers: [
           {
             organization: {
-              name: 'Tapio Finance',
+              name: 'DeGenerousDAO',
               logo: {
-                src: TapioFinance,
-                alt: 'Tapio Finance',
+                src: DeGenerousDAO,
+                alt: 'DeGenerousDAO',
               },
             },
             image: {
-              src: Sushant,
-              alt: 'Sushant Kurren',
+              src: Maxi,
+              alt: 'Maxi',
             },
-            name: 'Sushant Kurren',
-            title: 'Project Lead',
+            name: 'Maxi',
+            title: 'Founder',
             socials: {
-              twitter: 'https://twitter.com/sushantkurren',
+              twitter: 'https://twitter.com/Kusamaximalist',
             },
-            bio: '',
+            bio: `Experienced in marketing, growth, and writing as an ex-founder of a news platform with over 1M monthly viewers. Managed over 900k followers across facebook, instagram, and twitter.`,
           },
         ],
       },
@@ -3024,15 +3041,15 @@ export const day3Program = [
           {
             organization: {
               name: 'Polygon Labs',
-              // logo: {
-              //   src: Parity,
-              //   alt: 'Polygon Labs',
-              // },
+              logo: {
+                src: PolygonLab,
+                alt: 'Polygon Labs',
+              },
             },
-            // image: {
-            //   src: Natalie,
-            //   alt: 'Tanisha Katara',
-            // },
+            image: {
+              src: Tanisha,
+              alt: 'Tanisha Katara',
+            },
             name: 'Tanisha Katara',
             title: 'Governance and Reputation Consultant',
             socials: {
@@ -3867,11 +3884,38 @@ export const day3Program = [
           {
             organization: {
               name: 'Amforc',
+              logo: {
+                src: Amforc,
+                alt: 'Amforc',
+              },
+            },
+            image: {
+              src: Tugy,
+              alt: 'Tugy',
             },
             name: 'Tugy',
             title: 'Co-founder',
             socials: {
               twitter: 'https://twitter.com/TugyTur',
+            },
+            bio: ``,
+          },
+          {
+            organization: {
+              name: 'Helikon',
+              logo: {
+                src: Helikon,
+                alt: 'Helikon',
+              },
+            },
+            image: {
+              src: Kukabi,
+              alt: 'Kukabi',
+            },
+            name: 'Kukabi',
+            title: 'Founder',
+            socials: {
+              twitter: 'https://twitter.com/helikonlabs',
             },
             bio: ``,
           },
