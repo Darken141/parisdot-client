@@ -299,6 +299,9 @@ import Kukabi from '../../public/assets/speakers-pics/Kukabi-Helikon/kukabi-Heli
 import DeGenerousDAO from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/DeGenerousDAO.jpg'
 import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGenerousDAO.jpg'
 
+import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.png'
+import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
+
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
 export const day1Program = [
@@ -853,22 +856,24 @@ export const day1Program = [
           },
           {
             organization: {
-              name: 'CNRS',
+              name: 'Trakx',
               logo: {
-                src: Cnrs,
-                alt: 'CNRS',
+                src: Trakx,
+                alt: 'Trakx',
               },
             },
             image: {
-              src: Primavera,
-              alt: 'Primavera De Filippi',
+              src: Yann,
+              alt: 'Yann Le Floch',
             },
-            name: 'Primavera De Filippi',
-            title: 'Researcher',
+            name: 'Yann Le Floch',
+            title: 'Digital Asset Banker',
             socials: {
-              twitter: 'https://twitter.com/yaoeo',
+              twitter: 'https://www.linkedin.com/in/yann-le-floch-finance/',
             },
-            bio: '',
+            bio: `Yann Le Floch, former investment banker for BNP Paribas CIB, for around 15 years, in the trading room on corporate finance derivatives, then in the strategy consulting teams, and within the Blockchain Lab, is now an entrepreneur on cryptomoneys and institutional digital currencies. Yann joined Trakx.io in September 2022 to propose new opportunities of investments in this new crypto asset class to traditional financial structures and individuals. 
+            As independant banker, Yann is involved in Digital Money Ecosystem for 20 years with a societal and philosophical approach.
+            Yann is an engineer from Mines de Paris, Blockchain certified from MIT and Sustainable Business from Harvard Business School.`,
           },
           {
             organization: {
@@ -1020,22 +1025,24 @@ export const day1Program = [
           },
           {
             organization: {
-              name: 'CNRS',
+              name: 'Trakx',
               logo: {
-                src: Cnrs,
-                alt: 'CNRS',
+                src: Trakx,
+                alt: 'Trakx',
               },
             },
             image: {
-              src: Primavera,
-              alt: 'Primavera De Filippi',
+              src: Yann,
+              alt: 'Yann Le Floch',
             },
-            name: 'Primavera De Filippi',
-            title: 'Researcher',
+            name: 'Yann Le Floch',
+            title: 'Digital Asset Banker',
             socials: {
-              twitter: 'https://twitter.com/yaoeo',
+              twitter: 'https://www.linkedin.com/in/yann-le-floch-finance/',
             },
-            bio: '',
+            bio: `Yann Le Floch, former investment banker for BNP Paribas CIB, for around 15 years, in the trading room on corporate finance derivatives, then in the strategy consulting teams, and within the Blockchain Lab, is now an entrepreneur on cryptomoneys and institutional digital currencies. Yann joined Trakx.io in September 2022 to propose new opportunities of investments in this new crypto asset class to traditional financial structures and individuals. 
+            As independant banker, Yann is involved in Digital Money Ecosystem for 20 years with a societal and philosophical approach.
+            Yann is an engineer from Mines de Paris, Blockchain certified from MIT and Sustainable Business from Harvard Business School.`,
           },
           {
             organization: {
@@ -1894,25 +1901,25 @@ export const day2Program = [
             
             He also holds the French CPA diploma and has written a thesis on the audit of blockchain transactions.`,
           },
-          {
-            organization: {
-              name: 'Tokeny',
-              logo: {
-                src: Tokeny,
-                alt: 'Tokeny',
-              },
-            },
-            image: {
-              src: Luc,
-              alt: 'Luc Falempin',
-            },
-            name: 'Luc Falempin',
-            title: 'CEO',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/lucfalempin/',
-            },
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: 'Tokeny',
+          //     logo: {
+          //       src: Tokeny,
+          //       alt: 'Tokeny',
+          //     },
+          //   },
+          //   image: {
+          //     src: Luc,
+          //     alt: 'Luc Falempin',
+          //   },
+          //   name: 'Luc Falempin',
+          //   title: 'CEO',
+          //   socials: {
+          //     linkedin: 'https://www.linkedin.com/in/lucfalempin/',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: 'Defactor Labs',
@@ -2117,127 +2124,9 @@ export const day2Program = [
         ],
       },
       {
-        type: 'Workshop',
+        type: 'Panel',
         id: 'item-9',
         time: '15:45 - 16:30',
-        title: 'Real world assets and DeFi',
-        speakers: [
-          {
-            organization: {
-              name: 'logion',
-              // logo: {
-              //   src: KameaLabs,
-              //   alt: 'logion',
-              // },
-            },
-            image: {
-              src: AndreaVistoli,
-              alt: 'Andréa Vistoli',
-            },
-            name: 'Andréa Vistoli',
-            title: '',
-            socials: {
-              twitter: 'https://twitter.com/SanchezCrypto',
-            },
-            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
-          },
-          {
-            organization: {
-              name: 'pieces.market',
-              logo: {
-                src: PiecesMarket,
-                alt: 'pieces.market',
-              },
-            },
-            image: {
-              src: Stanislaw,
-              alt: 'Stanislaw Herjan',
-            },
-            name: 'Stanislaw Herjan',
-            title: 'Builder',
-            socials: {
-              twitter: 'https://twitter.com/s_herjan',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'CryptoConseils',
-              logo: {
-                src: CryptoConseils,
-                alt: 'CryptoConseils',
-              },
-            },
-            image: {
-              src: Shayldon,
-              alt: 'Shayldon Brown',
-            },
-            name: 'Shayldon Brown',
-            title: 'Founder',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/shayldon-brown/',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'Blok.immo',
-              logo: {
-                src: BlokImmo,
-                alt: 'Blok.immo',
-              },
-            },
-            image: {
-              src: Pierre,
-              alt: 'Pierre Soulette',
-            },
-            name: 'Pierre Soulette',
-            title: 'Founder, CEO',
-            socials: {
-              twitter: 'https://twitter.com/blok_souflette',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'Tal',
-              logo: {
-                src: Tal,
-                alt: 'Tal',
-              },
-            },
-            image: {
-              src: Alain,
-              alt: 'Alain Parize',
-            },
-            name: 'Alain Parize',
-            title: 'Founder',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/alainparize/',
-            },
-            bio: 'Experienced entrepreneur with a demonstrated history of founding, funding, managing and coaching high growth companies and innovative teams. Practicing in various sectors with an emphasis on financial technology companies and customer relationship strategy.',
-          },
-
-          {
-            organization: {
-              name: '',
-            },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
-          },
-        ],
-      },
-      {
-        id: 'item-11',
-        time: '16:30 - 16:45',
-        title: 'BREAK',
-      },
-      {
-        type: 'Panel',
-        id: 'item-12',
-        time: '16:45 - 17:30',
         title: 'DeFi and regulation',
         speakers: [
           {
@@ -2373,6 +2262,125 @@ export const day2Program = [
           // },
         ],
       },
+      {
+        id: 'item-11',
+        time: '16:30 - 16:45',
+        title: 'BREAK',
+      },
+      {
+        type: 'Workshop',
+        id: 'item-11',
+        time: '16:45 - 17:30',
+        title: 'Real world assets and DeFi',
+        speakers: [
+          {
+            organization: {
+              name: 'logion',
+              // logo: {
+              //   src: KameaLabs,
+              //   alt: 'logion',
+              // },
+            },
+            image: {
+              src: AndreaVistoli,
+              alt: 'Andréa Vistoli',
+            },
+            name: 'Andréa Vistoli',
+            title: '',
+            socials: {
+              twitter: 'https://twitter.com/SanchezCrypto',
+            },
+            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+          },
+          {
+            organization: {
+              name: 'pieces.market',
+              logo: {
+                src: PiecesMarket,
+                alt: 'pieces.market',
+              },
+            },
+            image: {
+              src: Stanislaw,
+              alt: 'Stanislaw Herjan',
+            },
+            name: 'Stanislaw Herjan',
+            title: 'Builder',
+            socials: {
+              twitter: 'https://twitter.com/s_herjan',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'CryptoConseils',
+              logo: {
+                src: CryptoConseils,
+                alt: 'CryptoConseils',
+              },
+            },
+            image: {
+              src: Shayldon,
+              alt: 'Shayldon Brown',
+            },
+            name: 'Shayldon Brown',
+            title: 'Founder',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/shayldon-brown/',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Blok.immo',
+              logo: {
+                src: BlokImmo,
+                alt: 'Blok.immo',
+              },
+            },
+            image: {
+              src: Pierre,
+              alt: 'Pierre Soulette',
+            },
+            name: 'Pierre Soulette',
+            title: 'Founder, CEO',
+            socials: {
+              twitter: 'https://twitter.com/blok_souflette',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Tal',
+              logo: {
+                src: Tal,
+                alt: 'Tal',
+              },
+            },
+            image: {
+              src: Alain,
+              alt: 'Alain Parize',
+            },
+            name: 'Alain Parize',
+            title: 'Founder',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/alainparize/',
+            },
+            bio: 'Experienced entrepreneur with a demonstrated history of founding, funding, managing and coaching high growth companies and innovative teams. Practicing in various sectors with an emphasis on financial technology companies and customer relationship strategy.',
+          },
+
+          {
+            organization: {
+              name: '',
+            },
+            name: 'TBD',
+            title: '',
+            socials: {},
+            bio: '',
+          },
+        ],
+      },
+
       {
         id: 'item-12',
         time: '17:30 - 18:30',
