@@ -295,6 +295,9 @@ import Kukabi from '../../public/assets/speakers-pics/Kukabi-Helikon/kukabi-Heli
 import DeGenerousDAO from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/DeGenerousDAO.jpg'
 import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGenerousDAO.jpg'
 
+import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.png'
+import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
+
 import { ImageProps } from 'next/image'
 
 export interface ISpeaker {
@@ -2450,5 +2453,26 @@ Her side projects include: <br/>
       twitter: 'https://twitter.com/Kusamaximalist',
     },
     bio: `Experienced in marketing, growth, and writing as an ex-founder of a news platform with over 1M monthly viewers. Managed over 900k followers across facebook, instagram, and twitter.`,
+  },
+  {
+    organization: {
+      name: 'Trakx',
+      logo: {
+        src: Trakx,
+        alt: 'Trakx',
+      },
+    },
+    image: {
+      src: Yann,
+      alt: 'Yann Le Floch',
+    },
+    name: 'Yann Le Floch',
+    title: 'Digital Asset Banker',
+    socials: {
+      twitter: 'https://www.linkedin.com/in/yann-le-floch-finance/',
+    },
+    bio: `Yann Le Floch, former investment banker for BNP Paribas CIB, for around 15 years, in the trading room on corporate finance derivatives, then in the strategy consulting teams, and within the Blockchain Lab, is now an entrepreneur on cryptomoneys and institutional digital currencies. Yann joined Trakx.io in September 2022 to propose new opportunities of investments in this new crypto asset class to traditional financial structures and individuals. 
+    As independant banker, Yann is involved in Digital Money Ecosystem for 20 years with a societal and philosophical approach.
+    Yann is an engineer from Mines de Paris, Blockchain certified from MIT and Sustainable Business from Harvard Business School.`,
   },
 ]
