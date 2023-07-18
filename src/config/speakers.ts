@@ -145,6 +145,7 @@ import Simon from '../../public/assets/speakers-pics/Simon-Leon-Polkadot-Latam/p
 
 import PhallaNetwork from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Phala_colorful_logo_icon_png.png'
 import Zoe from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Zoe-Meckbach-Phala-Network.jpg'
+import Gator from '../../public/assets/speakers-pics/Gator-Phala/Gator-Phala.jpg'
 
 import GreenPill from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Green-Pill.jpg'
 import Sejal from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Sejal-Rekhan-Green-Pill.jpeg'
@@ -297,6 +298,8 @@ import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGe
 
 import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.png'
 import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
+
+import Maciej from '../../public/assets/speakers-pics/Maciej-Baj-t3rn/Maciej-Baj-t3rn.jpg'
 
 import { ImageProps } from 'next/image'
 
@@ -1234,11 +1237,11 @@ export const speakers: ISpeaker[] = [
   },
   {
     organization: {
-      name: 'Ink! Lang',
-      logo: {
-        src: Ink,
-        alt: 'Ink! Lang',
-      },
+      name: 'INTU',
+      // logo: {
+      //   src: Ink,
+      //   alt: 'Ink! Lang',
+      // },
     },
     image: {
       src: Lea,
@@ -2474,5 +2477,58 @@ Her side projects include: <br/>
     bio: `Yann Le Floch, former investment banker for BNP Paribas CIB, for around 15 years, in the trading room on corporate finance derivatives, then in the strategy consulting teams, and within the Blockchain Lab, is now an entrepreneur on cryptomoneys and institutional digital currencies. Yann joined Trakx.io in September 2022 to propose new opportunities of investments in this new crypto asset class to traditional financial structures and individuals. 
     As independant banker, Yann is involved in Digital Money Ecosystem for 20 years with a societal and philosophical approach.
     Yann is an engineer from Mines de Paris, Blockchain certified from MIT and Sustainable Business from Harvard Business School.`,
+  },
+  {
+    organization: {
+      name: 'Phala Network',
+      logo: {
+        src: PhallaNetwork,
+        alt: 'Phala Network',
+      },
+    },
+    image: {
+      src: Gator,
+      alt: 'Gator',
+    },
+    name: 'Gator',
+    title: 'Ambassador',
+    socials: {
+      twitter: 'https://twitter.com/gk18_dog',
+    },
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 'Manta',
+      // logo: {
+      //   src: Manta,
+      //   alt: 'Manta',
+      // },
+    },
+    // image: {
+    //   src: Gator,
+    //   alt: 'Kenny Li',
+    // },
+    name: 'Kenny Li',
+    title: '',
+    socials: {},
+    bio: ``,
+  },
+  {
+    organization: {
+      name: 't3rn',
+      // logo: {
+      //   src: Manta,
+      //   alt: 'Manta',
+      // },
+    },
+    image: {
+      src: Maciej,
+      alt: 'Maciej Baj',
+    },
+    name: 'Maciej Baj',
+    title: '',
+    socials: {},
+    bio: ``,
   },
 ]
