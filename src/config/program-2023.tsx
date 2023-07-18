@@ -148,6 +148,7 @@ import Simon from '../../public/assets/speakers-pics/Simon-Leon-Polkadot-Latam/p
 
 import PhallaNetwork from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Phala_colorful_logo_icon_png.png'
 import Zoe from '../../public/assets/speakers-pics/Zoe-Meckbach-Phala-Network/Zoe-Meckbach-Phala-Network.jpg'
+import Gator from '../../public/assets/speakers-pics/Gator-Phala/Gator-Phala.jpg'
 
 import GreenPill from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Green-Pill.jpg'
 import Sejal from '../../public/assets/speakers-pics/Sejal-Rekhan-GreenPill-Network/Sejal-Rekhan-Green-Pill.jpeg'
@@ -191,8 +192,8 @@ import AndreaVistoli from '../../public/assets/speakers-pics/Andrea-Vistoli-Kame
 import Interlay from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Interlay.png'
 import Alexei from '../../public/assets/speakers-pics/Alexei-Zanyatin-Interlay/Alexei-Zanyatin-Interlay.jpg'
 
-// import Chainsafe from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Chainsafe.jpg'
-// import Robert from '../../public/assets/speakers-pics/Robert-Zhuang-Chainsafe/Robert-Zhuang-Chainsafe.jpg'
+import Cess from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/CESS.jpg'
+import John from '../../public/assets/speakers-pics/John-Humphreys-Ramos-CESS/John-Humphreys-Ramos-CESS.jpg'
 
 import TapioFinance from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Tapio-Finance.jpg'
 import Sushant from '../../public/assets/speakers-pics/Sushant-Kurren-Tapio-Finance/Sushant-Kurren-Tapio-Finance.jpg'
@@ -302,6 +303,7 @@ import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGe
 import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.png'
 import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
 
+import Maciej from '../../public/assets/speakers-pics/Maciej-Baj-t3rn/Maciej-Baj-t3rn.jpg'
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
 export const day1Program = [
@@ -702,18 +704,18 @@ export const day1Program = [
           },
           {
             organization: {
-              name: 'Novasama Technologies',
-              logo: {
-                src: Nova,
-                alt: 'Novasama Technologies',
-              },
+              name: 'Chaos DAO',
+              // logo: {
+              //   src: Nova,
+              //   alt: 'Novasama Technologies',
+              // },
             },
             image: {
               src: Leemo,
               alt: 'Leemo',
             },
             name: 'Leemo',
-            title: 'Chief Nice Officer',
+            title: 'Co-Founder',
             socials: {
               twitter: 'https://twitter.com/LeemoXD',
             },
@@ -1329,31 +1331,56 @@ export const day1Program = [
       {
         id: 'item-9',
         time: '14:15 - 14:30',
-        title: "How NFTs can change your user's entire experience",
+        title:
+          'zkSBT, the compliant credentials acquired 1.5 million users in two months',
         speakers: [
           {
             organization: {
-              name: 'Zeitgeist',
-              logo: {
-                src: Zeitgeist,
-                alt: 'Zeitgeist',
-              },
+              name: 'Manta',
+              // logo: {
+              //   src: Manta,
+              //   alt: 'Manta',
+              // },
             },
-            image: {
-              src: James,
-              alt: 'James Preston',
-            },
-            name: 'James Preston',
-            title: 'Comms Manager',
-            socials: {
-              twitter: 'https://twitter.com/JamesPrestonZA',
-            },
-            bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.
-        
-            After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
+            // image: {
+            //   src: Gator,
+            //   alt: 'Kenny Li',
+            // },
+            name: 'Kenny Li',
+            title: '',
+            socials: {},
+            bio: ``,
           },
         ],
       },
+      // {
+      //   id: 'item-9',
+      //   time: '14:15 - 14:30',
+      //   title: "How NFTs can change your user's entire experience",
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'Zeitgeist',
+      //         logo: {
+      //           src: Zeitgeist,
+      //           alt: 'Zeitgeist',
+      //         },
+      //       },
+      //       image: {
+      //         src: James,
+      //         alt: 'James Preston',
+      //       },
+      //       name: 'James Preston',
+      //       title: 'Comms Manager',
+      //       socials: {
+      //         twitter: 'https://twitter.com/JamesPrestonZA',
+      //       },
+      //       bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.
+
+      //       After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
+      //     },
+      //   ],
+      // },
       {
         id: 'item-10',
         time: '14:30 - 14:45',
@@ -1390,7 +1417,7 @@ export const day1Program = [
       {
         id: 'item-11',
         time: '14:45 - 15:00',
-        title: 'TBD',
+        title: 'Building dapps through several parachains on Apillon',
         speakers: [
           {
             organization: {
@@ -1416,29 +1443,53 @@ export const day1Program = [
       {
         id: 'item-12',
         time: '15:00 - 15:15',
-        title: 'Developing better, faster cross-chain dApps with data indexing',
+        title: '-',
         speakers: [
           {
             organization: {
-              name: 'SubQuery and OnFinality',
-              logo: {
-                src: SubQuery,
-                alt: 'SubQuery and OnFinality',
-              },
+              name: 'Stella swap',
+              // logo: {
+              //   src: SubQuery,
+              //   alt: 'SubQuery and OnFinality',
+              // },
             },
-            image: {
-              src: Marta,
-              alt: 'Marta Adamczyk',
-            },
-            name: 'Marta Adamczyk',
-            title: 'Technology Evangelist',
-            socials: {
-              twitter: 'https://twitter.com/madamczyk0',
-            },
+            // image: {
+            //   src: Marta,
+            //   alt: 'Tee',
+            // },
+            name: 'Tee',
+            title: '',
+            socials: {},
             bio: '',
           },
         ],
       },
+      // {
+      //   id: 'item-12',
+      //   time: '15:00 - 15:15',
+      //   title: 'Developing better, faster cross-chain dApps with data indexing',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'SubQuery and OnFinality',
+      //         logo: {
+      //           src: SubQuery,
+      //           alt: 'SubQuery and OnFinality',
+      //         },
+      //       },
+      //       image: {
+      //         src: Marta,
+      //         alt: 'Marta Adamczyk',
+      //       },
+      //       name: 'Marta Adamczyk',
+      //       title: 'Technology Evangelist',
+      //       socials: {
+      //         twitter: 'https://twitter.com/madamczyk0',
+      //       },
+      //       bio: '',
+      //     },
+      //   ],
+      // },
       {
         id: 'item-13',
         time: '15:15 - 15:30',
@@ -1526,40 +1577,29 @@ export const day1Program = [
         speakers: [
           {
             organization: {
-              name: 'Protofire',
+              name: 'CESS',
               logo: {
-                src: Protofire,
-                alt: 'Protofire',
+                src: Cess,
+                alt: 'CESS',
               },
             },
             image: {
-              src: Cristian,
-              alt: 'Cristian Malfesi',
+              src: John,
+              alt: 'John Humphreys-Ramos',
             },
-            name: 'Cristian Malfesi',
-            title: 'Solution Architect',
+            name: 'John Humphreys-Ramos',
+            title: 'Marketing Manager',
             socials: {
-              twitter: 'https://twitter.com/CristianMalfesi',
+              twitter: 'https://twitter.com/JP_TweetChain',
             },
-            bio: `I am an enthusiastic person with extensive experience across various IT domains,
-            specializing in blockchain technology, DeFi, and DAO projects. I excel at building
-            motivated teams and delivering high-quality outcomes through a thoughtful
-            approach. With a focus on agile methodologies, I have successfully managed
-            multiple teams concurrently.
-            As the Owner of the Seed Nodes Pool at Protofire.io, I'm focused on building a DAO
-            of a Human Protocol, scaling up teams and incubating high-impact projects in the
-            blockchain ecosystem. I have collaborated with essential blockchain protocols,
-            including The Graph, Livepeer, Secret Network, Tezos, Opyn, Polkadot, Filecoin,
-            Curve, Synthetix, Gnosis Safe, Chainlink, Cowswap, and Swarm, among others. I have
-            also integrated various protocols into several chain networks, expanding my
-            expertise.`,
+            bio: 'John is the EU and LATAM Marketing Manager for Cumulus Encrypted Storage System (CESS). He graduated from Manchester Metropolitan University with a Degree in Marketing. He currently focuses on growth strategies to introduce CESS into Europe, North America and Latin America.',
           },
         ],
       },
       {
         id: 'item-17',
         time: '16:15 - 16:30',
-        title: 'TBD',
+        title: 'Why users and liquidity will love Polkadot',
         speakers: [
           {
             organization: {
@@ -1678,25 +1718,25 @@ export const day2Program = [
         
             After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
           },
-          {
-            organization: {
-              name: 'Dialectic',
-              logo: {
-                src: Dialectic,
-                alt: 'Dialectic',
-              },
-            },
-            image: {
-              src: Dieter,
-              alt: 'Dieter Fishbein',
-            },
-            name: 'Dieter Fishbein',
-            title: 'Partner',
-            socials: {
-              twitter: 'https://twitter.com/dieterfishbein',
-            },
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: 'Dialectic',
+          //     logo: {
+          //       src: Dialectic,
+          //       alt: 'Dialectic',
+          //     },
+          //   },
+          //   image: {
+          //     src: Dieter,
+          //     alt: 'Dieter Fishbein',
+          //   },
+          //   name: 'Dieter Fishbein',
+          //   title: 'Partner',
+          //   socials: {
+          //     twitter: 'https://twitter.com/dieterfishbein',
+          //   },
+          //   bio: '',
+          // },
           {
             organization: {
               name: 'DFG',
@@ -2369,15 +2409,15 @@ export const day2Program = [
             bio: 'Experienced entrepreneur with a demonstrated history of founding, funding, managing and coaching high growth companies and innovative teams. Practicing in various sectors with an emphasis on financial technology companies and customer relationship strategy.',
           },
 
-          {
-            organization: {
-              name: '',
-            },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: '',
+          //   },
+          //   name: 'TBD',
+          //   title: '',
+          //   socials: {},
+          //   bio: '',
+          // },
         ],
       },
 
@@ -2451,7 +2491,7 @@ export const day2Program = [
       {
         id: 'item-3',
         time: '11:30 - 11:45',
-        title: 'TBD',
+        title: '',
         speakers: [
           {
             organization: {
@@ -2719,16 +2759,24 @@ export const day2Program = [
       {
         id: 'item-14',
         time: '15:15 - 15:30',
-        title: 'TBD',
+        title: 'Solving the trustless oracles problem with Polkadot and t3rn',
         speakers: [
           {
             organization: {
-              name: '',
+              name: 't3rn',
+              // logo: {
+              //   src: Manta,
+              //   alt: 'Manta',
+              // },
             },
-            name: 'TBD - t3rn',
+            image: {
+              src: Maciej,
+              alt: 'Maciej Baj',
+            },
+            name: 'Maciej Baj',
             title: '',
             socials: {},
-            bio: '',
+            bio: ``,
           },
         ],
       },
@@ -2761,42 +2809,55 @@ export const day2Program = [
       {
         id: 'item-16',
         time: '15:45 - 16:00',
-        title: 'TBD',
+        title:
+          'Tanssi: Pioneering & Powering Rapid Developer Adoption on Polkadot',
         speakers: [
           {
             organization: {
-              name: 'Interlay',
+              name: 'Moonbeam',
               logo: {
-                src: Interlay,
-                alt: 'Interlay',
+                src: Moonbeam,
+                alt: 'Moonbeam',
               },
             },
             image: {
-              src: Alexei,
-              alt: 'Alexei Zamyatin',
+              src: Alberto,
+              alt: 'Alberto Viera',
             },
-            name: 'Alexei Zamyatin',
-            title: 'Founder',
+            name: 'Alberto',
+            title: 'Developer Relations',
             socials: {
-              twitter: 'https://twitter.com/alexeiZamyatin',
+              twitter: 'https://twitter.com/theAlbertoV19',
             },
-            bio: '',
+            bio: `Alberto Viera, is Head of developer relations at Purestake, a development team for Moonbeam. Formerly a Mechanical Engineer from Venezuela, Ph.D. in Internal Combustion Engines, you might ask yourself, "What is this guy doing here?" I've been passionate about crypto since late 2013, reading and educating myself about the tech. I decided to go full-time in crypto around January 2020, doing courses, reading, and engaging with mostly the Ethereum tech stack. I started as the Developer Relations Manager at Moonbeam in June 2020, and I've never looked back. As the old saying goes: "Do what you love, and you won't have to work a day in your life."`,
           },
         ],
       },
       {
         id: 'item-17',
         time: '16:00 - 16:15',
-        title: 'TBD',
+        title: `How NFTs can change your user's entire experience`,
         speakers: [
           {
             organization: {
-              name: '',
+              name: 'Zeitgeist',
+              logo: {
+                src: Zeitgeist,
+                alt: 'Zeitgeist',
+              },
             },
-            name: 'TBD - Wormhole',
-            title: '',
-            socials: {},
-            bio: '',
+            image: {
+              src: James,
+              alt: 'James Preston',
+            },
+            name: 'James Preston',
+            title: 'Comms Manager',
+            socials: {
+              twitter: 'https://twitter.com/JamesPrestonZA',
+            },
+            bio: `James is a writer with a career in media spanning 22 years. Writing about innovative trends and technological advancements, he ventured into blockchain reporting in 2015, where he fast became South Africa’s leading voice on the topic. He founded SA Crypto in 2016, South Africa’s largest crypto community, and transformed it into the continent’s leading podcast at GlobalCrypto.tv.<br/>
+        
+            After seeing the expansion of the Polkadot ecosystem, he joined forces with Zeitgeist to run their Marketing & Communications, where he remains an active influence in Dotsama’s leading prediction market protocol. James spoke at Polkadot Decoded 2022 in Buenos Aires, and continues to grow his influence in the ecosystem.`,
           },
         ],
       },
@@ -3380,21 +3441,22 @@ export const day3Program = [
           },
           {
             organization: {
-              name: '',
+              name: 'Phala Network',
+              logo: {
+                src: PhallaNetwork,
+                alt: 'Phala Network',
+              },
             },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
-          },
-          {
-            organization: {
-              name: '',
+            image: {
+              src: Gator,
+              alt: 'Gator',
             },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
+            name: 'Gator',
+            title: 'Ambassador',
+            socials: {
+              twitter: 'https://twitter.com/gk18_dog',
+            },
+            bio: ``,
           },
         ],
       },
@@ -3442,7 +3504,8 @@ export const day3Program = [
       {
         id: 'item-2',
         time: '11:15 - 11:30',
-        title: 'TBD',
+        title:
+          'New-tech Motion: WhatSparks Fly When AI Collides withBlockchain?',
         speakers: [
           {
             organization: {
@@ -3557,8 +3620,8 @@ export const day3Program = [
       },
       {
         id: 'item-6',
-        time: '12:00 - 12:45',
-        title: 'Panel DeFi DIA',
+        time: '12:15 - 12:45',
+        title: 'Liquid Staking: The staple that fuels ecosystem growth?',
         speakers: [
           {
             organization: {
@@ -3619,6 +3682,44 @@ export const day3Program = [
             },
             bio: '',
           },
+          {
+            organization: {
+              name: 'Panther Protocol',
+              logo: {
+                src: PantherProtocol,
+                alt: 'Panther Protocol',
+              },
+            },
+            image: {
+              src: Anish,
+              alt: 'Anish Mohammed',
+            },
+            name: 'Anish Mohammed',
+            title: 'CTO',
+            socials: {
+              twitter: 'https://twitter.com/anishmohammed',
+            },
+            bio: `Dr. Anish Mohammed is co-founder , chief scientist and CTO of Panther protocol, which provides privacy for DeFi. He has more than 20 years of experience in security and cryptography, half of which was dedicated to researching cryptographic algorithms and protocols at research groups including at Microsoft. Anish was an early advisor to Ripple and Ocean protocol, as well as an early member of Ethereum swarm (orange) team, becoming a reviewer of its orange paper. He was also the principle architect for Boson protocol.`,
+          },
+          {
+            organization: {
+              name: 'HydraDX',
+              logo: {
+                src: Hydradx,
+                alt: 'HydraDX',
+              },
+            },
+            image: {
+              src: Jakub,
+              alt: 'Jakub Gregus',
+            },
+            name: 'Jakub Gregus',
+            title: 'CEO',
+            socials: {
+              twitter: 'https://twitter.com/GregusJakub',
+            },
+            bio: '',
+          },
           // {
           //   organization: {
           //     name: 'HydraDX',
@@ -3638,15 +3739,15 @@ export const day3Program = [
           //   },
           //   bio: '',
           // },
-          {
-            organization: {
-              name: '',
-            },
-            name: 'TBD',
-            title: '',
-            socials: {},
-            bio: '',
-          },
+          // {
+          //   organization: {
+          //     name: '',
+          //   },
+          //   name: 'TBD',
+          //   title: '',
+          //   socials: {},
+          //   bio: '',
+          // },
         ],
       },
       {
@@ -3736,11 +3837,11 @@ export const day3Program = [
         speakers: [
           {
             organization: {
-              name: 'Ink! Lang',
-              logo: {
-                src: Ink,
-                alt: 'Ink! Lang',
-              },
+              name: 'INTU',
+              // logo: {
+              //   src: Ink,
+              //   alt: 'Ink! Lang',
+              // },
             },
             image: {
               src: Lea,
@@ -3776,30 +3877,56 @@ export const day3Program = [
       },
       {
         id: 'item-12',
-        time: '14:45 : 15:00',
-        title: 'Simulate OpenGov proposals with Chopsticks',
+        time: '14:45 - 15:00',
+        title: 'Developing better, faster cross-chain dApps with data indexing',
         speakers: [
           {
             organization: {
-              name: 'Moonbeam',
+              name: 'SubQuery and OnFinality',
               logo: {
-                src: Moonbeam,
-                alt: 'Moonbeam',
+                src: SubQuery,
+                alt: 'SubQuery and OnFinality',
               },
             },
             image: {
-              src: Alberto,
-              alt: 'Alberto Viera',
+              src: Marta,
+              alt: 'Marta Adamczyk',
             },
-            name: 'Alberto',
-            title: 'Developer Relations',
+            name: 'Marta Adamczyk',
+            title: 'Technology Evangelist',
             socials: {
-              twitter: 'https://twitter.com/theAlbertoV19',
+              twitter: 'https://twitter.com/madamczyk0',
             },
-            bio: `Alberto Viera, is Head of developer relations at Purestake, a development team for Moonbeam. Formerly a Mechanical Engineer from Venezuela, Ph.D. in Internal Combustion Engines, you might ask yourself, "What is this guy doing here?" I've been passionate about crypto since late 2013, reading and educating myself about the tech. I decided to go full-time in crypto around January 2020, doing courses, reading, and engaging with mostly the Ethereum tech stack. I started as the Developer Relations Manager at Moonbeam in June 2020, and I've never looked back. As the old saying goes: "Do what you love, and you won't have to work a day in your life."`,
+            bio: '',
           },
         ],
       },
+      // {
+      //   id: 'item-12',
+      //   time: '14:45 : 15:00',
+      //   title: 'Simulate OpenGov proposals with Chopsticks',
+      //   speakers: [
+      //     {
+      //       organization: {
+      //         name: 'Moonbeam',
+      //         logo: {
+      //           src: Moonbeam,
+      //           alt: 'Moonbeam',
+      //         },
+      //       },
+      //       image: {
+      //         src: Alberto,
+      //         alt: 'Alberto Viera',
+      //       },
+      //       name: 'Alberto',
+      //       title: 'Developer Relations',
+      //       socials: {
+      //         twitter: 'https://twitter.com/theAlbertoV19',
+      //       },
+      //       bio: `Alberto Viera, is Head of developer relations at Purestake, a development team for Moonbeam. Formerly a Mechanical Engineer from Venezuela, Ph.D. in Internal Combustion Engines, you might ask yourself, "What is this guy doing here?" I've been passionate about crypto since late 2013, reading and educating myself about the tech. I decided to go full-time in crypto around January 2020, doing courses, reading, and engaging with mostly the Ethereum tech stack. I started as the Developer Relations Manager at Moonbeam in June 2020, and I've never looked back. As the old saying goes: "Do what you love, and you won't have to work a day in your life."`,
+      //     },
+      //   ],
+      // },
       {
         id: 'item-13',
         time: '15:00 : 15:15',
@@ -3830,7 +3957,8 @@ export const day3Program = [
       {
         id: 'item-14',
         time: '15:15 : 15:30',
-        title: 'TBD',
+        title:
+          'Nova Wallet & Nova Spektr: Elevating UX for mass adoption & Enterprises',
         speakers: [
           {
             organization: {
@@ -3860,8 +3988,7 @@ export const day3Program = [
       {
         id: 'item-15',
         time: '15:30 : 15:45',
-        title:
-          'Tanssi: Pioneering & Powering Rapid Developer Adoption on Polkadot',
+        title: 'Simulate OpenGov proposals with Chopsticks',
         speakers: [
           {
             organization: {
@@ -3885,7 +4012,7 @@ export const day3Program = [
         ],
       },
       {
-        id: 'item-15',
+        id: 'item-16',
         time: '15:45 : 16:00',
         title: 'The Infrastructure Builder Program',
         speakers: [
