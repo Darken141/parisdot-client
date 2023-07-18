@@ -1445,7 +1445,7 @@ export const day1Program = [
       {
         id: 'item-12',
         time: '15:00 - 15:15',
-        title: 'Novel Auction Mechanism',
+        title: 'A Novel Auction Mechanism',
         speakers: [
           {
             organization: {
