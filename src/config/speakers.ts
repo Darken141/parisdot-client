@@ -300,6 +300,7 @@ import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.p
 import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
 
 import Maciej from '../../public/assets/speakers-pics/Maciej-Baj-t3rn/Maciej-Baj-t3rn.jpg'
+import Tee from '../../public/assets/speakers-pics/tee/tee.jpeg'
 
 import { ImageProps } from 'next/image'
 
@@ -2530,5 +2531,24 @@ Her side projects include: <br/>
     title: '',
     socials: {},
     bio: ``,
+  },
+  {
+    organization: {
+      name: 'Stella swap',
+      // logo: {
+      //   src: SubQuery,
+      //   alt: 'SubQuery and OnFinality',
+      // },
+    },
+    image: {
+      src: Tee,
+      alt: 'Tee',
+    },
+    name: 'Tee',
+    title: '',
+    socials: {
+      twitter: 'https://twitter.com/tee_defi',
+    },
+    bio: '',
   },
 ]

@@ -303,6 +303,8 @@ import Maxi from '../../public/assets/speakers-pics/Maxi-DeGenerousDAO/Maxi-DeGe
 import Trakx from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Trakx.png'
 import Yann from '../../public/assets/speakers-pics/Yann-Le-Floch-Trakx/Yann-Le-Floch-Trakx.jpg'
 
+import Tee from '../../public/assets/speakers-pics/tee/tee.jpeg'
+
 import Maciej from '../../public/assets/speakers-pics/Maciej-Baj-t3rn/Maciej-Baj-t3rn.jpg'
 // import SpeakerDescription from '@/components/speaker-description/speaker-description.component'
 
@@ -1453,13 +1455,15 @@ export const day1Program = [
               //   alt: 'SubQuery and OnFinality',
               // },
             },
-            // image: {
-            //   src: Marta,
-            //   alt: 'Tee',
-            // },
+            image: {
+              src: Tee,
+              alt: 'Tee',
+            },
             name: 'Tee',
             title: '',
-            socials: {},
+            socials: {
+              twitter: 'https://twitter.com/tee_defi',
+            },
             bio: '',
           },
         ],
