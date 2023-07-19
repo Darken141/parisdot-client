@@ -2006,8 +2006,147 @@ export const day2Program = [
       },
       {
         type: 'Panel',
-        id: 'item-8',
+        id: 'item-9',
         time: '15:00 - 15:45',
+        title: 'DeFi and regulation',
+        speakers: [
+          {
+            organization: {
+              name: 'Kamea Labs',
+              logo: {
+                src: KameaLabs,
+                alt: 'Kamea Labs',
+              },
+            },
+            image: {
+              src: AndreaVistoli,
+              alt: 'Andréa Vistoli',
+            },
+            name: 'Andréa Vistoli',
+            title: 'CTO',
+            socials: {
+              twitter: 'https://twitter.com/SanchezCrypto',
+            },
+            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
+          },
+          {
+            organization: {
+              name: 'Bpifrance',
+              logo: {
+                src: Bpifrance,
+                alt: 'Bpifrance',
+              },
+            },
+            image: {
+              src: Ivan,
+              alt: 'Ivan de Lastours',
+            },
+            name: 'Ivan de Lastours',
+            title: 'Blockchain/Crypto Lead',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/ivandelastours/',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Bifrost Finance',
+              logo: {
+                src: Thomas,
+                alt: 'Bifrost Finance',
+              },
+            },
+            image: {
+              src: Thomas,
+              alt: 'Thomas Riviere',
+            },
+            name: 'Thomas Riviere',
+            title: 'Community Manager',
+            socials: {},
+            bio: '15+ years of IT consulting in Tradfi. 2 years in crypto community management & Defi degen',
+          },
+          {
+            organization: {
+              name: 'Interlay',
+              logo: {
+                src: Interlay,
+                alt: 'Interlay',
+              },
+            },
+            image: {
+              src: Alexei,
+              alt: 'Alexei Zamyatin',
+            },
+            name: 'Alexei Zamyatin',
+            title: 'Founder',
+            socials: {
+              twitter: 'https://twitter.com/alexeiZamyatin',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'CNRS',
+              logo: {
+                src: Cnrs,
+                alt: 'CNRS',
+              },
+            },
+            image: {
+              src: Primavera,
+              alt: 'Primavera De Filippi',
+            },
+            name: 'Primavera De Filippi',
+            title: 'Researcher',
+            socials: {
+              twitter: 'https://twitter.com/yaoeo',
+            },
+            bio: '',
+          },
+          {
+            organization: {
+              name: 'Archethic Blockchain',
+              logo: {
+                src: Archethic,
+                alt: 'Archethic Blockchain',
+              },
+            },
+            image: {
+              src: Sebastien,
+              alt: 'Sebastien Dupont',
+            },
+            name: 'Sebastien Dupont',
+            title: 'CEO',
+            socials: {
+              linkedin: 'https://www.linkedin.com/in/sebastien-dupont-uniris/',
+            },
+            bio: '',
+          },
+          // {
+          //   organization: {
+          //     name: 'HydraDX',
+          //     logo: {
+          //       src: Hydradx,
+          //       alt: 'HydraDX',
+          //     },
+          //   },
+          //   image: {
+          //     src: Jakub,
+          //     alt: 'Jakub Gregus',
+          //   },
+          //   name: 'Jakub Gregus',
+          //   title: 'CEO',
+          //   socials: {
+          //     twitter: 'https://twitter.com/GregusJakub',
+          //   },
+          //   bio: '',
+          // },
+        ],
+      },
+      {
+        type: 'Panel',
+        id: 'item-10',
+        time: '15:45 - 16:30',
         title: 'Scaling community through different ecosystems',
         speakers: [
           {
@@ -2165,145 +2304,6 @@ export const day2Program = [
             },
             bio: '',
           },
-        ],
-      },
-      {
-        type: 'Panel',
-        id: 'item-9',
-        time: '15:45 - 16:30',
-        title: 'DeFi and regulation',
-        speakers: [
-          {
-            organization: {
-              name: 'Kamea Labs',
-              logo: {
-                src: KameaLabs,
-                alt: 'Kamea Labs',
-              },
-            },
-            image: {
-              src: AndreaVistoli,
-              alt: 'Andréa Vistoli',
-            },
-            name: 'Andréa Vistoli',
-            title: 'CTO',
-            socials: {
-              twitter: 'https://twitter.com/SanchezCrypto',
-            },
-            bio: `A former Emmy nominated film producer, he spent 12 years asking questions before moving to web3 to build answers. He's the co-founder and architect of KameaLabs, an AMF-registered fintech company building new blockchain-based investment solutions for a better economy. An expert in tokenomics, governance and business strategy, he's also an advisor to two polkadot parachains, Logion and Hashed.Network. Passionate about governance and decentralization, he co-founded the ChaosDAO, a think tank and action group that gathers the greatest minds of the polkadot ecosystem. The ChaosDAO is dedicated to facilitating the evolution, governance and decentralization of Polkadot and Kusama.`,
-          },
-          {
-            organization: {
-              name: 'Bpifrance',
-              logo: {
-                src: Bpifrance,
-                alt: 'Bpifrance',
-              },
-            },
-            image: {
-              src: Ivan,
-              alt: 'Ivan de Lastours',
-            },
-            name: 'Ivan de Lastours',
-            title: 'Blockchain/Crypto Lead',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/ivandelastours/',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'Bifrost Finance',
-              logo: {
-                src: Thomas,
-                alt: 'Bifrost Finance',
-              },
-            },
-            image: {
-              src: Thomas,
-              alt: 'Thomas Riviere',
-            },
-            name: 'Thomas Riviere',
-            title: 'Community Manager',
-            socials: {},
-            bio: '15+ years of IT consulting in Tradfi. 2 years in crypto community management & Defi degen',
-          },
-          {
-            organization: {
-              name: 'Interlay',
-              logo: {
-                src: Interlay,
-                alt: 'Interlay',
-              },
-            },
-            image: {
-              src: Alexei,
-              alt: 'Alexei Zamyatin',
-            },
-            name: 'Alexei Zamyatin',
-            title: 'Founder',
-            socials: {
-              twitter: 'https://twitter.com/alexeiZamyatin',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'CNRS',
-              logo: {
-                src: Cnrs,
-                alt: 'CNRS',
-              },
-            },
-            image: {
-              src: Primavera,
-              alt: 'Primavera De Filippi',
-            },
-            name: 'Primavera De Filippi',
-            title: 'Researcher',
-            socials: {
-              twitter: 'https://twitter.com/yaoeo',
-            },
-            bio: '',
-          },
-          {
-            organization: {
-              name: 'Archethic Blockchain',
-              logo: {
-                src: Archethic,
-                alt: 'Archethic Blockchain',
-              },
-            },
-            image: {
-              src: Sebastien,
-              alt: 'Sebastien Dupont',
-            },
-            name: 'Sebastien Dupont',
-            title: 'CEO',
-            socials: {
-              linkedin: 'https://www.linkedin.com/in/sebastien-dupont-uniris/',
-            },
-            bio: '',
-          },
-          // {
-          //   organization: {
-          //     name: 'HydraDX',
-          //     logo: {
-          //       src: Hydradx,
-          //       alt: 'HydraDX',
-          //     },
-          //   },
-          //   image: {
-          //     src: Jakub,
-          //     alt: 'Jakub Gregus',
-          //   },
-          //   name: 'Jakub Gregus',
-          //   title: 'CEO',
-          //   socials: {
-          //     twitter: 'https://twitter.com/GregusJakub',
-          //   },
-          //   bio: '',
-          // },
         ],
       },
       {
