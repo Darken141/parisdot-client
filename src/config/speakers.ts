@@ -1234,7 +1234,7 @@ export const speakers: ISpeaker[] = [
     socials: {
       twitter: 'https://twitter.com/simonxpe',
     },
-    bio: 'Electronic engineer with 7 years of experience implementing innovation processes in companies using Blockchain and virtual reality. Polkadot Ambassador and Co-Founder of Polkadot Latam Day. My role within the ecosystem has been to bring technical knowledge to places where there is digital talent, promote the participation of women in technology, and bring Polkadot solutions closer to the corporate sector.',
+    bio: `Innovation Engineer at NTT DATA's DTI Lab Web3 responsible for innovation processes in banking, insurance, retail, industry, supply chain clients, among others using Blockchain, AI and VR. Polkadot Ambassador and Co-Founder of Polkadot Latam Day. My role within the ecosystem has been to bring technical knowledge to places where there is digital talent, promote the participation of women in technology and bring Polkadot solutions closer to the corporate sector.`,
   },
   {
     organization: {
