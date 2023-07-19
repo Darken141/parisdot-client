@@ -2156,9 +2156,9 @@ export const speakers: ISpeaker[] = [
     },
     image: {
       src: ChrisKampe,
-      alt: 'Christoph Da Kampe',
+      alt: 'Christoph Kampitsch',
     },
-    name: 'Christoph Da Kampe',
+    name: 'Christoph Kampitsch',
     title: '',
     socials: {},
     bio: 'Christoph worked throughout his almost 30 year long career in various functions for Erste Group Vienna. He started as an executive assistant for the CEO before he gained experience in various departments like Controlling, Accounting and Interest Rate Risk Management. For more than 10 years he built the Alternative Investment Division together with Mark into a respected European player with almost USD 2bn under management. During that time the team launched multiple products with focus on Emerging Markets. After that he became the Head of Product Development and Sales leading teams in Vienna and London. After a short stint in helping the Chief Risk Officer to sell off a portfolio of non-performing loans, he headed the Private Wealth Management department.',
