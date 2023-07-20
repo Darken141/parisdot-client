@@ -2430,9 +2430,9 @@ Her side projects include: <br/>
     },
     image: {
       src: Kukabi,
-      alt: 'Kukabi',
+      alt: 'Kutsal Kaan Bilgin',
     },
-    name: 'Kukabi',
+    name: 'Kutsal Kaan Bilgin',
     title: 'Founder',
     socials: {
       twitter: 'https://twitter.com/helikonlabs',
