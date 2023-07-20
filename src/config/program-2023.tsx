@@ -3462,6 +3462,25 @@ export const day3Program = [
             },
             bio: ``,
           },
+          {
+            organization: {
+              name: 'THE GREAT ESCAPE',
+              logo: {
+                src: TheGreatEscape,
+                alt: 'THE GREAT ESCAPE',
+              },
+            },
+            image: {
+              src: Marin,
+              alt: 'Marin Enault',
+            },
+            name: 'Marin Enault',
+            title: 'CTO',
+            socials: {
+              twitter: 'https://twitter.com/mar1dev',
+            },
+            bio: `Co-founder & CTO of The Great Escape. In the web3 space since 2018, Marin started his career as a smart-contract developer while participating in hackatons across Europe. Nowadays, he's reinventing web3 gaming mechanisms by building The Great Escape, an accessible & chain-agnostic game playable by everyone.`,
+          },
         ],
       },
       {
@@ -4018,7 +4037,8 @@ export const day3Program = [
       {
         id: 'item-16',
         time: '15:45 : 16:00',
-        title: 'The Infrastructure Builder Program',
+        title:
+          'Infrastructure Builders Program (IBP): Decentralized Infrastructure',
         speakers: [
           {
             organization: {
@@ -4049,9 +4069,9 @@ export const day3Program = [
             },
             image: {
               src: Kukabi,
-              alt: 'Kukabi',
+              alt: 'Kutsal Kaan Bilgin',
             },
-            name: 'Kukabi',
+            name: 'Kutsal Kaan Bilgin',
             title: 'Founder',
             socials: {
               twitter: 'https://twitter.com/helikonlabs',
