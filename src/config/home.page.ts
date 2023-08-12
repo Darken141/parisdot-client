@@ -31,12 +31,12 @@ const heroSection: IHeroSectionProps = {
   },
   description:
     '3 days of web3 conference and workshops sessions organized by the Polkadot Community',
-  primaryCta: {
-    children: 'Buy tickets',
-    // disabled: true,
-    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
-    target: '_blank',
-  },
+  // primaryCta: {
+  //   children: 'Buy tickets',
+  //   // disabled: true,
+  //   href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
+  //   target: '_blank',
+  // },
   // primaryCta: {
   //   label: 'Buy tickets',
   //   href: '/#',
@@ -93,6 +93,21 @@ const heroSection: IHeroSectionProps = {
       },
     },
   ],
+  talks: {
+    title: 'Talks 2023',
+    buttons: [
+      {
+        label: 'Main stage',
+        href: 'https://www.youtube.com/playlist?list=PLJ0w0pqhMKhBtqeUiF6KS9usigun0TSN1',
+        // target: '_blank',
+        // rel: 'noopener noreferrer',
+      },
+      {
+        label: 'Polkadot stage',
+        href: 'https://www.youtube.com/playlist?list=PLJ0w0pqhMKhDIG-ykp5IqDzNCT3GjrkWh',
+      },
+    ],
+  },
 
   program: {
     children: 'Program of 2022',
@@ -104,12 +119,12 @@ const aboutSection: IAboutProps = {
   heading: 'What is parisdotcomm?',
   description:
     '<p>A 3-day blockchain conference in Paris, highlighting the Polkadot ecosystem, focusing on the blockchain world, real-world applications, and fostering collaboration. The event features expert-led discussions, project presentations, workshops, and networking opportunities for professionals and enthusiasts in the blockchain industry.</p> <p>Offering an inclusive space to meet, greet, talk and exchange thoughts, and perhaps kick off the next interesting collaboration.</p>    ',
-  primaryCta: {
-    children: 'Buy tickets',
-    // disabled: true,
-    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
-    target: '_blank',
-  },
+  // primaryCta: {
+  //   children: 'Buy tickets',
+  //   // disabled: true,
+  //   href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
+  //   target: '_blank',
+  // },
   secondaryCta: {
     children: 'Program 2023',
     href: '/#program',

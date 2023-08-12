@@ -24,12 +24,19 @@ export interface IHeroSectionProps {
   primaryCta?: any
   secondaryCta?: any
   partners?: IPartnerProps[]
+  talks?: {
+    title: string
+    buttons: {
+      label: string
+      href: string
+    }[]
+  }
 }
 
 export interface IAboutProps {
   heading: string
   description: string
-  primaryCta: any
+  primaryCta?: any
   secondaryCta: ILinkProps
   asset: ImageProps
 }
