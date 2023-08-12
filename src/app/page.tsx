@@ -23,6 +23,7 @@ export default function Home() {
         primaryCta={heroSection?.primaryCta}
         secondaryCta={heroSection?.secondaryCta}
         partners={heroSection.partners}
+        talks={heroSection.talks}
       />
       <AboutSection />
       <ConferenceSection />

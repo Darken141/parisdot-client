@@ -47,10 +47,9 @@ const headerConfig = {
     },
   ],
   cta: {
-    children: 'Buy tickets',
+    children: 'Talks 2023',
     // disabled: true,
-    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
-    target: '_blank',
+    href: '/#talks-2023',
   },
   socials: [contactConfig.socials.discord, contactConfig.socials.twitter],
 }

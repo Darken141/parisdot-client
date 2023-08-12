@@ -11,6 +11,7 @@ import topLeftIlu from '../../../../public/assets/hero-section/top-left-ilu.png'
 import { IHeroSectionProps } from '@/types/section.types'
 
 const HeroSection = ({
+  talks,
   place,
   date,
   heading,
@@ -64,6 +65,27 @@ const HeroSection = ({
             className="w-full max-w-[52.36rem] mx-auto text-[1.7rem] sm:text-[2rem] text-center text-[#CDCDCD] mb-[4.1rem]"
             dangerouslySetInnerHTML={{ __html: description }}
           />
+        )}
+        {talks && (
+          <div
+            id="talks-2023"
+            className="flex flex-col justify-center items-center"
+          >
+            <h2>{talks.title}</h2>
+            <div className="flex flex-wrap gap-[2.7rem]">
+              {talks.buttons.map((button, index) => (
+                <a
+                  key={index}
+                  href={button.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-outline"
+                >
+                  {button.label}
+                </a>
+              ))}
+            </div>
+          </div>
         )}
         {video && (
           <div className="py-[4rem] flex items-center justify-center mb-[2.3rem]">

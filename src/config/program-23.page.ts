@@ -6,9 +6,8 @@ const heroSection: IHeroSectionProps = {
   heading: 'PROGRAM OF 2023',
 
   primaryCta: {
-    children: 'Buy tickets for 2023',
-    href: 'https://www.eventbrite.fr/e/parisdotcomm-2023-tickets-651595759457',
-    target: '_blank',
+    children: 'Talks 2023',
+    href: '/#talks-2023',
   },
   secondaryCta: {
     children: 'All speeches from 2022',
